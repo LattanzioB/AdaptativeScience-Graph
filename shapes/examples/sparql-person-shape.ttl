@@ -1,0 +1,17 @@
+@prefix cipa: <https://w3id.org/cipa/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+cipa:PersonaConNombreShape
+  a sh:NodeShape ;
+  sh:targetClass cipa:Persona ;
+  sh:sparql [
+    sh:message "Toda persona debe tener un foaf:name." ;
+    sh:select """
+      PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+      SELECT $this
+      WHERE {
+        FILTER NOT EXISTS { $this foaf:name ?name . }
+      }
+    """ ;
+  ] .

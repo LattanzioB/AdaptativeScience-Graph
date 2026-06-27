@@ -60,28 +60,28 @@
     "semantic_hash": ""
   },
   "Docs/backlog/E0-infraestructura/H0.1-repositorio-estructura.md": {
-    "mtime": 1781620879.4196026,
-    "ast_hash": "eec518c48fb8c781623d5ea055f3d3b4",
+    "mtime": 1782588740.2538013,
+    "ast_hash": "6f23ac86e48bd65db9da6f2b4a849cc7",
     "semantic_hash": ""
   },
   "Docs/backlog/E0-infraestructura/H0.2-instancia-graphdb.md": {
-    "mtime": 1781620887.2049632,
-    "ast_hash": "b116ae5f33bb356e64eb2fcf1591efc4",
+    "mtime": 1782588740.2566204,
+    "ast_hash": "d766d73e46b0917f604ae8cedd3bd6e4",
     "semantic_hash": ""
   },
   "Docs/backlog/E0-infraestructura/H0.3-namespaces-iris.md": {
-    "mtime": 1782587942.5080545,
-    "ast_hash": "3c4134dd2431c9ffd05334a2b15720dc",
+    "mtime": 1782588740.259429,
+    "ast_hash": "93b40f0662098339c382956719081388",
     "semantic_hash": ""
   },
   "Docs/backlog/E0-infraestructura/H0.4-toolchain-validacion.md": {
-    "mtime": 1781620899.7671192,
-    "ast_hash": "7a4f9e3ed58dd7e66ad6326b61b42f5d",
+    "mtime": 1782588740.2625024,
+    "ast_hash": "94f11b7704c34c5d508bf8e4ef26c35d",
     "semantic_hash": ""
   },
   "Docs/backlog/E0-infraestructura/README.md": {
-    "mtime": 1781620824.3973393,
-    "ast_hash": "acc461a523d56b17a3cae8113ac076fa",
+    "mtime": 1782588740.2504716,
+    "ast_hash": "f693b443950538ac175cc5a6551884a2",
     "semantic_hash": ""
   },
   "Docs/backlog/E1-ontologia-dominio/H1.1-proyecto-clasificacion.md": {
@@ -317,6 +317,41 @@
   "Docs/Re-Estructuracion-Dominio/TP - Ciencia Participativa - Modelo de Dominio.png": {
     "mtime": 1782587021.5737119,
     "ast_hash": "8d7fe6e00c716ed7cd6a646e23356851",
+    "semantic_hash": ""
+  },
+  "shapes/validate.py": {
+    "mtime": 1782588634.0043147,
+    "ast_hash": "fc685d999ba71f177889e59d76d0b35b",
+    "semantic_hash": ""
+  },
+  "Docs/graphdb.md": {
+    "mtime": 1782588634.0150373,
+    "ast_hash": "f0c748818dafd4ab25722a13016fe544",
+    "semantic_hash": ""
+  },
+  "Docs/namespaces.md": {
+    "mtime": 1782588884.464004,
+    "ast_hash": "1e8921c8cd7439b9177eacb7e4973a4c",
+    "semantic_hash": ""
+  },
+  "Docs/validation.md": {
+    "mtime": 1782588634.0170367,
+    "ast_hash": "d1bfbf135957946e84a5155ffd3f0f3e",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1782588633.9717064,
+    "ast_hash": "6d02cd0b2005b1adfae3c976ca4efe50",
+    "semantic_hash": ""
+  },
+  "docker-compose.yml": {
+    "mtime": 1782588633.9777546,
+    "ast_hash": "314e12835fa82e267878011e284d1385",
+    "semantic_hash": ""
+  },
+  "requirements.txt": {
+    "mtime": 1782588841.260883,
+    "ast_hash": "2fb4375d32f041f55608d49612a44319",
     "semantic_hash": ""
   }
 }

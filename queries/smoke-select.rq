@@ -1,0 +1,7 @@
+PREFIX cipa: <https://w3id.org/cipa/ontology#>
+
+SELECT ?s ?p ?o
+WHERE {
+  ?s ?p ?o .
+}
+LIMIT 10

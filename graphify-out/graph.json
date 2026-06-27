@@ -4,6 +4,56 @@
   "graph": {},
   "nodes": [
     {
+      "label": "validate.py",
+      "file_type": "code",
+      "source_file": "shapes/validate.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "shapes_validate",
+      "community": 44,
+      "norm_label": "validate.py"
+    },
+    {
+      "label": "parse_turtle()",
+      "file_type": "code",
+      "source_file": "shapes/validate.py",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "shapes_validate_parse_turtle",
+      "community": 44,
+      "norm_label": "parse_turtle()"
+    },
+    {
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "path",
+      "community": 44,
+      "norm_label": "path"
+    },
+    {
+      "label": "Graph",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "graph",
+      "community": 44,
+      "norm_label": "graph"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "shapes/validate.py",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "shapes_validate_main",
+      "community": 44,
+      "norm_label": "main()"
+    },
+    {
       "label": "SKILL.md",
       "file_type": "document",
       "source_file": ".codex/skills/graphify/SKILL.md",
@@ -1044,14 +1094,14 @@
       "norm_label": "h0.1-repositorio-estructura.md"
     },
     {
-      "label": "H0.1 \u2014 Repositorio y estructura",
+      "label": "H0.1 - Repositorio y estructura",
       "file_type": "document",
       "source_file": "Docs/backlog/E0-infraestructura/H0.1-repositorio-estructura.md",
       "source_location": "L1",
       "_origin": "ast",
       "id": "e0_infraestructura_h0_1_repositorio_estructura_h0_1_repositorio_y_estructura",
       "community": 35,
-      "norm_label": "h0.1 \u2014 repositorio y estructura"
+      "norm_label": "h0.1 - repositorio y estructura"
     },
     {
       "label": "Historia de usuario",
@@ -1064,12 +1114,12 @@
       "norm_label": "historia de usuario"
     },
     {
-      "label": "Criterios de aceptaci\u00f3n",
+      "label": "Criterios de aceptacion",
       "file_type": "document",
       "source_file": "Docs/backlog/E0-infraestructura/H0.1-repositorio-estructura.md",
-      "source_location": "L10",
+      "source_location": "L11",
       "_origin": "ast",
-      "id": "e0_infraestructura_h0_1_repositorio_estructura_criterios_de_aceptaci\u00f3n",
+      "id": "e0_infraestructura_h0_1_repositorio_estructura_criterios_de_aceptacion",
       "community": 35,
       "norm_label": "criterios de aceptacion"
     },
@@ -1077,7 +1127,7 @@
       "label": "Tareas",
       "file_type": "document",
       "source_file": "Docs/backlog/E0-infraestructura/H0.1-repositorio-estructura.md",
-      "source_location": "L16",
+      "source_location": "L18",
       "_origin": "ast",
       "id": "e0_infraestructura_h0_1_repositorio_estructura_tareas",
       "community": 35,
@@ -1087,7 +1137,7 @@
       "label": "Artefactos",
       "file_type": "document",
       "source_file": "Docs/backlog/E0-infraestructura/H0.1-repositorio-estructura.md",
-      "source_location": "L22",
+      "source_location": "L25",
       "_origin": "ast",
       "id": "e0_infraestructura_h0_1_repositorio_estructura_artefactos",
       "community": 35,
@@ -1104,14 +1154,14 @@
       "norm_label": "h0.2-instancia-graphdb.md"
     },
     {
-      "label": "H0.2 \u2014 Instancia GraphDB",
+      "label": "H0.2 - Instancia GraphDB",
       "file_type": "document",
       "source_file": "Docs/backlog/E0-infraestructura/H0.2-instancia-graphdb.md",
       "source_location": "L1",
       "_origin": "ast",
       "id": "e0_infraestructura_h0_2_instancia_graphdb_h0_2_instancia_graphdb",
       "community": 22,
-      "norm_label": "h0.2 \u2014 instancia graphdb"
+      "norm_label": "h0.2 - instancia graphdb"
     },
     {
       "label": "Historia de usuario",
@@ -1124,12 +1174,12 @@
       "norm_label": "historia de usuario"
     },
     {
-      "label": "Criterios de aceptaci\u00f3n",
+      "label": "Criterios de aceptacion",
       "file_type": "document",
       "source_file": "Docs/backlog/E0-infraestructura/H0.2-instancia-graphdb.md",
-      "source_location": "L10",
+      "source_location": "L11",
       "_origin": "ast",
-      "id": "e0_infraestructura_h0_2_instancia_graphdb_criterios_de_aceptaci\u00f3n",
+      "id": "e0_infraestructura_h0_2_instancia_graphdb_criterios_de_aceptacion",
       "community": 22,
       "norm_label": "criterios de aceptacion"
     },
@@ -1137,7 +1187,7 @@
       "label": "Tareas",
       "file_type": "document",
       "source_file": "Docs/backlog/E0-infraestructura/H0.2-instancia-graphdb.md",
-      "source_location": "L15",
+      "source_location": "L17",
       "_origin": "ast",
       "id": "e0_infraestructura_h0_2_instancia_graphdb_tareas",
       "community": 22,
@@ -1147,7 +1197,7 @@
       "label": "Notas",
       "file_type": "document",
       "source_file": "Docs/backlog/E0-infraestructura/H0.2-instancia-graphdb.md",
-      "source_location": "L20",
+      "source_location": "L23",
       "_origin": "ast",
       "id": "e0_infraestructura_h0_2_instancia_graphdb_notas",
       "community": 22,
@@ -1157,7 +1207,7 @@
       "label": "Artefactos",
       "file_type": "document",
       "source_file": "Docs/backlog/E0-infraestructura/H0.2-instancia-graphdb.md",
-      "source_location": "L23",
+      "source_location": "L28",
       "_origin": "ast",
       "id": "e0_infraestructura_h0_2_instancia_graphdb_artefactos",
       "community": 22,
@@ -1174,14 +1224,14 @@
       "norm_label": "h0.3-namespaces-iris.md"
     },
     {
-      "label": "H0.3 \u2014 Namespaces y convenciones de IRIs",
+      "label": "H0.3 - Namespaces y convenciones de IRIs",
       "file_type": "document",
       "source_file": "Docs/backlog/E0-infraestructura/H0.3-namespaces-iris.md",
       "source_location": "L1",
       "_origin": "ast",
       "id": "e0_infraestructura_h0_3_namespaces_iris_h0_3_namespaces_y_convenciones_de_iris",
       "community": 36,
-      "norm_label": "h0.3 \u2014 namespaces y convenciones de iris"
+      "norm_label": "h0.3 - namespaces y convenciones de iris"
     },
     {
       "label": "Historia de usuario",
@@ -1194,12 +1244,12 @@
       "norm_label": "historia de usuario"
     },
     {
-      "label": "Criterios de aceptaci\u00f3n",
+      "label": "Criterios de aceptacion",
       "file_type": "document",
       "source_file": "Docs/backlog/E0-infraestructura/H0.3-namespaces-iris.md",
-      "source_location": "L10",
+      "source_location": "L11",
       "_origin": "ast",
-      "id": "e0_infraestructura_h0_3_namespaces_iris_criterios_de_aceptaci\u00f3n",
+      "id": "e0_infraestructura_h0_3_namespaces_iris_criterios_de_aceptacion",
       "community": 36,
       "norm_label": "criterios de aceptacion"
     },
@@ -1207,7 +1257,7 @@
       "label": "Tareas",
       "file_type": "document",
       "source_file": "Docs/backlog/E0-infraestructura/H0.3-namespaces-iris.md",
-      "source_location": "L15",
+      "source_location": "L17",
       "_origin": "ast",
       "id": "e0_infraestructura_h0_3_namespaces_iris_tareas",
       "community": 36,
@@ -1217,7 +1267,7 @@
       "label": "Artefactos",
       "file_type": "document",
       "source_file": "Docs/backlog/E0-infraestructura/H0.3-namespaces-iris.md",
-      "source_location": "L20",
+      "source_location": "L23",
       "_origin": "ast",
       "id": "e0_infraestructura_h0_3_namespaces_iris_artefactos",
       "community": 36,
@@ -1234,14 +1284,14 @@
       "norm_label": "h0.4-toolchain-validacion.md"
     },
     {
-      "label": "H0.4 \u2014 Toolchain de validaci\u00f3n",
+      "label": "H0.4 - Toolchain de validacion",
       "file_type": "document",
       "source_file": "Docs/backlog/E0-infraestructura/H0.4-toolchain-validacion.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "e0_infraestructura_h0_4_toolchain_validacion_h0_4_toolchain_de_validaci\u00f3n",
+      "id": "e0_infraestructura_h0_4_toolchain_validacion_h0_4_toolchain_de_validacion",
       "community": 23,
-      "norm_label": "h0.4 \u2014 toolchain de validacion"
+      "norm_label": "h0.4 - toolchain de validacion"
     },
     {
       "label": "Historia de usuario",
@@ -1254,12 +1304,12 @@
       "norm_label": "historia de usuario"
     },
     {
-      "label": "Criterios de aceptaci\u00f3n",
+      "label": "Criterios de aceptacion",
       "file_type": "document",
       "source_file": "Docs/backlog/E0-infraestructura/H0.4-toolchain-validacion.md",
-      "source_location": "L10",
+      "source_location": "L11",
       "_origin": "ast",
-      "id": "e0_infraestructura_h0_4_toolchain_validacion_criterios_de_aceptaci\u00f3n",
+      "id": "e0_infraestructura_h0_4_toolchain_validacion_criterios_de_aceptacion",
       "community": 23,
       "norm_label": "criterios de aceptacion"
     },
@@ -1267,7 +1317,7 @@
       "label": "Tareas",
       "file_type": "document",
       "source_file": "Docs/backlog/E0-infraestructura/H0.4-toolchain-validacion.md",
-      "source_location": "L15",
+      "source_location": "L17",
       "_origin": "ast",
       "id": "e0_infraestructura_h0_4_toolchain_validacion_tareas",
       "community": 23,
@@ -1277,7 +1327,7 @@
       "label": "Notas",
       "file_type": "document",
       "source_file": "Docs/backlog/E0-infraestructura/H0.4-toolchain-validacion.md",
-      "source_location": "L20",
+      "source_location": "L23",
       "_origin": "ast",
       "id": "e0_infraestructura_h0_4_toolchain_validacion_notas",
       "community": 23,
@@ -1287,7 +1337,7 @@
       "label": "Artefactos",
       "file_type": "document",
       "source_file": "Docs/backlog/E0-infraestructura/H0.4-toolchain-validacion.md",
-      "source_location": "L23",
+      "source_location": "L28",
       "_origin": "ast",
       "id": "e0_infraestructura_h0_4_toolchain_validacion_artefactos",
       "community": 23,
@@ -1304,20 +1354,20 @@
       "norm_label": "readme.md"
     },
     {
-      "label": "E0 \u2014 Infraestructura y arranque `[MUST]`",
+      "label": "E0 - Infraestructura y arranque `[MUST]`",
       "file_type": "document",
       "source_file": "Docs/backlog/E0-infraestructura/README.md",
       "source_location": "L1",
       "_origin": "ast",
       "id": "e0_infraestructura_readme_e0_infraestructura_y_arranque_must",
       "community": 42,
-      "norm_label": "e0 \u2014 infraestructura y arranque `[must]`"
+      "norm_label": "e0 - infraestructura y arranque `[must]`"
     },
     {
       "label": "Historias",
       "file_type": "document",
       "source_file": "Docs/backlog/E0-infraestructura/README.md",
-      "source_location": "L6",
+      "source_location": "L7",
       "_origin": "ast",
       "id": "e0_infraestructura_readme_historias",
       "community": 42,
@@ -1327,7 +1377,7 @@
       "label": "Dependencias",
       "file_type": "document",
       "source_file": "Docs/backlog/E0-infraestructura/README.md",
-      "source_location": "L12",
+      "source_location": "L14",
       "_origin": "ast",
       "id": "e0_infraestructura_readme_dependencias",
       "community": 42,
@@ -1337,7 +1387,7 @@
       "label": "Definition of Done (DoD)",
       "file_type": "document",
       "source_file": "Docs/backlog/E0-infraestructura/README.md",
-      "source_location": "L16",
+      "source_location": "L19",
       "_origin": "ast",
       "id": "e0_infraestructura_readme_definition_of_done_dod",
       "community": 42,
@@ -1680,7 +1730,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e1_ontologia_dominio_h1_5_muestreo_h1_5_muestras_y_respuestas",
-      "community": 7,
+      "community": 26,
       "norm_label": "h1.5 \u2014 muestras y respuestas"
     },
     {
@@ -1690,7 +1740,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "e1_ontologia_dominio_h1_5_muestreo_historia_de_usuario",
-      "community": 7,
+      "community": 26,
       "norm_label": "historia de usuario"
     },
     {
@@ -1700,7 +1750,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "e1_ontologia_dominio_h1_5_muestreo_contexto_del_pdf",
-      "community": 7,
+      "community": 26,
       "norm_label": "contexto (del pdf)"
     },
     {
@@ -1710,7 +1760,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "e1_ontologia_dominio_h1_5_muestreo_criterios_de_aceptaci\u00f3n",
-      "community": 7,
+      "community": 26,
       "norm_label": "criterios de aceptacion"
     },
     {
@@ -1720,7 +1770,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "e1_ontologia_dominio_h1_5_muestreo_tareas",
-      "community": 7,
+      "community": 26,
       "norm_label": "tareas"
     },
     {
@@ -1730,7 +1780,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "e1_ontologia_dominio_h1_5_muestreo_notas_de_modelado",
-      "community": 7,
+      "community": 26,
       "norm_label": "notas de modelado"
     },
     {
@@ -1740,7 +1790,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "e1_ontologia_dominio_h1_5_muestreo_artefactos",
-      "community": 7,
+      "community": 26,
       "norm_label": "artefactos"
     },
     {
@@ -1910,7 +1960,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e1_ontologia_dominio_h1_8_consistencia",
-      "community": 7,
+      "community": 33,
       "norm_label": "h1.8-consistencia.md"
     },
     {
@@ -1920,7 +1970,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e1_ontologia_dominio_h1_8_consistencia_h1_8_consistencia",
-      "community": 7,
+      "community": 33,
       "norm_label": "h1.8 \u2014 consistencia"
     },
     {
@@ -1930,7 +1980,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "e1_ontologia_dominio_h1_8_consistencia_historia_de_usuario",
-      "community": 7,
+      "community": 33,
       "norm_label": "historia de usuario"
     },
     {
@@ -1940,7 +1990,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "e1_ontologia_dominio_h1_8_consistencia_criterios_de_aceptaci\u00f3n",
-      "community": 7,
+      "community": 33,
       "norm_label": "criterios de aceptacion"
     },
     {
@@ -1950,7 +2000,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "e1_ontologia_dominio_h1_8_consistencia_tareas",
-      "community": 7,
+      "community": 33,
       "norm_label": "tareas"
     },
     {
@@ -1960,7 +2010,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "e1_ontologia_dominio_h1_8_consistencia_artefactos",
-      "community": 7,
+      "community": 33,
       "norm_label": "artefactos"
     },
     {
@@ -2060,7 +2110,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e1_ontologia_dominio_readme_e1_ontolog\u00eda_de_dominio_en_owl_req_1_must",
-      "community": 7,
+      "community": 56,
       "norm_label": "e1 \u2014 ontologia de dominio en owl (req. 1) `[must]`"
     },
     {
@@ -2070,7 +2120,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "e1_ontologia_dominio_readme_historias",
-      "community": 7,
+      "community": 56,
       "norm_label": "historias"
     },
     {
@@ -2080,7 +2130,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "e1_ontologia_dominio_readme_dependencias",
-      "community": 7,
+      "community": 56,
       "norm_label": "dependencias"
     },
     {
@@ -2090,7 +2140,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "e1_ontologia_dominio_readme_definition_of_done_dod",
-      "community": 7,
+      "community": 56,
       "norm_label": "definition of done (dod)"
     },
     {
@@ -2400,7 +2450,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e2_poblar_grafo_readme_e2_poblar_el_grafo_de_dominio_req_2_must",
-      "community": 44,
+      "community": 25,
       "norm_label": "e2 \u2014 poblar el grafo de dominio (req. 2) `[must]`"
     },
     {
@@ -2410,7 +2460,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "e2_poblar_grafo_readme_historias",
-      "community": 44,
+      "community": 25,
       "norm_label": "historias"
     },
     {
@@ -2420,7 +2470,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "e2_poblar_grafo_readme_dependencias",
-      "community": 44,
+      "community": 25,
       "norm_label": "dependencias"
     },
     {
@@ -2430,7 +2480,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "e2_poblar_grafo_readme_definition_of_done_dod",
-      "community": 44,
+      "community": 25,
       "norm_label": "definition of done (dod)"
     },
     {
@@ -3420,7 +3470,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_h6_1_carga_integral_h6_1_carga_integral",
-      "community": 20,
+      "community": 41,
       "norm_label": "h6.1 \u2014 carga integral"
     },
     {
@@ -3430,7 +3480,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_h6_1_carga_integral_historia_de_usuario",
-      "community": 20,
+      "community": 41,
       "norm_label": "historia de usuario"
     },
     {
@@ -3440,7 +3490,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_h6_1_carga_integral_criterios_de_aceptaci\u00f3n",
-      "community": 20,
+      "community": 41,
       "norm_label": "criterios de aceptacion"
     },
     {
@@ -3450,7 +3500,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_h6_1_carga_integral_tareas",
-      "community": 20,
+      "community": 41,
       "norm_label": "tareas"
     },
     {
@@ -3460,7 +3510,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_h6_1_carga_integral_artefactos",
-      "community": 20,
+      "community": 41,
       "norm_label": "artefactos"
     },
     {
@@ -3780,7 +3830,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_h6_6_medallas_persona",
-      "community": 20,
+      "community": 0,
       "norm_label": "h6.6-medallas-persona.md"
     },
     {
@@ -3790,7 +3840,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_h6_6_medallas_persona_h6_6_6_b_iii_medallas_obtenidas_por_una_persona",
-      "community": 20,
+      "community": 37,
       "norm_label": "h6.6 \u2014 (6.b.iii) medallas obtenidas por una persona"
     },
     {
@@ -3800,7 +3850,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_h6_6_medallas_persona_historia_de_usuario",
-      "community": 20,
+      "community": 37,
       "norm_label": "historia de usuario"
     },
     {
@@ -3810,7 +3860,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_h6_6_medallas_persona_contexto_de_la_consigna",
-      "community": 20,
+      "community": 37,
       "norm_label": "contexto (de la consigna)"
     },
     {
@@ -3820,7 +3870,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_h6_6_medallas_persona_criterios_de_aceptaci\u00f3n",
-      "community": 20,
+      "community": 37,
       "norm_label": "criterios de aceptacion"
     },
     {
@@ -3830,7 +3880,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_h6_6_medallas_persona_tareas",
-      "community": 20,
+      "community": 37,
       "norm_label": "tareas"
     },
     {
@@ -3840,7 +3890,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_h6_6_medallas_persona_artefactos",
-      "community": 20,
+      "community": 37,
       "norm_label": "artefactos"
     },
     {
@@ -3860,7 +3910,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_readme_e6_graphdb_consultas_sparql_req_6_must",
-      "community": 20,
+      "community": 43,
       "norm_label": "e6 \u2014 graphdb + consultas sparql (req. 6) `[must]`"
     },
     {
@@ -3870,7 +3920,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_readme_las_6_consultas_mapeo_a_la_consigna",
-      "community": 20,
+      "community": 43,
       "norm_label": "las 6 consultas (mapeo a la consigna)"
     },
     {
@@ -3880,7 +3930,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_readme_historias",
-      "community": 20,
+      "community": 43,
       "norm_label": "historias"
     },
     {
@@ -3890,7 +3940,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_readme_dependencias",
-      "community": 20,
+      "community": 43,
       "norm_label": "dependencias"
     },
     {
@@ -3900,7 +3950,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_readme_definition_of_done_dod",
-      "community": 20,
+      "community": 43,
       "norm_label": "definition of done (dod)"
     },
     {
@@ -4274,6 +4324,206 @@
       "norm_label": "definition of done (dod)"
     },
     {
+      "label": "graphdb.md",
+      "file_type": "document",
+      "source_file": "Docs/graphdb.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_graphdb",
+      "community": 40,
+      "norm_label": "graphdb.md"
+    },
+    {
+      "label": "GraphDB local",
+      "file_type": "document",
+      "source_file": "Docs/graphdb.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_graphdb_graphdb_local",
+      "community": 40,
+      "norm_label": "graphdb local"
+    },
+    {
+      "label": "Levantar la instancia",
+      "file_type": "document",
+      "source_file": "Docs/graphdb.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_graphdb_levantar_la_instancia",
+      "community": 40,
+      "norm_label": "levantar la instancia"
+    },
+    {
+      "label": "Crear repositorio",
+      "file_type": "document",
+      "source_file": "Docs/graphdb.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "docs_graphdb_crear_repositorio",
+      "community": 40,
+      "norm_label": "crear repositorio"
+    },
+    {
+      "label": "Prueba de humo",
+      "file_type": "document",
+      "source_file": "Docs/graphdb.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "docs_graphdb_prueba_de_humo",
+      "community": 40,
+      "norm_label": "prueba de humo"
+    },
+    {
+      "label": "namespaces.md",
+      "file_type": "document",
+      "source_file": "Docs/namespaces.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_namespaces",
+      "community": 27,
+      "norm_label": "namespaces.md"
+    },
+    {
+      "label": "Namespaces e IRIs",
+      "file_type": "document",
+      "source_file": "Docs/namespaces.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_namespaces_namespaces_e_iris",
+      "community": 27,
+      "norm_label": "namespaces e iris"
+    },
+    {
+      "label": "Prefijos propios",
+      "file_type": "document",
+      "source_file": "Docs/namespaces.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_namespaces_prefijos_propios",
+      "community": 27,
+      "norm_label": "prefijos propios"
+    },
+    {
+      "label": "Prefijos reutilizados",
+      "file_type": "document",
+      "source_file": "Docs/namespaces.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "docs_namespaces_prefijos_reutilizados",
+      "community": 27,
+      "norm_label": "prefijos reutilizados"
+    },
+    {
+      "label": "Patron de IRIs de datos",
+      "file_type": "document",
+      "source_file": "Docs/namespaces.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "docs_namespaces_patron_de_iris_de_datos",
+      "community": 27,
+      "norm_label": "patron de iris de datos"
+    },
+    {
+      "label": "Convencion de nombres",
+      "file_type": "document",
+      "source_file": "Docs/namespaces.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "docs_namespaces_convencion_de_nombres",
+      "community": 27,
+      "norm_label": "convencion de nombres"
+    },
+    {
+      "label": "validation.md",
+      "file_type": "document",
+      "source_file": "Docs/validation.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_validation",
+      "community": 55,
+      "norm_label": "validation.md"
+    },
+    {
+      "label": "Toolchain de validacion",
+      "file_type": "document",
+      "source_file": "Docs/validation.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_validation_toolchain_de_validacion",
+      "community": 55,
+      "norm_label": "toolchain de validacion"
+    },
+    {
+      "label": "Instalacion",
+      "file_type": "document",
+      "source_file": "Docs/validation.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_validation_instalacion",
+      "community": 55,
+      "norm_label": "instalacion"
+    },
+    {
+      "label": "Comandos de humo",
+      "file_type": "document",
+      "source_file": "Docs/validation.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "docs_validation_comandos_de_humo",
+      "community": 55,
+      "norm_label": "comandos de humo"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 45,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "AdaptativeScience Graph",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme_adaptativescience_graph",
+      "community": 45,
+      "norm_label": "adaptativescience graph"
+    },
+    {
+      "label": "Estructura",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "readme_estructura",
+      "community": 45,
+      "norm_label": "estructura"
+    },
+    {
+      "label": "Arranque rapido",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "readme_arranque_rapido",
+      "community": 45,
+      "norm_label": "arranque rapido"
+    },
+    {
+      "label": "Flujo de ramas y commits",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "readme_flujo_de_ramas_y_commits",
+      "community": 45,
+      "norm_label": "flujo de ramas y commits"
+    },
+    {
       "label": "TP - Juegos - Ciencia Participativa_52831f30.md",
       "file_type": "document",
       "source_file": "graphify-out/converted/TP - Juegos - Ciencia Participativa_52831f30.md",
@@ -4285,6 +4535,59 @@
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "shapes/validate.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "shapes_validate",
+      "target": "shapes_validate_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "shapes/validate.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "shapes_validate",
+      "target": "shapes_validate_parse_turtle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "shapes/validate.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "shapes_validate_main",
+      "target": "shapes_validate_parse_turtle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "shapes/validate.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "shapes_validate_parse_turtle",
+      "target": "graph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "shapes/validate.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "shapes_validate_parse_turtle",
+      "target": "path",
+      "confidence_score": 1.0
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -4811,9 +5114,9 @@
       "source_file": "Docs/backlog-tp-ciencia-participativa.md",
       "source_location": "L95",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_backlog_tp_ciencia_participativa",
-      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa",
-      "confidence_score": 1.0
+      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa"
     },
     {
       "relation": "contains",
@@ -4821,9 +5124,9 @@
       "source_file": "Docs/Re-Estructuracion-Dominio/modelo_dominio_ciencia_participativa.md",
       "source_location": "L443",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa",
-      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_descripci\u00f3n_resumida",
-      "confidence_score": 1.0
+      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_descripci\u00f3n_resumida"
     },
     {
       "relation": "contains",
@@ -4831,9 +5134,9 @@
       "source_file": "Docs/Re-Estructuracion-Dominio/modelo_dominio_ciencia_participativa.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa",
-      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_modelo_de_dominio_ciencia_participativa",
-      "confidence_score": 1.0
+      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_modelo_de_dominio_ciencia_participativa"
     },
     {
       "relation": "contains",
@@ -4841,9 +5144,9 @@
       "source_file": "Docs/Re-Estructuracion-Dominio/modelo_dominio_ciencia_participativa.md",
       "source_location": "L388",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa",
-      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_reglas_importantes_del_modelo",
-      "confidence_score": 1.0
+      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_reglas_importantes_del_modelo"
     },
     {
       "relation": "contains",
@@ -4851,9 +5154,9 @@
       "source_file": "Docs/Re-Estructuracion-Dominio/modelo_dominio_ciencia_participativa.md",
       "source_location": "L368",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_modelo_de_dominio_ciencia_participativa",
-      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_adjuntomultimedia",
-      "confidence_score": 1.0
+      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_adjuntomultimedia"
     },
     {
       "relation": "contains",
@@ -4861,9 +5164,9 @@
       "source_file": "Docs/Re-Estructuracion-Dominio/modelo_dominio_ciencia_participativa.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_modelo_de_dominio_ciencia_participativa",
-      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_descripci\u00f3n_general",
-      "confidence_score": 1.0
+      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_descripci\u00f3n_general"
     },
     {
       "relation": "contains",
@@ -4871,9 +5174,9 @@
       "source_file": "Docs/Re-Estructuracion-Dominio/modelo_dominio_ciencia_participativa.md",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_modelo_de_dominio_ciencia_participativa",
-      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_entidades_principales",
-      "confidence_score": 1.0
+      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_entidades_principales"
     },
     {
       "relation": "contains",
@@ -4881,9 +5184,9 @@
       "source_file": "Docs/Re-Estructuracion-Dominio/modelo_dominio_ciencia_participativa.md",
       "source_location": "L291",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_modelo_de_dominio_ciencia_participativa",
-      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_muestra",
-      "confidence_score": 1.0
+      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_muestra"
     },
     {
       "relation": "contains",
@@ -4891,9 +5194,9 @@
       "source_file": "Docs/Re-Estructuracion-Dominio/modelo_dominio_ciencia_participativa.md",
       "source_location": "L342",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_modelo_de_dominio_ciencia_participativa",
-      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_muestrarespuesta",
-      "confidence_score": 1.0
+      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_muestrarespuesta"
     },
     {
       "relation": "contains",
@@ -4901,9 +5204,9 @@
       "source_file": "Docs/Re-Estructuracion-Dominio/modelo_dominio_ciencia_participativa.md",
       "source_location": "L207",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_modelo_de_dominio_ciencia_participativa",
-      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_opcionrespuestacuestionario",
-      "confidence_score": 1.0
+      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_opcionrespuestacuestionario"
     },
     {
       "relation": "contains",
@@ -4911,9 +5214,9 @@
       "source_file": "Docs/Re-Estructuracion-Dominio/modelo_dominio_ciencia_participativa.md",
       "source_location": "L122",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_modelo_de_dominio_ciencia_participativa",
-      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_paso",
-      "confidence_score": 1.0
+      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_paso"
     },
     {
       "relation": "contains",
@@ -4921,9 +5224,9 @@
       "source_file": "Docs/Re-Estructuracion-Dominio/modelo_dominio_ciencia_participativa.md",
       "source_location": "L171",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_modelo_de_dominio_ciencia_participativa",
-      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_pasocuestionario",
-      "confidence_score": 1.0
+      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_pasocuestionario"
     },
     {
       "relation": "contains",
@@ -4931,9 +5234,9 @@
       "source_file": "Docs/Re-Estructuracion-Dominio/modelo_dominio_ciencia_participativa.md",
       "source_location": "L144",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_modelo_de_dominio_ciencia_participativa",
-      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_pasomultimedia",
-      "confidence_score": 1.0
+      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_pasomultimedia"
     },
     {
       "relation": "contains",
@@ -4941,9 +5244,9 @@
       "source_file": "Docs/Re-Estructuracion-Dominio/modelo_dominio_ciencia_participativa.md",
       "source_location": "L316",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_modelo_de_dominio_ciencia_participativa",
-      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_persona",
-      "confidence_score": 1.0
+      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_persona"
     },
     {
       "relation": "contains",
@@ -4951,9 +5254,9 @@
       "source_file": "Docs/Re-Estructuracion-Dominio/modelo_dominio_ciencia_participativa.md",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_modelo_de_dominio_ciencia_participativa",
-      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_prefijos_e_iris_conservados",
-      "confidence_score": 1.0
+      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_prefijos_e_iris_conservados"
     },
     {
       "relation": "contains",
@@ -4961,9 +5264,9 @@
       "source_file": "Docs/Re-Estructuracion-Dominio/modelo_dominio_ciencia_participativa.md",
       "source_location": "L103",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_modelo_de_dominio_ciencia_participativa",
-      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_protocolo",
-      "confidence_score": 1.0
+      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_protocolo"
     },
     {
       "relation": "contains",
@@ -4971,9 +5274,9 @@
       "source_file": "Docs/Re-Estructuracion-Dominio/modelo_dominio_ciencia_participativa.md",
       "source_location": "L80",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_modelo_de_dominio_ciencia_participativa",
-      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_proyecto",
-      "confidence_score": 1.0
+      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_proyecto"
     },
     {
       "relation": "contains",
@@ -4981,9 +5284,9 @@
       "source_file": "Docs/Re-Estructuracion-Dominio/modelo_dominio_ciencia_participativa.md",
       "source_location": "L243",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_modelo_de_dominio_ciencia_participativa",
-      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_transici\u00f3n",
-      "confidence_score": 1.0
+      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_transici\u00f3n"
     },
     {
       "relation": "contains",
@@ -4991,9 +5294,9 @@
       "source_file": "Docs/Re-Estructuracion-Dominio/modelo_dominio_ciencia_participativa.md",
       "source_location": "L328",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_modelo_de_dominio_ciencia_participativa",
-      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_ubicaci\u00f3n",
-      "confidence_score": 1.0
+      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_ubicaci\u00f3n"
     },
     {
       "relation": "contains",
@@ -5001,9 +5304,9 @@
       "source_file": "Docs/Re-Estructuracion-Dominio/modelo_dominio_ciencia_participativa.md",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_modelo_de_dominio_ciencia_participativa",
-      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_\u00e1rea_de_conocimiento",
-      "confidence_score": 1.0
+      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_\u00e1rea_de_conocimiento"
     },
     {
       "relation": "contains",
@@ -5011,9 +5314,9 @@
       "source_file": "Docs/Re-Estructuracion-Dominio/modelo_dominio_ciencia_participativa.md",
       "source_location": "L266",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_transici\u00f3n",
-      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_transici\u00f3n_condicionada",
-      "confidence_score": 1.0
+      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_transici\u00f3n_condicionada"
     },
     {
       "relation": "contains",
@@ -5021,9 +5324,9 @@
       "source_file": "Docs/Re-Estructuracion-Dominio/modelo_dominio_ciencia_participativa.md",
       "source_location": "L258",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_transici\u00f3n",
-      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_transici\u00f3n_sin_condici\u00f3n",
-      "confidence_score": 1.0
+      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_transici\u00f3n_sin_condici\u00f3n"
     },
     {
       "relation": "contains",
@@ -5031,9 +5334,9 @@
       "source_file": "Docs/Re-Estructuracion-Dominio/modelo_dominio_ciencia_participativa.md",
       "source_location": "L410",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_reglas_importantes_del_modelo",
-      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_compatibilidad_entre_muestrarespuesta_y_tipo_de_paso",
-      "confidence_score": 1.0
+      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_compatibilidad_entre_muestrarespuesta_y_tipo_de_paso"
     },
     {
       "relation": "contains",
@@ -5041,9 +5344,9 @@
       "source_file": "Docs/Re-Estructuracion-Dominio/modelo_dominio_ciencia_participativa.md",
       "source_location": "L400",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_reglas_importantes_del_modelo",
-      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_protocolo_con_primer_paso",
-      "confidence_score": 1.0
+      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_protocolo_con_primer_paso"
     },
     {
       "relation": "contains",
@@ -5051,9 +5354,9 @@
       "source_file": "Docs/Re-Estructuracion-Dominio/modelo_dominio_ciencia_participativa.md",
       "source_location": "L390",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_reglas_importantes_del_modelo",
-      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_proyecto_con_protocolo_activo",
-      "confidence_score": 1.0
+      "target": "re_estructuracion_dominio_modelo_dominio_ciencia_participativa_proyecto_con_protocolo_activo"
     },
     {
       "relation": "contains",
@@ -5251,9 +5554,9 @@
       "source_file": "Docs/backlog-tp-ciencia-participativa.md",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_backlog_tp_ciencia_participativa",
-      "target": "e2_poblar_grafo_h2_4_muestras_geolocalizadas",
-      "confidence_score": 1.0
+      "target": "e2_poblar_grafo_h2_4_muestras_geolocalizadas"
     },
     {
       "relation": "references",
@@ -5709,11 +6012,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "Docs/backlog/E0-infraestructura/H0.1-repositorio-estructura.md",
-      "source_location": "L10",
+      "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "e0_infraestructura_h0_1_repositorio_estructura_h0_1_repositorio_y_estructura",
-      "target": "e0_infraestructura_h0_1_repositorio_estructura_criterios_de_aceptaci\u00f3n"
+      "target": "e0_infraestructura_h0_1_repositorio_estructura_criterios_de_aceptacion",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5779,11 +6082,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "Docs/backlog/E0-infraestructura/H0.2-instancia-graphdb.md",
-      "source_location": "L10",
+      "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "e0_infraestructura_h0_2_instancia_graphdb_h0_2_instancia_graphdb",
-      "target": "e0_infraestructura_h0_2_instancia_graphdb_criterios_de_aceptaci\u00f3n"
+      "target": "e0_infraestructura_h0_2_instancia_graphdb_criterios_de_aceptacion",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5849,11 +6152,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "Docs/backlog/E0-infraestructura/H0.3-namespaces-iris.md",
-      "source_location": "L10",
+      "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "e0_infraestructura_h0_3_namespaces_iris_h0_3_namespaces_y_convenciones_de_iris",
-      "target": "e0_infraestructura_h0_3_namespaces_iris_criterios_de_aceptaci\u00f3n"
+      "target": "e0_infraestructura_h0_3_namespaces_iris_criterios_de_aceptacion",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5881,9 +6184,9 @@
       "source_file": "Docs/backlog/E0-infraestructura/H0.4-toolchain-validacion.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "e0_infraestructura_h0_4_toolchain_validacion",
-      "target": "e0_infraestructura_h0_4_toolchain_validacion_h0_4_toolchain_de_validaci\u00f3n"
+      "target": "e0_infraestructura_h0_4_toolchain_validacion_h0_4_toolchain_de_validacion",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -5909,21 +6212,21 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "Docs/backlog/E0-infraestructura/H0.4-toolchain-validacion.md",
-      "source_location": "L23",
+      "source_location": "L28",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "e0_infraestructura_h0_4_toolchain_validacion_h0_4_toolchain_de_validaci\u00f3n",
-      "target": "e0_infraestructura_h0_4_toolchain_validacion_artefactos"
+      "source": "e0_infraestructura_h0_4_toolchain_validacion_h0_4_toolchain_de_validacion",
+      "target": "e0_infraestructura_h0_4_toolchain_validacion_artefactos",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "Docs/backlog/E0-infraestructura/H0.4-toolchain-validacion.md",
-      "source_location": "L10",
+      "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "e0_infraestructura_h0_4_toolchain_validacion_h0_4_toolchain_de_validaci\u00f3n",
-      "target": "e0_infraestructura_h0_4_toolchain_validacion_criterios_de_aceptaci\u00f3n"
+      "source": "e0_infraestructura_h0_4_toolchain_validacion_h0_4_toolchain_de_validacion",
+      "target": "e0_infraestructura_h0_4_toolchain_validacion_criterios_de_aceptacion",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5931,29 +6234,29 @@
       "source_file": "Docs/backlog/E0-infraestructura/H0.4-toolchain-validacion.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "e0_infraestructura_h0_4_toolchain_validacion_h0_4_toolchain_de_validaci\u00f3n",
-      "target": "e0_infraestructura_h0_4_toolchain_validacion_historia_de_usuario"
+      "source": "e0_infraestructura_h0_4_toolchain_validacion_h0_4_toolchain_de_validacion",
+      "target": "e0_infraestructura_h0_4_toolchain_validacion_historia_de_usuario",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "Docs/backlog/E0-infraestructura/H0.4-toolchain-validacion.md",
-      "source_location": "L20",
+      "source_location": "L23",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "e0_infraestructura_h0_4_toolchain_validacion_h0_4_toolchain_de_validaci\u00f3n",
-      "target": "e0_infraestructura_h0_4_toolchain_validacion_notas"
+      "source": "e0_infraestructura_h0_4_toolchain_validacion_h0_4_toolchain_de_validacion",
+      "target": "e0_infraestructura_h0_4_toolchain_validacion_notas",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "Docs/backlog/E0-infraestructura/H0.4-toolchain-validacion.md",
-      "source_location": "L15",
+      "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "e0_infraestructura_h0_4_toolchain_validacion_h0_4_toolchain_de_validaci\u00f3n",
-      "target": "e0_infraestructura_h0_4_toolchain_validacion_tareas"
+      "source": "e0_infraestructura_h0_4_toolchain_validacion_h0_4_toolchain_de_validacion",
+      "target": "e0_infraestructura_h0_4_toolchain_validacion_tareas",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6001,9 +6304,9 @@
       "source_file": "Docs/backlog/E1-ontologia-dominio/H1.1-proyecto-clasificacion.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e1_ontologia_dominio_h1_1_proyecto_clasificacion",
-      "target": "e1_ontologia_dominio_h1_1_proyecto_clasificacion_h1_1_proyecto_y_\u00e1rea_de_conocimiento",
-      "confidence_score": 1.0
+      "target": "e1_ontologia_dominio_h1_1_proyecto_clasificacion_h1_1_proyecto_y_\u00e1rea_de_conocimiento"
     },
     {
       "relation": "references",
@@ -6031,9 +6334,9 @@
       "source_file": "Docs/backlog/E1-ontologia-dominio/H1.1-proyecto-clasificacion.md",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e1_ontologia_dominio_h1_1_proyecto_clasificacion_h1_1_proyecto_y_\u00e1rea_de_conocimiento",
-      "target": "e1_ontologia_dominio_h1_1_proyecto_clasificacion_artefactos",
-      "confidence_score": 1.0
+      "target": "e1_ontologia_dominio_h1_1_proyecto_clasificacion_artefactos"
     },
     {
       "relation": "contains",
@@ -6041,9 +6344,9 @@
       "source_file": "Docs/backlog/E1-ontologia-dominio/H1.1-proyecto-clasificacion.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e1_ontologia_dominio_h1_1_proyecto_clasificacion_h1_1_proyecto_y_\u00e1rea_de_conocimiento",
-      "target": "e1_ontologia_dominio_h1_1_proyecto_clasificacion_contexto_del_pdf",
-      "confidence_score": 1.0
+      "target": "e1_ontologia_dominio_h1_1_proyecto_clasificacion_contexto_del_pdf"
     },
     {
       "relation": "contains",
@@ -6051,9 +6354,9 @@
       "source_file": "Docs/backlog/E1-ontologia-dominio/H1.1-proyecto-clasificacion.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e1_ontologia_dominio_h1_1_proyecto_clasificacion_h1_1_proyecto_y_\u00e1rea_de_conocimiento",
-      "target": "e1_ontologia_dominio_h1_1_proyecto_clasificacion_criterios_de_aceptaci\u00f3n",
-      "confidence_score": 1.0
+      "target": "e1_ontologia_dominio_h1_1_proyecto_clasificacion_criterios_de_aceptaci\u00f3n"
     },
     {
       "relation": "contains",
@@ -6061,9 +6364,9 @@
       "source_file": "Docs/backlog/E1-ontologia-dominio/H1.1-proyecto-clasificacion.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e1_ontologia_dominio_h1_1_proyecto_clasificacion_h1_1_proyecto_y_\u00e1rea_de_conocimiento",
-      "target": "e1_ontologia_dominio_h1_1_proyecto_clasificacion_historia_de_usuario",
-      "confidence_score": 1.0
+      "target": "e1_ontologia_dominio_h1_1_proyecto_clasificacion_historia_de_usuario"
     },
     {
       "relation": "contains",
@@ -6071,9 +6374,9 @@
       "source_file": "Docs/backlog/E1-ontologia-dominio/H1.1-proyecto-clasificacion.md",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e1_ontologia_dominio_h1_1_proyecto_clasificacion_h1_1_proyecto_y_\u00e1rea_de_conocimiento",
-      "target": "e1_ontologia_dominio_h1_1_proyecto_clasificacion_notas_de_modelado",
-      "confidence_score": 1.0
+      "target": "e1_ontologia_dominio_h1_1_proyecto_clasificacion_notas_de_modelado"
     },
     {
       "relation": "contains",
@@ -6081,9 +6384,9 @@
       "source_file": "Docs/backlog/E1-ontologia-dominio/H1.1-proyecto-clasificacion.md",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e1_ontologia_dominio_h1_1_proyecto_clasificacion_h1_1_proyecto_y_\u00e1rea_de_conocimiento",
-      "target": "e1_ontologia_dominio_h1_1_proyecto_clasificacion_tareas",
-      "confidence_score": 1.0
+      "target": "e1_ontologia_dominio_h1_1_proyecto_clasificacion_tareas"
     },
     {
       "relation": "contains",
@@ -6121,9 +6424,9 @@
       "source_file": "Docs/backlog/E1-ontologia-dominio/H1.2-protocolo.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e1_ontologia_dominio_h1_2_protocolo",
-      "target": "e1_ontologia_dominio_h1_7_reutilizacion_alineaciones",
-      "confidence_score": 1.0
+      "target": "e1_ontologia_dominio_h1_7_reutilizacion_alineaciones"
     },
     {
       "relation": "references",
@@ -6371,9 +6674,9 @@
       "source_file": "Docs/backlog/E1-ontologia-dominio/H1.5-muestreo.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e1_ontologia_dominio_h1_5_muestreo",
-      "target": "e1_ontologia_dominio_h1_5_muestreo_h1_5_muestras_y_respuestas",
-      "confidence_score": 1.0
+      "target": "e1_ontologia_dominio_h1_5_muestreo_h1_5_muestras_y_respuestas"
     },
     {
       "relation": "references",
@@ -6401,9 +6704,9 @@
       "source_file": "Docs/backlog/E1-ontologia-dominio/H1.5-muestreo.md",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e1_ontologia_dominio_h1_5_muestreo_h1_5_muestras_y_respuestas",
-      "target": "e1_ontologia_dominio_h1_5_muestreo_artefactos",
-      "confidence_score": 1.0
+      "target": "e1_ontologia_dominio_h1_5_muestreo_artefactos"
     },
     {
       "relation": "contains",
@@ -6411,9 +6714,9 @@
       "source_file": "Docs/backlog/E1-ontologia-dominio/H1.5-muestreo.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e1_ontologia_dominio_h1_5_muestreo_h1_5_muestras_y_respuestas",
-      "target": "e1_ontologia_dominio_h1_5_muestreo_contexto_del_pdf",
-      "confidence_score": 1.0
+      "target": "e1_ontologia_dominio_h1_5_muestreo_contexto_del_pdf"
     },
     {
       "relation": "contains",
@@ -6421,9 +6724,9 @@
       "source_file": "Docs/backlog/E1-ontologia-dominio/H1.5-muestreo.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e1_ontologia_dominio_h1_5_muestreo_h1_5_muestras_y_respuestas",
-      "target": "e1_ontologia_dominio_h1_5_muestreo_criterios_de_aceptaci\u00f3n",
-      "confidence_score": 1.0
+      "target": "e1_ontologia_dominio_h1_5_muestreo_criterios_de_aceptaci\u00f3n"
     },
     {
       "relation": "contains",
@@ -6431,9 +6734,9 @@
       "source_file": "Docs/backlog/E1-ontologia-dominio/H1.5-muestreo.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e1_ontologia_dominio_h1_5_muestreo_h1_5_muestras_y_respuestas",
-      "target": "e1_ontologia_dominio_h1_5_muestreo_historia_de_usuario",
-      "confidence_score": 1.0
+      "target": "e1_ontologia_dominio_h1_5_muestreo_historia_de_usuario"
     },
     {
       "relation": "contains",
@@ -6441,9 +6744,9 @@
       "source_file": "Docs/backlog/E1-ontologia-dominio/H1.5-muestreo.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e1_ontologia_dominio_h1_5_muestreo_h1_5_muestras_y_respuestas",
-      "target": "e1_ontologia_dominio_h1_5_muestreo_notas_de_modelado",
-      "confidence_score": 1.0
+      "target": "e1_ontologia_dominio_h1_5_muestreo_notas_de_modelado"
     },
     {
       "relation": "contains",
@@ -6451,9 +6754,9 @@
       "source_file": "Docs/backlog/E1-ontologia-dominio/H1.5-muestreo.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e1_ontologia_dominio_h1_5_muestreo_h1_5_muestras_y_respuestas",
-      "target": "e1_ontologia_dominio_h1_5_muestreo_tareas",
-      "confidence_score": 1.0
+      "target": "e1_ontologia_dominio_h1_5_muestreo_tareas"
     },
     {
       "relation": "contains",
@@ -6461,9 +6764,9 @@
       "source_file": "Docs/backlog/E1-ontologia-dominio/H1.6-participante.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e1_ontologia_dominio_h1_6_participante",
-      "target": "e1_ontologia_dominio_h1_6_participante_h1_6_persona_participante",
-      "confidence_score": 1.0
+      "target": "e1_ontologia_dominio_h1_6_participante_h1_6_persona_participante"
     },
     {
       "relation": "references",
@@ -6491,9 +6794,9 @@
       "source_file": "Docs/backlog/E1-ontologia-dominio/H1.6-participante.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e1_ontologia_dominio_h1_6_participante_h1_6_persona_participante",
-      "target": "e1_ontologia_dominio_h1_6_participante_artefactos",
-      "confidence_score": 1.0
+      "target": "e1_ontologia_dominio_h1_6_participante_artefactos"
     },
     {
       "relation": "contains",
@@ -6501,9 +6804,9 @@
       "source_file": "Docs/backlog/E1-ontologia-dominio/H1.6-participante.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e1_ontologia_dominio_h1_6_participante_h1_6_persona_participante",
-      "target": "e1_ontologia_dominio_h1_6_participante_contexto_del_pdf",
-      "confidence_score": 1.0
+      "target": "e1_ontologia_dominio_h1_6_participante_contexto_del_pdf"
     },
     {
       "relation": "contains",
@@ -6511,9 +6814,9 @@
       "source_file": "Docs/backlog/E1-ontologia-dominio/H1.6-participante.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e1_ontologia_dominio_h1_6_participante_h1_6_persona_participante",
-      "target": "e1_ontologia_dominio_h1_6_participante_criterios_de_aceptaci\u00f3n",
-      "confidence_score": 1.0
+      "target": "e1_ontologia_dominio_h1_6_participante_criterios_de_aceptaci\u00f3n"
     },
     {
       "relation": "contains",
@@ -6521,9 +6824,9 @@
       "source_file": "Docs/backlog/E1-ontologia-dominio/H1.6-participante.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e1_ontologia_dominio_h1_6_participante_h1_6_persona_participante",
-      "target": "e1_ontologia_dominio_h1_6_participante_historia_de_usuario",
-      "confidence_score": 1.0
+      "target": "e1_ontologia_dominio_h1_6_participante_historia_de_usuario"
     },
     {
       "relation": "contains",
@@ -6531,9 +6834,9 @@
       "source_file": "Docs/backlog/E1-ontologia-dominio/H1.6-participante.md",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e1_ontologia_dominio_h1_6_participante_h1_6_persona_participante",
-      "target": "e1_ontologia_dominio_h1_6_participante_notas_de_modelado",
-      "confidence_score": 1.0
+      "target": "e1_ontologia_dominio_h1_6_participante_notas_de_modelado"
     },
     {
       "relation": "contains",
@@ -6541,9 +6844,9 @@
       "source_file": "Docs/backlog/E1-ontologia-dominio/H1.6-participante.md",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e1_ontologia_dominio_h1_6_participante_h1_6_persona_participante",
-      "target": "e1_ontologia_dominio_h1_6_participante_tareas",
-      "confidence_score": 1.0
+      "target": "e1_ontologia_dominio_h1_6_participante_tareas"
     },
     {
       "relation": "contains",
@@ -6991,9 +7294,9 @@
       "source_file": "Docs/backlog/E2-poblar-grafo/H2.3-participantes.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e2_poblar_grafo_h2_3_participantes",
-      "target": "e2_poblar_grafo_h2_3_participantes_h2_3_personas_participantes",
-      "confidence_score": 1.0
+      "target": "e2_poblar_grafo_h2_3_participantes_h2_3_personas_participantes"
     },
     {
       "relation": "references",
@@ -7001,9 +7304,9 @@
       "source_file": "Docs/backlog/E2-poblar-grafo/H2.3-participantes.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e2_poblar_grafo_h2_3_participantes",
-      "target": "e2_poblar_grafo_h2_4_muestras_geolocalizadas",
-      "confidence_score": 1.0
+      "target": "e2_poblar_grafo_h2_4_muestras_geolocalizadas"
     },
     {
       "relation": "references",
@@ -7021,9 +7324,9 @@
       "source_file": "Docs/backlog/E2-poblar-grafo/H2.3-participantes.md",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e2_poblar_grafo_h2_3_participantes_h2_3_personas_participantes",
-      "target": "e2_poblar_grafo_h2_3_participantes_artefactos",
-      "confidence_score": 1.0
+      "target": "e2_poblar_grafo_h2_3_participantes_artefactos"
     },
     {
       "relation": "contains",
@@ -7031,9 +7334,9 @@
       "source_file": "Docs/backlog/E2-poblar-grafo/H2.3-participantes.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e2_poblar_grafo_h2_3_participantes_h2_3_personas_participantes",
-      "target": "e2_poblar_grafo_h2_3_participantes_criterios_de_aceptaci\u00f3n",
-      "confidence_score": 1.0
+      "target": "e2_poblar_grafo_h2_3_participantes_criterios_de_aceptaci\u00f3n"
     },
     {
       "relation": "contains",
@@ -7041,9 +7344,9 @@
       "source_file": "Docs/backlog/E2-poblar-grafo/H2.3-participantes.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e2_poblar_grafo_h2_3_participantes_h2_3_personas_participantes",
-      "target": "e2_poblar_grafo_h2_3_participantes_historia_de_usuario",
-      "confidence_score": 1.0
+      "target": "e2_poblar_grafo_h2_3_participantes_historia_de_usuario"
     },
     {
       "relation": "contains",
@@ -7051,9 +7354,9 @@
       "source_file": "Docs/backlog/E2-poblar-grafo/H2.3-participantes.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e2_poblar_grafo_h2_3_participantes_h2_3_personas_participantes",
-      "target": "e2_poblar_grafo_h2_3_participantes_notas_de_modelado",
-      "confidence_score": 1.0
+      "target": "e2_poblar_grafo_h2_3_participantes_notas_de_modelado"
     },
     {
       "relation": "contains",
@@ -7061,9 +7364,9 @@
       "source_file": "Docs/backlog/E2-poblar-grafo/H2.3-participantes.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e2_poblar_grafo_h2_3_participantes_h2_3_personas_participantes",
-      "target": "e2_poblar_grafo_h2_3_participantes_tareas",
-      "confidence_score": 1.0
+      "target": "e2_poblar_grafo_h2_3_participantes_tareas"
     },
     {
       "relation": "contains",
@@ -7071,9 +7374,9 @@
       "source_file": "Docs/backlog/E2-poblar-grafo/H2.4-muestras-geolocalizadas.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e2_poblar_grafo_h2_4_muestras_geolocalizadas",
-      "target": "e2_poblar_grafo_h2_4_muestras_geolocalizadas_h2_4_muestras_geolocalizadas",
-      "confidence_score": 1.0
+      "target": "e2_poblar_grafo_h2_4_muestras_geolocalizadas_h2_4_muestras_geolocalizadas"
     },
     {
       "relation": "references",
@@ -7081,9 +7384,9 @@
       "source_file": "Docs/backlog/E2-poblar-grafo/H2.4-muestras-geolocalizadas.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e2_poblar_grafo_h2_4_muestras_geolocalizadas",
-      "target": "e2_poblar_grafo_readme",
-      "confidence_score": 1.0
+      "target": "e2_poblar_grafo_readme"
     },
     {
       "relation": "references",
@@ -7091,9 +7394,9 @@
       "source_file": "Docs/backlog/E2-poblar-grafo/H2.4-muestras-geolocalizadas.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e2_poblar_grafo_h2_4_muestras_geolocalizadas",
-      "target": "e4_participantes_jugando_h4_3_cobertura_demo",
-      "confidence_score": 1.0
+      "target": "e4_participantes_jugando_h4_3_cobertura_demo"
     },
     {
       "relation": "contains",
@@ -7101,9 +7404,9 @@
       "source_file": "Docs/backlog/E2-poblar-grafo/H2.4-muestras-geolocalizadas.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e2_poblar_grafo_h2_4_muestras_geolocalizadas_h2_4_muestras_geolocalizadas",
-      "target": "e2_poblar_grafo_h2_4_muestras_geolocalizadas_artefactos",
-      "confidence_score": 1.0
+      "target": "e2_poblar_grafo_h2_4_muestras_geolocalizadas_artefactos"
     },
     {
       "relation": "contains",
@@ -7111,9 +7414,9 @@
       "source_file": "Docs/backlog/E2-poblar-grafo/H2.4-muestras-geolocalizadas.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e2_poblar_grafo_h2_4_muestras_geolocalizadas_h2_4_muestras_geolocalizadas",
-      "target": "e2_poblar_grafo_h2_4_muestras_geolocalizadas_criterios_de_aceptaci\u00f3n",
-      "confidence_score": 1.0
+      "target": "e2_poblar_grafo_h2_4_muestras_geolocalizadas_criterios_de_aceptaci\u00f3n"
     },
     {
       "relation": "contains",
@@ -7121,9 +7424,9 @@
       "source_file": "Docs/backlog/E2-poblar-grafo/H2.4-muestras-geolocalizadas.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e2_poblar_grafo_h2_4_muestras_geolocalizadas_h2_4_muestras_geolocalizadas",
-      "target": "e2_poblar_grafo_h2_4_muestras_geolocalizadas_historia_de_usuario",
-      "confidence_score": 1.0
+      "target": "e2_poblar_grafo_h2_4_muestras_geolocalizadas_historia_de_usuario"
     },
     {
       "relation": "contains",
@@ -7131,9 +7434,9 @@
       "source_file": "Docs/backlog/E2-poblar-grafo/H2.4-muestras-geolocalizadas.md",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e2_poblar_grafo_h2_4_muestras_geolocalizadas_h2_4_muestras_geolocalizadas",
-      "target": "e2_poblar_grafo_h2_4_muestras_geolocalizadas_notas_de_modelado",
-      "confidence_score": 1.0
+      "target": "e2_poblar_grafo_h2_4_muestras_geolocalizadas_notas_de_modelado"
     },
     {
       "relation": "contains",
@@ -7141,9 +7444,9 @@
       "source_file": "Docs/backlog/E2-poblar-grafo/H2.4-muestras-geolocalizadas.md",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e2_poblar_grafo_h2_4_muestras_geolocalizadas_h2_4_muestras_geolocalizadas",
-      "target": "e2_poblar_grafo_h2_4_muestras_geolocalizadas_tareas",
-      "confidence_score": 1.0
+      "target": "e2_poblar_grafo_h2_4_muestras_geolocalizadas_tareas"
     },
     {
       "relation": "contains",
@@ -9024,8 +9327,168 @@
       "confidence_score": 1.0,
       "source": "e7_entrega_defensa_readme_e7_documentaci\u00f3n_repositorio_y_defensa_entrega_must",
       "target": "e7_entrega_defensa_readme_historias"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/graphdb.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_graphdb",
+      "target": "docs_graphdb_graphdb_local",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/graphdb.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "docs_graphdb_graphdb_local",
+      "target": "docs_graphdb_crear_repositorio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/graphdb.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_graphdb_graphdb_local",
+      "target": "docs_graphdb_levantar_la_instancia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/graphdb.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "docs_graphdb_graphdb_local",
+      "target": "docs_graphdb_prueba_de_humo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/namespaces.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_namespaces",
+      "target": "docs_namespaces_namespaces_e_iris",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/namespaces.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "docs_namespaces_namespaces_e_iris",
+      "target": "docs_namespaces_convencion_de_nombres",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/namespaces.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "docs_namespaces_namespaces_e_iris",
+      "target": "docs_namespaces_patron_de_iris_de_datos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/namespaces.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_namespaces_namespaces_e_iris",
+      "target": "docs_namespaces_prefijos_propios",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/namespaces.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "docs_namespaces_namespaces_e_iris",
+      "target": "docs_namespaces_prefijos_reutilizados",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/validation.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_validation",
+      "target": "docs_validation_toolchain_de_validacion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/validation.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "docs_validation_toolchain_de_validacion",
+      "target": "docs_validation_comandos_de_humo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/validation.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_validation_toolchain_de_validacion",
+      "target": "docs_validation_instalacion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_adaptativescience_graph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "readme_adaptativescience_graph",
+      "target": "readme_arranque_rapido",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "readme_adaptativescience_graph",
+      "target": "readme_estructura",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "readme_adaptativescience_graph",
+      "target": "readme_flujo_de_ramas_y_commits",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "315c82a96d5ec15c1887e694f48e48e27ff6a1df"
+  "built_at_commit": "1eec3f8139c445a19c17da69e4a622beb349bd5a"
 }

@@ -1,0 +1,4 @@
+@prefix cipa: <https://w3id.org/cipa/ontology#> .
+
+<https://w3id.org/cipa/data/persona/sin-nombre>
+  a cipa:Persona .

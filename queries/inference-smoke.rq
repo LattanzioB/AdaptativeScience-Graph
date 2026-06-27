@@ -1,0 +1,5 @@
+PREFIX cipa: <https://w3id.org/cipa/ontology#>
+
+ASK {
+  <https://w3id.org/cipa/data/proyecto/arboles-nativos> a cipa:Proyecto .
+}

@@ -1,0 +1,8 @@
+@prefix cipa: <https://w3id.org/cipa/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+cipa:ProyectoPiloto rdfs:subClassOf cipa:Proyecto .
+
+<https://w3id.org/cipa/data/proyecto/arboles-nativos>
+  a cipa:ProyectoPiloto ;
+  rdfs:label "Arboles nativos"@es .

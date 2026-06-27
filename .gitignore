@@ -1,0 +1,29 @@
+# GraphDB / RDF4J runtime data
+graphdb/data/
+graphdb/home/
+*.trig.bak
+*.rdf.bak
+
+# Protege / ontology editors
+*.owl.bak
+*.rdf~
+*.ttl~
+catalog-v001.xml
+.history/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Local environment
+.env
+.env.*
+!.env.example

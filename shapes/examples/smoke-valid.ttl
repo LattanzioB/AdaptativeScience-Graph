@@ -1,0 +1,6 @@
+@prefix cipa: <https://w3id.org/cipa/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<https://w3id.org/cipa/data/persona/ada>
+  a cipa:Persona ;
+  foaf:name "Ada" .

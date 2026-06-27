@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rep: <http://www.openrdf.org/config/repository#> .
+@prefix sr: <http://www.openrdf.org/config/repository/sail#> .
+@prefix sail: <http://www.openrdf.org/config/sail#> .
+@prefix graphdb: <http://www.ontotext.com/config/graphdb#> .
+
+[] a rep:Repository ;
+  rep:repositoryID "cipa-local" ;
+  rdfs:label "CIPA local reasoning repository" ;
+  rep:repositoryImpl [
+    rep:repositoryType "graphdb:FreeSailRepository" ;
+    sr:sailImpl [
+      sail:sailType "graphdb:FreeSail" ;
+      graphdb:ruleset "rdfsplus-optimized" ;
+      graphdb:disableSameAs true ;
+      graphdb:enableContextIndex true ;
+      graphdb:enablePredicateList true ;
+      graphdb:inMemoryLiteralProperties true ;
+      graphdb:queryTimeout 0 ;
+      graphdb:throwQueryEvaluationExceptionOnTimeout false ;
+      graphdb:readOnly false
+    ]
+  ] .

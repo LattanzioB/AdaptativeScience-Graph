@@ -60,78 +60,78 @@
     "semantic_hash": ""
   },
   "Docs/backlog/E0-infraestructura/H0.1-repositorio-estructura.md": {
-    "mtime": 1782588740.2538013,
-    "ast_hash": "6f23ac86e48bd65db9da6f2b4a849cc7",
+    "mtime": 1782589248.4267623,
+    "ast_hash": "f92343e6ce001c8e41b0c8d936fcadaf",
     "semantic_hash": ""
   },
   "Docs/backlog/E0-infraestructura/H0.2-instancia-graphdb.md": {
-    "mtime": 1782588740.2566204,
-    "ast_hash": "d766d73e46b0917f604ae8cedd3bd6e4",
+    "mtime": 1782589248.4315217,
+    "ast_hash": "037cfacfc70fc370e0b224beb8bf07b1",
     "semantic_hash": ""
   },
   "Docs/backlog/E0-infraestructura/H0.3-namespaces-iris.md": {
-    "mtime": 1782588740.259429,
-    "ast_hash": "93b40f0662098339c382956719081388",
+    "mtime": 1782589248.4338763,
+    "ast_hash": "3df12c6c765996408c11841cb4a4a24e",
     "semantic_hash": ""
   },
   "Docs/backlog/E0-infraestructura/H0.4-toolchain-validacion.md": {
-    "mtime": 1782588740.2625024,
-    "ast_hash": "94f11b7704c34c5d508bf8e4ef26c35d",
+    "mtime": 1782589248.4436216,
+    "ast_hash": "05633373a85db0fb8e5ea1772ea4cb17",
     "semantic_hash": ""
   },
   "Docs/backlog/E0-infraestructura/README.md": {
-    "mtime": 1782588740.2504716,
-    "ast_hash": "f693b443950538ac175cc5a6551884a2",
+    "mtime": 1782589248.4466414,
+    "ast_hash": "43948bf9a06bbbd6be19f4f84b7f7f13",
     "semantic_hash": ""
   },
   "Docs/backlog/E1-ontologia-dominio/H1.1-proyecto-clasificacion.md": {
-    "mtime": 1782587777.0899234,
-    "ast_hash": "0251012ac3a263cec8b14c33e45f3ccd",
+    "mtime": 1782589898.8686702,
+    "ast_hash": "5276c7b951b20a3bbe94b820211dcbb4",
     "semantic_hash": ""
   },
   "Docs/backlog/E1-ontologia-dominio/H1.2-protocolo.md": {
-    "mtime": 1782587777.0963871,
-    "ast_hash": "4d2b7bef45ed776ea1f94ca7e7389368",
+    "mtime": 1782589898.8726964,
+    "ast_hash": "482f15526a49fe89a856c9d36bb8d1fc",
     "semantic_hash": ""
   },
   "Docs/backlog/E1-ontologia-dominio/H1.3-pasos.md": {
-    "mtime": 1782587777.1013174,
-    "ast_hash": "4ac522d29c9205a637c5376ff81c5b7c",
+    "mtime": 1782589898.8744488,
+    "ast_hash": "b3f3379e12e9b4a0a5f416937d2551a4",
     "semantic_hash": ""
   },
   "Docs/backlog/E1-ontologia-dominio/H1.4-transiciones.md": {
-    "mtime": 1782587777.102533,
-    "ast_hash": "a26f3e5af511cdd31044cd23a45208dd",
+    "mtime": 1782589898.8784697,
+    "ast_hash": "7b4692e3128cfc92335b989bc2d9ee74",
     "semantic_hash": ""
   },
   "Docs/backlog/E1-ontologia-dominio/H1.5-muestreo.md": {
-    "mtime": 1782587777.1067803,
-    "ast_hash": "14332805fd2a6aaf350233cfac1d083d",
+    "mtime": 1782589898.8824942,
+    "ast_hash": "d6da833b1686ff0880918ba0f7f4c8e2",
     "semantic_hash": ""
   },
   "Docs/backlog/E1-ontologia-dominio/H1.6-participante.md": {
-    "mtime": 1782587777.1103299,
-    "ast_hash": "758e88dc04abb3fc8ebd2399fd1da5ae",
+    "mtime": 1782589898.8845048,
+    "ast_hash": "01da43c305fb45d076bd1cb3f2ade92d",
     "semantic_hash": ""
   },
   "Docs/backlog/E1-ontologia-dominio/H1.7-reutilizacion-alineaciones.md": {
-    "mtime": 1782587777.1167133,
-    "ast_hash": "6a8efae6008bd08c336ee2a9c7bb642c",
+    "mtime": 1782589898.8865163,
+    "ast_hash": "98d0972e716bda3f4c6876557b1181c4",
     "semantic_hash": ""
   },
   "Docs/backlog/E1-ontologia-dominio/H1.8-consistencia.md": {
-    "mtime": 1781620965.8858068,
-    "ast_hash": "f72c0565abfa55b327c3125d52b7a1b0",
+    "mtime": 1782589898.8902853,
+    "ast_hash": "da27087b5891c94dc5f12a1f50751cb5",
     "semantic_hash": ""
   },
   "Docs/backlog/E1-ontologia-dominio/H1.9-perfil-colaborador.md": {
-    "mtime": 1782587777.118876,
-    "ast_hash": "c10ced9b52c6a60f5c230dc5f786873d",
+    "mtime": 1782589898.8943088,
+    "ast_hash": "a19d24a9b99141f9afa313aa114e2de8",
     "semantic_hash": ""
   },
   "Docs/backlog/E1-ontologia-dominio/README.md": {
-    "mtime": 1782587777.1257188,
-    "ast_hash": "4f941b837a3f518b1aba5976fa4effed",
+    "mtime": 1782589910.4725533,
+    "ast_hash": "67d597802bd29a2ed64fef87a698101c",
     "semantic_hash": ""
   },
   "Docs/backlog/E2-poblar-grafo/H2.1-protocolo-diagrama.md": {
@@ -320,38 +320,43 @@
     "semantic_hash": ""
   },
   "shapes/validate.py": {
-    "mtime": 1782588634.0043147,
-    "ast_hash": "fc685d999ba71f177889e59d76d0b35b",
+    "mtime": 1782589248.5823724,
+    "ast_hash": "2c508e9a0f7ba41394e6f7ad944217fe",
     "semantic_hash": ""
   },
   "Docs/graphdb.md": {
-    "mtime": 1782588634.0150373,
-    "ast_hash": "f0c748818dafd4ab25722a13016fe544",
+    "mtime": 1782589248.4486563,
+    "ast_hash": "0b9f319081232ab5a4a4b7835b58e661",
     "semantic_hash": ""
   },
   "Docs/namespaces.md": {
-    "mtime": 1782588884.464004,
-    "ast_hash": "1e8921c8cd7439b9177eacb7e4973a4c",
+    "mtime": 1782589248.4506724,
+    "ast_hash": "bc292feb3a6fee5221fbaef846eb3201",
     "semantic_hash": ""
   },
   "Docs/validation.md": {
-    "mtime": 1782588634.0170367,
-    "ast_hash": "d1bfbf135957946e84a5155ffd3f0f3e",
+    "mtime": 1782589874.585171,
+    "ast_hash": "6ca2bc3b91b25d7bf1562e15a72bce0c",
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1782588633.9717064,
-    "ast_hash": "6d02cd0b2005b1adfae3c976ca4efe50",
+    "mtime": 1782589874.587187,
+    "ast_hash": "0211f5dfb1a5014157743782a54e2b96",
     "semantic_hash": ""
   },
   "docker-compose.yml": {
-    "mtime": 1782588633.9777546,
-    "ast_hash": "314e12835fa82e267878011e284d1385",
+    "mtime": 1782589248.4840066,
+    "ast_hash": "dc92e83b7c930e22ea54aaeb766efbe0",
     "semantic_hash": ""
   },
   "requirements.txt": {
-    "mtime": 1782588841.260883,
-    "ast_hash": "2fb4375d32f041f55608d49612a44319",
+    "mtime": 1782589248.5617282,
+    "ast_hash": "4245f9dca8b900f11d883b5025a255e0",
+    "semantic_hash": ""
+  },
+  "Docs/decisiones-modelado.md": {
+    "mtime": 1782589820.8717232,
+    "ast_hash": "16035ca5b13d1383c32553d6b281e9a6",
     "semantic_hash": ""
   }
 }

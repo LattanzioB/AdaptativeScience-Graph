@@ -1,0 +1,50 @@
+@prefix cipa: <https://w3id.org/cipa/ontology#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cipa:ProyectoShape
+  a sh:NodeShape ;
+  sh:targetClass cipa:Proyecto ;
+  sh:property [ sh:path cipa:tieneNombre ; sh:minCount 1 ; sh:datatype xsd:string ] ;
+  sh:property [ sh:path cipa:perteneceA ; sh:minCount 1 ; sh:class cipa:AreaConocimiento ] ;
+  sh:property [ sh:path cipa:tieneProtocoloActivo ; sh:minCount 1 ; sh:maxCount 1 ; sh:class cipa:Protocolo ] .
+
+cipa:ProtocoloShape
+  a sh:NodeShape ;
+  sh:targetClass cipa:Protocolo ;
+  sh:property [ sh:path cipa:tienePrimerPaso ; sh:minCount 1 ; sh:maxCount 1 ; sh:class cipa:Paso ] .
+
+cipa:MuestraShape
+  a sh:NodeShape ;
+  sh:targetClass cipa:Muestra ;
+  sh:property [ sh:path cipa:ejecutaProtocolo ; sh:minCount 1 ; sh:class cipa:Protocolo ] ;
+  sh:property [ sh:path cipa:respondidaPor ; sh:minCount 1 ; sh:class cipa:Persona ] ;
+  sh:property [ sh:path cipa:tieneRespuesta ; sh:minCount 1 ; sh:class cipa:MuestraRespuesta ] .
+
+cipa:MuestraRespuestaShape
+  a sh:NodeShape ;
+  sh:targetClass cipa:MuestraRespuesta ;
+  sh:property [ sh:path cipa:correspondeAPaso ; sh:minCount 1 ; sh:class cipa:Paso ] ;
+  sh:sparql [
+    sh:message "Una respuesta a PasoMultimedia debe tener valorMultimedia."@es ;
+    sh:select """
+      PREFIX cipa: <https://w3id.org/cipa/ontology#>
+      SELECT $this WHERE {
+        $this cipa:correspondeAPaso ?paso .
+        ?paso a cipa:PasoMultimedia .
+        FILTER NOT EXISTS { $this cipa:valorMultimedia ?adjunto . }
+      }
+    """
+  ] ;
+  sh:sparql [
+    sh:message "Una respuesta a PasoCuestionario debe tener valorTexto o seleccionaOpcion."@es ;
+    sh:select """
+      PREFIX cipa: <https://w3id.org/cipa/ontology#>
+      SELECT $this WHERE {
+        $this cipa:correspondeAPaso ?paso .
+        ?paso a cipa:PasoCuestionario .
+        FILTER NOT EXISTS { $this cipa:valorTexto ?texto . }
+        FILTER NOT EXISTS { $this cipa:seleccionaOpcion ?opcion . }
+      }
+    """
+  ] .

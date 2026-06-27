@@ -1,16 +1,16 @@
 # Graph Report - AdaptativeScience-Graph  (2026-06-27)
 
 ## Corpus Check
-- 66 files · ~112,125 words
+- 67 files · ~112,837 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 453 nodes · 495 edges · 57 communities (53 shown, 4 thin omitted)
+- 463 nodes · 504 edges · 59 communities (55 shown, 4 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `1eec3f81`
+- Built from commit: `457234eb`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -70,6 +70,8 @@
 - [[_COMMUNITY_Community 53|Community 53]]
 - [[_COMMUNITY_Community 55|Community 55]]
 - [[_COMMUNITY_Community 56|Community 56]]
+- [[_COMMUNITY_Community 57|Community 57]]
+- [[_COMMUNITY_Community 58|Community 58]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Modelo de dominio — Ciencia Participativa` - 17 edges
@@ -89,7 +91,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (57 total, 4 thin omitted)
+## Communities (59 total, 4 thin omitted)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.05
@@ -120,8 +122,8 @@ Cohesion: 0.29
 Nodes (7): Artefactos, Contexto (del PDF), Criterios de aceptación, H1.2 — Protocolo, Historia de usuario, Notas de modelado, Tareas
 
 ### Community 8 - "Community 8"
-Cohesion: 0.29
-Nodes (7): Artefactos, Contexto (del PDF + diagrama), Criterios de aceptación, H1.3 — Pasos (jerarquía de tipos), Historia de usuario, Notas de modelado, Tareas
+Cohesion: 0.13
+Nodes (14): Artefactos, Contexto (del PDF + diagrama), Criterios de aceptación, H1.3 — Pasos (jerarquía de tipos), Historia de usuario, Notas de modelado, Tareas, Artefactos (+6 more)
 
 ### Community 9 - "Community 9"
 Cohesion: 0.29
@@ -132,8 +134,8 @@ Cohesion: 0.08
 Nodes (24): AdjuntoMultimedia, Compatibilidad entre MuestraRespuesta y tipo de paso, Descripción general, Descripción resumida, Entidades principales, Modelo de dominio — Ciencia Participativa, Muestra, MuestraRespuesta (+16 more)
 
 ### Community 11 - "Community 11"
-Cohesion: 0.29
-Nodes (7): Artefactos, Contexto (del PDF), Criterios de aceptación, H1.6 — Persona participante, Historia de usuario, Notas de modelado, Tareas
+Cohesion: 0.13
+Nodes (14): Artefactos, Contexto (del PDF), Criterios de aceptación, H1.6 — Persona participante, Historia de usuario, Notas de modelado, Tareas, Artefactos (+6 more)
 
 ### Community 12 - "Community 12"
 Cohesion: 0.29
@@ -144,20 +146,20 @@ Cohesion: 0.29
 Nodes (7): Artefactos, Contexto (del PDF), Criterios de aceptación, H1.9 — Perfil del Colaborador, Historia de usuario, Notas de modelado, Tareas
 
 ### Community 14 - "Community 14"
-Cohesion: 0.29
-Nodes (7): Artefactos, Contexto (del diagrama), Criterios de aceptación, H2.1 — Protocolo del diagrama, Historia de usuario, Notas de modelado, Tareas
+Cohesion: 0.25
+Nodes (7): Alineaciones livianas, Consistencia, Decisiones de modelado, Ejecucion de muestras, Ontologia de dominio, Pasos, transiciones y bifurcaciones, Perfil colaborador
 
 ### Community 15 - "Community 15"
-Cohesion: 0.07
-Nodes (23): Artefactos, Contexto (del PDF), Criterios de aceptación, H3.1 — Ontología PBL, Historia de usuario, Notas de modelado, Tareas, Artefactos (+15 more)
+Cohesion: 0.29
+Nodes (7): Artefactos, Contexto (del PDF), Criterios de aceptación, H3.1 — Ontología PBL, Historia de usuario, Notas de modelado, Tareas
 
 ### Community 16 - "Community 16"
 Cohesion: 0.29
 Nodes (7): Artefactos, Contexto (del PDF), Criterios de aceptación, H3.2 — Sistema incremental de 3 medallas, Historia de usuario, Notas de modelado, Tareas
 
 ### Community 17 - "Community 17"
-Cohesion: 0.33
-Nodes (6): Artefactos, Criterios de aceptación, H2.4 — Muestras geolocalizadas, Historia de usuario, Notas de modelado, Tareas
+Cohesion: 0.18
+Nodes (10): Artefactos, Criterios de aceptación, H2.4 — Muestras geolocalizadas, Historia de usuario, Notas de modelado, Tareas, Definition of Done (DoD), Dependencias (+2 more)
 
 ### Community 18 - "Community 18"
 Cohesion: 0.29
@@ -165,7 +167,7 @@ Nodes (7): Artefactos, Contexto (del PDF), Criterios de aceptación, H4.1 — Ac
 
 ### Community 19 - "Community 19"
 Cohesion: 0.29
-Nodes (7): Artefactos, Contexto (de la consigna), Criterios de aceptación, H6.2 — (6.a.i) Dos consultas multi-hop de dominio, Historia de usuario, Notas, Tareas
+Nodes (6): Artefactos, Contexto (del PDF), Criterios de aceptación, H3.3 — Definición del juego sencillo, Historia de usuario, Tareas
 
 ### Community 20 - "Community 20"
 Cohesion: 0.29
@@ -188,8 +190,8 @@ Cohesion: 0.33
 Nodes (6): Artefactos, Criterios de aceptación, H2.2 — Proyectos y áreas, Historia de usuario, Notas de modelado, Tareas
 
 ### Community 25 - "Community 25"
-Cohesion: 0.18
-Nodes (10): Artefactos, Criterios de aceptación, H2.3 — Personas participantes, Historia de usuario, Notas de modelado, Tareas, Definition of Done (DoD), Dependencias (+2 more)
+Cohesion: 0.33
+Nodes (6): Artefactos, Criterios de aceptación, H2.3 — Personas participantes, Historia de usuario, Notas de modelado, Tareas
 
 ### Community 26 - "Community 26"
 Cohesion: 0.29
@@ -288,15 +290,23 @@ Cohesion: 0.50
 Nodes (3): For --cluster-only, For --update (incremental re-extraction), graphify reference: incremental update and cluster-only
 
 ### Community 55 - "Community 55"
-Cohesion: 0.50
-Nodes (3): Comandos de humo, Instalacion, Toolchain de validacion
+Cohesion: 0.40
+Nodes (4): Chequeos manuales de entorno, Comandos de humo, Instalacion, Toolchain de validacion
 
 ### Community 56 - "Community 56"
+Cohesion: 0.40
+Nodes (5): Definition of Done (DoD), Dependencias, E1 — Ontología de dominio en OWL (Req. 1) `[MUST]`, Estado de implementación, Historias
+
+### Community 57 - "Community 57"
+Cohesion: 0.33
+Nodes (6): Artefactos, Criterios de aceptación, H3.4 — Alineación Open Badges, Historia de usuario, Notas, Tareas
+
+### Community 58 - "Community 58"
 Cohesion: 0.50
-Nodes (4): Definition of Done (DoD), Dependencias, E1 — Ontología de dominio en OWL (Req. 1) `[MUST]`, Historias
+Nodes (4): Definition of Done (DoD), Dependencias, E3 — Ontología PBL + juego sencillo (Req. 3) `[MUST]`, Historias
 
 ## Knowledge Gaps
-- **318 isolated node(s):** `Usage`, `What graphify is for`, `Step 0 - GitHub repos and multi-path merge (only if a URL or several paths)`, `Step 1 - Ensure graphify is installed`, `Step 2 - Detect files` (+313 more)
+- **326 isolated node(s):** `Usage`, `What graphify is for`, `Step 0 - GitHub repos and multi-path merge (only if a URL or several paths)`, `Step 1 - Ensure graphify is installed`, `Step 2 - Detect files` (+321 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -304,16 +314,16 @@ Nodes (4): Definition of Done (DoD), Dependencias, E1 — Ontología de dominio 
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Backlog — TP Ciencia Participativa (OWL + PBL + SHACL + GraphDB)` connect `Community 3` to `Community 0`?**
-  _High betweenness centrality (0.049) - this node is a cross-community bridge._
+  _High betweenness centrality (0.047) - this node is a cross-community bridge._
 - **What connects `Usage`, `What graphify is for`, `Step 0 - GitHub repos and multi-path merge (only if a URL or several paths)` to the rest of the system?**
-  _318 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _326 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.12612612612612611 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.11538461538461539 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.05405405405405406 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.08 - nodes in this community are weakly interconnected._
 - **Should `Community 3` be split into smaller, more focused modules?**
   _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._
-- **Should `Community 10` be split into smaller, more focused modules?**
-  _Cohesion score 0.08 - nodes in this community are weakly interconnected._
+- **Should `Community 8` be split into smaller, more focused modules?**
+  _Cohesion score 0.13186813186813187 - nodes in this community are weakly interconnected._

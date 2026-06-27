@@ -34,12 +34,12 @@ para que la trazabilidad sea directa en el coloquio.
 - [H0.4 — Toolchain de validación](backlog/E0-infraestructura/H0.4-toolchain-validacion.md)
 
 ### [E1 — Ontología de dominio en OWL](backlog/E1-ontologia-dominio/README.md) `[MUST]` — Req. 1
-- [H1.1 — Proyecto y clasificación](backlog/E1-ontologia-dominio/H1.1-proyecto-clasificacion.md)
+- [H1.1 — Proyecto y área de conocimiento](backlog/E1-ontologia-dominio/H1.1-proyecto-clasificacion.md)
 - [H1.2 — Protocolo](backlog/E1-ontologia-dominio/H1.2-protocolo.md)
 - [H1.3 — Pasos (jerarquía de tipos)](backlog/E1-ontologia-dominio/H1.3-pasos.md)
 - [H1.4 — Transiciones (DAG con bifurcación)](backlog/E1-ontologia-dominio/H1.4-transiciones.md)
-- [H1.5 — Muestreo (SOSA + PROV)](backlog/E1-ontologia-dominio/H1.5-muestreo.md)
-- [H1.6 — Participante](backlog/E1-ontologia-dominio/H1.6-participante.md)
+- [H1.5 — Muestras y respuestas](backlog/E1-ontologia-dominio/H1.5-muestreo.md)
+- [H1.6 — Persona participante](backlog/E1-ontologia-dominio/H1.6-participante.md)
 - [H1.7 — Reutilización y alineaciones](backlog/E1-ontologia-dominio/H1.7-reutilizacion-alineaciones.md)
 - [H1.8 — Consistencia](backlog/E1-ontologia-dominio/H1.8-consistencia.md)
 - [H1.9 — Perfil del Colaborador](backlog/E1-ontologia-dominio/H1.9-perfil-colaborador.md) *(nuevo — cubre el módulo de perfiles del PDF)*
@@ -47,8 +47,8 @@ para que la trazabilidad sea directa en el coloquio.
 ### [E2 — Poblar el grafo de dominio](backlog/E2-poblar-grafo/README.md) `[MUST]` — Req. 2
 - [H2.1 — Protocolo del diagrama](backlog/E2-poblar-grafo/H2.1-protocolo-diagrama.md)
 - [H2.2 — Proyectos y áreas](backlog/E2-poblar-grafo/H2.2-proyectos-areas.md)
-- [H2.3 — Participantes](backlog/E2-poblar-grafo/H2.3-participantes.md)
-- [H2.4 — Submissions geolocalizadas](backlog/E2-poblar-grafo/H2.4-submissions-geo.md)
+- [H2.3 — Personas participantes](backlog/E2-poblar-grafo/H2.3-participantes.md)
+- [H2.4 — Muestras geolocalizadas](backlog/E2-poblar-grafo/H2.4-muestras-geolocalizadas.md)
 
 ### [E3 — Ontología PBL + juego sencillo](backlog/E3-ontologia-pbl/README.md) `[MUST]` — Req. 3
 - [H3.1 — Ontología PBL](backlog/E3-ontologia-pbl/H3.1-ontologia-pbl.md)
@@ -91,10 +91,16 @@ para que la trazabilidad sea directa en el coloquio.
    [H6.2](backlog/E6-graphdb-consultas/H6.2-consultas-multihop.md). **Leaderboards** se modela en la T-Box PBL
    ([H3.1](backlog/E3-ontologia-pbl/H3.1-ontologia-pbl.md)) pero **sin** consulta dedicada. Open Badges (H3.4) y
    Dalponte (H7.5) quedan como `[COULD]`.
-2. **Semántica SHACL de medallas:** patrón **`sh:sparql` dentro del NodeShape**, con la convención
+2. **Reestructuración de dominio (27/06):** las historias usan la estructura de
+   [`Docs/Re-Estructuracion-Dominio`](Re-Estructuracion-Dominio/modelo_dominio_ciencia_participativa.md):
+   `cipa:Proyecto`, `cipa:AreaConocimiento`, `cipa:Protocolo`, `cipa:Paso`, `cipa:Transicion`,
+   `cipa:Muestra`, `cipa:MuestraRespuesta`, `cipa:Persona`, `cipa:Ubicacion` y `cipa:AdjuntoMultimedia`.
+   Se conservan los prefijos e IRIs existentes: T-Box de dominio en `cipa:`, ludificación en `pbl:` y datos en
+   `cipa-data:`.
+3. **Semántica SHACL de medallas:** patrón **`sh:sparql` dentro del NodeShape**, con la convención
    **conformidad = ganador** (la consulta `SELECT` del shape reporta violación para los *no* ganadores).
    Materialización de `pbl:earnedBadge` vía `CONSTRUCT` como `[SHOULD]`. Ver [E5](backlog/E5-shapes-medallas/README.md).
-3. **Estructura de archivos:** una subcarpeta por épica con README de épica + un archivo por historia; este `.md` es el índice maestro.
+4. **Estructura de archivos:** una subcarpeta por épica con README de épica + un archivo por historia; este `.md` es el índice maestro.
 
 ---
 

@@ -6,12 +6,12 @@
 ## Historias
 - [H2.1 — Protocolo del diagrama](H2.1-protocolo-diagrama.md)
 - [H2.2 — Proyectos y áreas](H2.2-proyectos-areas.md)
-- [H2.3 — Participantes](H2.3-participantes.md)
-- [H2.4 — Submissions geolocalizadas](H2.4-submissions-geo.md)
+- [H2.3 — Personas participantes](H2.3-participantes.md)
+- [H2.4 — Muestras geolocalizadas](H2.4-muestras-geolocalizadas.md)
 
 ## Dependencias
 - **Depende de:** E1 (T-Box).
 - **Habilita:** E4 (jugar sobre estos datos), E6 (consultas).
 
 ## Definition of Done (DoD)
-El grafo (A-Box) refleja el diagrama del PDF, incluye multiplicidad simultánea (un participante en ≥2 proyectos) e historial temporal, y las consultas básicas devuelven datos coherentes.
+El grafo (A-Box) refleja el diagrama del PDF, incluye multiplicidad simultánea (una persona con muestras en ≥2 proyectos), historial temporal y respuestas por paso coherentes con el tipo de paso.

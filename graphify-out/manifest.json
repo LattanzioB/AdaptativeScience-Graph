@@ -1,0 +1,322 @@
+{
+  ".codex/hooks.json": {
+    "mtime": 1782585973.87929,
+    "ast_hash": "22f84d073a7b125daf062ff9111c20e0",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/SKILL.md": {
+    "mtime": 1782585973.8127906,
+    "ast_hash": "d9aac0693d3be33f406de660a0333bf1",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/references/add-watch.md": {
+    "mtime": 1782585944.905529,
+    "ast_hash": "d59d027fe449f06aa03905a01184e779",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/references/exports.md": {
+    "mtime": 1782585944.9075432,
+    "ast_hash": "9da2a2152e60a22f07f05fed5158f287",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/references/extraction-spec.md": {
+    "mtime": 1782585944.9095557,
+    "ast_hash": "34d91a9dd60544cefe1eb0c490860f7a",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/references/github-and-merge.md": {
+    "mtime": 1782585944.911568,
+    "ast_hash": "cde13df085e4c492aeb7ba298a996d0d",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/references/hooks.md": {
+    "mtime": 1782585944.9135797,
+    "ast_hash": "3f545db6ce646650bb9de588f5512a27",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/references/query.md": {
+    "mtime": 1782585944.9155898,
+    "ast_hash": "9e5aadc2c57ab561bc56600fcfa70735",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/references/transcribe.md": {
+    "mtime": 1782585944.9176016,
+    "ast_hash": "67b6a5fa6c0974e18f60db9f8932fbd8",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/references/update.md": {
+    "mtime": 1782585944.919613,
+    "ast_hash": "c698309979460d0f02ba616417844399",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1782585973.8180425,
+    "ast_hash": "752aa83aa64361ac32860f882dcff932",
+    "semantic_hash": ""
+  },
+  "Docs/backlog-tp-ciencia-participativa.md": {
+    "mtime": 1782587942.5060413,
+    "ast_hash": "6e37a5427c9169a39697f82f791778f8",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E0-infraestructura/H0.1-repositorio-estructura.md": {
+    "mtime": 1781620879.4196026,
+    "ast_hash": "eec518c48fb8c781623d5ea055f3d3b4",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E0-infraestructura/H0.2-instancia-graphdb.md": {
+    "mtime": 1781620887.2049632,
+    "ast_hash": "b116ae5f33bb356e64eb2fcf1591efc4",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E0-infraestructura/H0.3-namespaces-iris.md": {
+    "mtime": 1782587942.5080545,
+    "ast_hash": "3c4134dd2431c9ffd05334a2b15720dc",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E0-infraestructura/H0.4-toolchain-validacion.md": {
+    "mtime": 1781620899.7671192,
+    "ast_hash": "7a4f9e3ed58dd7e66ad6326b61b42f5d",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E0-infraestructura/README.md": {
+    "mtime": 1781620824.3973393,
+    "ast_hash": "acc461a523d56b17a3cae8113ac076fa",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E1-ontologia-dominio/H1.1-proyecto-clasificacion.md": {
+    "mtime": 1782587777.0899234,
+    "ast_hash": "0251012ac3a263cec8b14c33e45f3ccd",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E1-ontologia-dominio/H1.2-protocolo.md": {
+    "mtime": 1782587777.0963871,
+    "ast_hash": "4d2b7bef45ed776ea1f94ca7e7389368",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E1-ontologia-dominio/H1.3-pasos.md": {
+    "mtime": 1782587777.1013174,
+    "ast_hash": "4ac522d29c9205a637c5376ff81c5b7c",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E1-ontologia-dominio/H1.4-transiciones.md": {
+    "mtime": 1782587777.102533,
+    "ast_hash": "a26f3e5af511cdd31044cd23a45208dd",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E1-ontologia-dominio/H1.5-muestreo.md": {
+    "mtime": 1782587777.1067803,
+    "ast_hash": "14332805fd2a6aaf350233cfac1d083d",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E1-ontologia-dominio/H1.6-participante.md": {
+    "mtime": 1782587777.1103299,
+    "ast_hash": "758e88dc04abb3fc8ebd2399fd1da5ae",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E1-ontologia-dominio/H1.7-reutilizacion-alineaciones.md": {
+    "mtime": 1782587777.1167133,
+    "ast_hash": "6a8efae6008bd08c336ee2a9c7bb642c",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E1-ontologia-dominio/H1.8-consistencia.md": {
+    "mtime": 1781620965.8858068,
+    "ast_hash": "f72c0565abfa55b327c3125d52b7a1b0",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E1-ontologia-dominio/H1.9-perfil-colaborador.md": {
+    "mtime": 1782587777.118876,
+    "ast_hash": "c10ced9b52c6a60f5c230dc5f786873d",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E1-ontologia-dominio/README.md": {
+    "mtime": 1782587777.1257188,
+    "ast_hash": "4f941b837a3f518b1aba5976fa4effed",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E2-poblar-grafo/H2.1-protocolo-diagrama.md": {
+    "mtime": 1782587817.0906377,
+    "ast_hash": "1c892e1f13889b096e8692a7f6c067e7",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E2-poblar-grafo/H2.2-proyectos-areas.md": {
+    "mtime": 1782587817.093638,
+    "ast_hash": "c86ee05b59eec9b74183a2c2354b093f",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E2-poblar-grafo/H2.3-participantes.md": {
+    "mtime": 1782588070.743389,
+    "ast_hash": "8063c9313f906358d6ba1bddb129e0de",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E2-poblar-grafo/README.md": {
+    "mtime": 1782587817.1048899,
+    "ast_hash": "e8593ef1e2264060dffb1039165d4029",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E3-ontologia-pbl/H3.1-ontologia-pbl.md": {
+    "mtime": 1781621026.3683088,
+    "ast_hash": "c51603e2ba364444f8068d8068081824",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E3-ontologia-pbl/H3.2-medallas-incrementales.md": {
+    "mtime": 1781621034.4145906,
+    "ast_hash": "116bcc0df193ff442dd8e8f453ca75a1",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E3-ontologia-pbl/H3.3-juego-sencillo.md": {
+    "mtime": 1781621041.0825438,
+    "ast_hash": "d1f5fd3041d4b26dcc954860f2e97652",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E3-ontologia-pbl/H3.4-open-badges.md": {
+    "mtime": 1781621045.78212,
+    "ast_hash": "86be416ede3f19230c7051528d7fdf77",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E3-ontologia-pbl/README.md": {
+    "mtime": 1781620840.7063026,
+    "ast_hash": "65ec2b8da891e812d826f6ad9839e702",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E4-participantes-jugando/H4.1-acciones-puntos.md": {
+    "mtime": 1782588028.6907835,
+    "ast_hash": "61dc5f324897a12a478743538339796e",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E4-participantes-jugando/H4.2-estado-jugador.md": {
+    "mtime": 1782588070.7453885,
+    "ast_hash": "6bf5780a510dbe8d09a0daeb6cd34e2b",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E4-participantes-jugando/H4.3-cobertura-demo.md": {
+    "mtime": 1782588070.7487304,
+    "ast_hash": "a20010a2318b6f26fe92aa70edf1d76b",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E4-participantes-jugando/README.md": {
+    "mtime": 1781620845.4548688,
+    "ast_hash": "d0b7536c22bc121cf0e92e1436a1db49",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E5-shapes-medallas/H5.1-patron-sparql.md": {
+    "mtime": 1782588126.235051,
+    "ast_hash": "5a602a2241337b79ca83c243b59f7277",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E5-shapes-medallas/H5.2-shapes-medallas.md": {
+    "mtime": 1781621090.1270945,
+    "ast_hash": "cc51be52026399883988668fdb4bf7d6",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E5-shapes-medallas/H5.3-verificacion.md": {
+    "mtime": 1782588070.7542665,
+    "ast_hash": "8c298a71e08c62ac3d48b386dca1b23a",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E5-shapes-medallas/H5.4-materializacion.md": {
+    "mtime": 1782588070.757442,
+    "ast_hash": "bd02861a3f870bad07e65c6d8cf0075b",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E5-shapes-medallas/README.md": {
+    "mtime": 1782588070.7512395,
+    "ast_hash": "0e0fe0454da77078166c6ced7b0e569c",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E6-graphdb-consultas/H6.1-carga-integral.md": {
+    "mtime": 1781621109.801757,
+    "ast_hash": "ae748bd627dd7347f276ef17fdb8a9bc",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E6-graphdb-consultas/H6.2-consultas-multihop.md": {
+    "mtime": 1782588028.7040958,
+    "ast_hash": "374be54ee6c8824fb3a08869c9ff37ba",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E6-graphdb-consultas/H6.3-consulta-inferencias.md": {
+    "mtime": 1782588028.7154186,
+    "ast_hash": "ea1e80cab578ef63682200daebb79c0a",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E6-graphdb-consultas/H6.4-estatus-jugador.md": {
+    "mtime": 1782588070.7587845,
+    "ast_hash": "090151b7b110a347a0630dfb06090a76",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E6-graphdb-consultas/H6.5-medallas-asignadas.md": {
+    "mtime": 1782588070.7623067,
+    "ast_hash": "b70b6bb17e5ea365f03302e011bf8468",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E6-graphdb-consultas/H6.6-medallas-persona.md": {
+    "mtime": 1782588070.764319,
+    "ast_hash": "bbcf91c9ad3d853d30b286b0fdc73f19",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E6-graphdb-consultas/README.md": {
+    "mtime": 1781620860.5594394,
+    "ast_hash": "0d102aedc90fd5076fea23e57c3b4e15",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E7-entrega-defensa/H7.1-readme-operativo.md": {
+    "mtime": 1781621150.7795062,
+    "ast_hash": "73d5398e32d2adfe76eb79f587f921c0",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E7-entrega-defensa/H7.2-decisiones-modelado.md": {
+    "mtime": 1782588102.0078194,
+    "ast_hash": "8e7755aa557c577f9caee7398c2f022d",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E7-entrega-defensa/H7.3-diagramas.md": {
+    "mtime": 1782588102.00982,
+    "ast_hash": "1ecc1a79bcf1aa3f01b3f2755dde8042",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E7-entrega-defensa/H7.4-guion-coloquio.md": {
+    "mtime": 1782588070.767319,
+    "ast_hash": "f78d7ae20596264cc266a733443504d5",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E7-entrega-defensa/H7.5-capa-dalponte.md": {
+    "mtime": 1781621172.8811202,
+    "ast_hash": "7b057d31686538b35ffe32dbc856b2dd",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E7-entrega-defensa/README.md": {
+    "mtime": 1781620865.185629,
+    "ast_hash": "06cc16309f0af593365367a2913ae8ec",
+    "semantic_hash": ""
+  },
+  "graphify-out/converted/TP - Juegos - Ciencia Participativa_52831f30.md": {
+    "mtime": 1782586006.6741958,
+    "ast_hash": "fabcaaa776532505d71581100e4b1fca",
+    "semantic_hash": ""
+  },
+  "Docs/TP - Juegos - Ciencia Participativa.pdf": {
+    "mtime": 1781618205.5094647,
+    "ast_hash": "f964781f7c88fb818c9e88e9baabf94d",
+    "semantic_hash": ""
+  },
+  "Docs/Re-Estructuracion-Dominio/modelo_dominio_ciencia_participativa.md": {
+    "mtime": 1782587916.0492,
+    "ast_hash": "f237afa8ede59f830ce47d770caf53f3",
+    "semantic_hash": ""
+  },
+  "Docs/backlog/E2-poblar-grafo/H2.4-muestras-geolocalizadas.md": {
+    "mtime": 1782587817.0985112,
+    "ast_hash": "b161489f1ac080fb3025318c487e0bee",
+    "semantic_hash": ""
+  },
+  "Docs/Re-Estructuracion-Dominio/TP - Ciencia Participativa - Modelo de Dominio - Ejemplo.png": {
+    "mtime": 1782587074.0574603,
+    "ast_hash": "6e514a5b19522a38884f4b195788525a",
+    "semantic_hash": ""
+  },
+  "Docs/Re-Estructuracion-Dominio/TP - Ciencia Participativa - Modelo de Dominio.png": {
+    "mtime": 1782587021.5737119,
+    "ast_hash": "8d7fe6e00c716ed7cd6a646e23356851",
+    "semantic_hash": ""
+  }
+}

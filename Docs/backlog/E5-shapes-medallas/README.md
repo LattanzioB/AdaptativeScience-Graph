@@ -5,8 +5,8 @@
 
 ## Decisión de modelado (16/06)
 Patrón elegido: **`sh:sparql` dentro de un `sh:NodeShape` por medalla**, con la convención **conformidad = ganador**.
-El `SELECT` de cada shape devuelve filas (violaciones) para los participantes que **no** cumplen el criterio; por lo
-tanto, un participante que **conforma** (sin violaciones) es ganador de esa medalla.
+El `SELECT` de cada shape devuelve filas (violaciones) para las personas que **no** cumplen el criterio; por lo
+tanto, una `cipa:Persona` que **conforma** (sin violaciones) es ganadora de esa medalla.
 
 ## Historias
 - [H5.1 — Patrón `sh:sparql` "conformidad = ganador"](H5.1-patron-sparql.md)
@@ -19,4 +19,4 @@ tanto, un participante que **conforma** (sin violaciones) es ganador de esa meda
 - **Habilita:** E6 (consultas de medallas, especialmente H6.5/H6.6).
 
 ## Definition of Done (DoD)
-`shapes/badges.ttl` determina correctamente y de forma reproducible quién gana cada medalla; un participante no elegible **no** conforma; los resultados coinciden con E4.
+`shapes/badges.ttl` determina correctamente y de forma reproducible quién gana cada medalla; una persona no elegible **no** conforma; los resultados coinciden con E4.

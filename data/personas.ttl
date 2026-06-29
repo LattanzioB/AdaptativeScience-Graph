@@ -1,0 +1,27 @@
+# Personas participantes (H2.3)
+# Identidad unica via cipa:personaId (owl:hasKey en la T-Box).
+@base <https://w3id.org/cipa/data/> .
+@prefix cipa: <https://w3id.org/cipa/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<persona/ana-perez>
+  a cipa:Persona ;
+  cipa:personaId "ana-perez" ;
+  foaf:name "Ana Perez" ;
+  cipa:nivelExpertise cipa:expertise-experto ;
+  rdfs:label "Ana Perez"@es .
+
+<persona/matias-cabrera>
+  a cipa:Persona ;
+  cipa:personaId "matias-cabrera" ;
+  foaf:name "Matias Cabrera" ;
+  cipa:nivelExpertise cipa:expertise-novato ;
+  rdfs:label "Matias Cabrera"@es .
+
+<persona/bruno-lattanzio>
+  a cipa:Persona ;
+  cipa:personaId "bruno-lattanzio" ;
+  foaf:name "Bruno Lattanzio" ;
+  cipa:nivelExpertise cipa:expertise-intermedio ;
+  rdfs:label "Bruno Lattanzio"@es .

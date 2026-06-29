@@ -1,0 +1,68 @@
+# Protocolo "Observacion de aves" (segundo proyecto, H2.2)
+# Protocolo minimo y lineal (sin bifurcacion):
+#   aves-foto --> aves-especie --> aves-cantidad (fin)
+@base <https://w3id.org/cipa/data/> .
+@prefix cipa: <https://w3id.org/cipa/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<protocolo/observacion-aves>
+  a cipa:Protocolo ;
+  cipa:tieneNombre "Protocolo de observacion de aves" ;
+  cipa:tieneDescripcion "Registra una observacion de aves con foto, especie y cantidad de individuos." ;
+  cipa:tieneEstado cipa:estado-activo ;
+  cipa:tienePrimerPaso <paso/aves-foto> ;
+  cipa:tienePaso
+    <paso/aves-foto>,
+    <paso/aves-especie>,
+    <paso/aves-cantidad> .
+
+# --- Paso 1 (inicial): foto del ave (multimedia) ---
+<paso/aves-foto>
+  a cipa:Paso, cipa:PasoMultimedia ;
+  rdfs:label "Foto del ave"@es ;
+  cipa:tieneEnunciado <enunciado/aves-foto> .
+
+<enunciado/aves-foto>
+  a cipa:EnunciadoMultimedia ;
+  cipa:tieneDescripcion "Toma una foto del ave observada." .
+
+# --- Paso 2: especie (texto libre) ---
+<paso/aves-especie>
+  a cipa:Paso, cipa:PasoCuestionario ;
+  rdfs:label "Especie del ave"@es ;
+  cipa:tieneEnunciado <enunciado/aves-especie> .
+
+<enunciado/aves-especie>
+  a cipa:EnunciadoCuestionario ;
+  cipa:tieneDescripcion "Especie del ave observada" ;
+  cipa:tieneTipoRespuesta cipa:respuesta-texto-libre .
+
+# --- Paso 3 (terminal): cantidad (selector unico) ---
+<paso/aves-cantidad>
+  a cipa:Paso, cipa:PasoCuestionario ;
+  rdfs:label "Cantidad observada"@es ;
+  cipa:tieneEnunciado <enunciado/aves-cantidad> .
+
+<enunciado/aves-cantidad>
+  a cipa:EnunciadoCuestionario ;
+  cipa:tieneDescripcion "Cantidad de individuos observados" ;
+  cipa:tieneTipoRespuesta cipa:respuesta-selector-unico ;
+  cipa:tieneOpcionRespuesta
+    <opcion/aves-cantidad-1>,
+    <opcion/aves-cantidad-2-5>,
+    <opcion/aves-cantidad-mas-5> .
+
+<opcion/aves-cantidad-1> a cipa:OpcionRespuestaCuestionario ; rdfs:label "1"@es .
+<opcion/aves-cantidad-2-5> a cipa:OpcionRespuestaCuestionario ; rdfs:label "2 a 5"@es .
+<opcion/aves-cantidad-mas-5> a cipa:OpcionRespuestaCuestionario ; rdfs:label "Mas de 5"@es .
+
+# --- Transiciones (lineales, incondicionales) ---
+<transicion/aves-foto-a-especie>
+  a cipa:Transicion ;
+  cipa:desdePaso <paso/aves-foto> ;
+  cipa:haciaPaso <paso/aves-especie> .
+
+<transicion/aves-especie-a-cantidad>
+  a cipa:Transicion ;
+  cipa:desdePaso <paso/aves-especie> ;
+  cipa:haciaPaso <paso/aves-cantidad> .

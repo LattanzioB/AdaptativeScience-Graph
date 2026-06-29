@@ -51,7 +51,6 @@ cipa:tieneOpcionRespuesta a owl:ObjectProperty ; rdfs:domain cipa:EnunciadoCuest
 cipa:desdePaso a owl:ObjectProperty ; rdfs:domain cipa:Transicion ; rdfs:range cipa:Paso ; rdfs:label "desde paso"@es .
 cipa:haciaPaso a owl:ObjectProperty ; rdfs:domain cipa:Transicion ; rdfs:range cipa:Paso ; rdfs:label "hacia paso"@es .
 cipa:disparadaPor a owl:ObjectProperty ; rdfs:domain cipa:Transicion ; rdfs:range cipa:OpcionRespuestaCuestionario ; rdfs:label "disparada por"@es .
-cipa:siguientePaso a owl:ObjectProperty, owl:TransitiveProperty ; rdfs:domain cipa:Paso ; rdfs:range cipa:Paso ; rdfs:label "siguiente paso"@es ; rdfs:comment "Atajo materializable desde Transicion para consultas con property paths."@es .
 cipa:ejecutaProtocolo a owl:ObjectProperty ; rdfs:domain cipa:Muestra ; rdfs:range cipa:Protocolo ; rdfs:label "ejecuta protocolo"@es .
 cipa:respondidaPor a owl:ObjectProperty ; rdfs:subPropertyOf prov:wasAttributedTo ; rdfs:domain cipa:Muestra ; rdfs:range cipa:Persona ; rdfs:label "respondida por"@es .
 cipa:registradaEn a owl:ObjectProperty ; rdfs:domain cipa:Muestra ; rdfs:range cipa:Ubicacion ; rdfs:label "registrada en"@es .

@@ -1,0 +1,251 @@
+# Muestras geolocalizadas (H2.4)
+# Cobertura:
+#  - Ambas ramas del protocolo de arboles (nativa: 001/002/004; no nativa: 003).
+#  - Multiplicidad simultanea: Ana aporta en arboles y en aves.
+#  - Historial longitudinal: Ana tiene muestras en marzo, abril y junio.
+#  - Provincias distintas (Buenos Aires, Cordoba, Mendoza, Santa Fe) via rdfs:label.
+#  - Tipos de valor: valorTexto, seleccionaOpcion y valorMultimedia.
+@base <https://w3id.org/cipa/data/> .
+@prefix cipa: <https://w3id.org/cipa/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# =====================================================================
+# Ubicaciones (provincia en rdfs:label; lat/long en decimales)
+# =====================================================================
+<ubicacion/arboles-001>
+  a cipa:Ubicacion ; rdfs:label "Buenos Aires"@es ;
+  cipa:latitud "-34.6037"^^xsd:decimal ; cipa:longitud "-58.3816"^^xsd:decimal .
+<ubicacion/arboles-002>
+  a cipa:Ubicacion ; rdfs:label "Cordoba"@es ;
+  cipa:latitud "-31.4201"^^xsd:decimal ; cipa:longitud "-64.1888"^^xsd:decimal .
+<ubicacion/arboles-003>
+  a cipa:Ubicacion ; rdfs:label "Mendoza"@es ;
+  cipa:latitud "-32.8895"^^xsd:decimal ; cipa:longitud "-68.8458"^^xsd:decimal .
+<ubicacion/arboles-004>
+  a cipa:Ubicacion ; rdfs:label "Buenos Aires"@es ;
+  cipa:latitud "-34.6158"^^xsd:decimal ; cipa:longitud "-58.4333"^^xsd:decimal .
+<ubicacion/aves-001>
+  a cipa:Ubicacion ; rdfs:label "Santa Fe"@es ;
+  cipa:latitud "-31.6333"^^xsd:decimal ; cipa:longitud "-60.7000"^^xsd:decimal .
+<ubicacion/aves-002>
+  a cipa:Ubicacion ; rdfs:label "Mendoza"@es ;
+  cipa:latitud "-32.9468"^^xsd:decimal ; cipa:longitud "-68.8500"^^xsd:decimal .
+
+# =====================================================================
+# Adjuntos multimedia (foto subida por el participante)
+# =====================================================================
+<adjunto/foto-ceibo-001>
+  a cipa:AdjuntoMultimedia ;
+  cipa:urlAdjunto "https://w3id.org/cipa/data/media/foto-ceibo-001.jpg"^^xsd:anyURI ;
+  cipa:tipoMime "image/jpeg" .
+<adjunto/foto-algarrobo-002>
+  a cipa:AdjuntoMultimedia ;
+  cipa:urlAdjunto "https://w3id.org/cipa/data/media/foto-algarrobo-002.jpg"^^xsd:anyURI ;
+  cipa:tipoMime "image/jpeg" .
+<adjunto/foto-jacaranda-004>
+  a cipa:AdjuntoMultimedia ;
+  cipa:urlAdjunto "https://w3id.org/cipa/data/media/foto-jacaranda-004.jpg"^^xsd:anyURI ;
+  cipa:tipoMime "image/jpeg" .
+<adjunto/foto-hornero-001>
+  a cipa:AdjuntoMultimedia ;
+  cipa:urlAdjunto "https://w3id.org/cipa/data/media/foto-hornero-001.jpg"^^xsd:anyURI ;
+  cipa:tipoMime "image/jpeg" .
+<adjunto/foto-chimango-002>
+  a cipa:AdjuntoMultimedia ;
+  cipa:urlAdjunto "https://w3id.org/cipa/data/media/foto-chimango-002.jpg"^^xsd:anyURI ;
+  cipa:tipoMime "image/jpeg" .
+
+# =====================================================================
+# Muestra arboles-001 - Ana / Buenos Aires / 2026-03-10 - rama NATIVA (Ceibo)
+# =====================================================================
+<muestra/arboles-001>
+  a cipa:Muestra ;
+  cipa:ejecutaProtocolo <protocolo/arboles-nativos> ;
+  cipa:respondidaPor <persona/ana-perez> ;
+  cipa:registradaEn <ubicacion/arboles-001> ;
+  cipa:fechaHora "2026-03-10T09:15:00-03:00"^^xsd:dateTime ;
+  cipa:tieneRespuesta
+    <respuesta/arboles-001-es-nativa>,
+    <respuesta/arboles-001-nombre>,
+    <respuesta/arboles-001-caracteristicas>,
+    <respuesta/arboles-001-foto> .
+
+<respuesta/arboles-001-es-nativa>
+  a cipa:MuestraRespuesta ;
+  cipa:correspondeAPaso <paso/es-nativa> ;
+  cipa:seleccionaOpcion <opcion/es-nativa-si> ;
+  cipa:fechaHoraRespuesta "2026-03-10T09:15:30-03:00"^^xsd:dateTime .
+<respuesta/arboles-001-nombre>
+  a cipa:MuestraRespuesta ;
+  cipa:correspondeAPaso <paso/nombre-especie> ;
+  cipa:valorTexto "Ceibo" ;
+  cipa:fechaHoraRespuesta "2026-03-10T09:16:00-03:00"^^xsd:dateTime .
+<respuesta/arboles-001-caracteristicas>
+  a cipa:MuestraRespuesta ;
+  cipa:correspondeAPaso <paso/caracteristicas> ;
+  cipa:seleccionaOpcion <opcion/flores>, <opcion/frutos> ;
+  cipa:fechaHoraRespuesta "2026-03-10T09:16:45-03:00"^^xsd:dateTime .
+<respuesta/arboles-001-foto>
+  a cipa:MuestraRespuesta ;
+  cipa:correspondeAPaso <paso/foto-arbol> ;
+  cipa:valorMultimedia <adjunto/foto-ceibo-001> ;
+  cipa:fechaHoraRespuesta "2026-03-10T09:17:20-03:00"^^xsd:dateTime .
+
+# =====================================================================
+# Muestra arboles-002 - Matias / Cordoba / 2026-04-15 - rama NATIVA (Algarrobo)
+# =====================================================================
+<muestra/arboles-002>
+  a cipa:Muestra ;
+  cipa:ejecutaProtocolo <protocolo/arboles-nativos> ;
+  cipa:respondidaPor <persona/matias-cabrera> ;
+  cipa:registradaEn <ubicacion/arboles-002> ;
+  cipa:fechaHora "2026-04-15T16:40:00-03:00"^^xsd:dateTime ;
+  cipa:tieneRespuesta
+    <respuesta/arboles-002-es-nativa>,
+    <respuesta/arboles-002-nombre>,
+    <respuesta/arboles-002-caracteristicas>,
+    <respuesta/arboles-002-foto> .
+
+<respuesta/arboles-002-es-nativa>
+  a cipa:MuestraRespuesta ;
+  cipa:correspondeAPaso <paso/es-nativa> ;
+  cipa:seleccionaOpcion <opcion/es-nativa-si> ;
+  cipa:fechaHoraRespuesta "2026-04-15T16:40:30-03:00"^^xsd:dateTime .
+<respuesta/arboles-002-nombre>
+  a cipa:MuestraRespuesta ;
+  cipa:correspondeAPaso <paso/nombre-especie> ;
+  cipa:valorTexto "Algarrobo" ;
+  cipa:fechaHoraRespuesta "2026-04-15T16:41:00-03:00"^^xsd:dateTime .
+<respuesta/arboles-002-caracteristicas>
+  a cipa:MuestraRespuesta ;
+  cipa:correspondeAPaso <paso/caracteristicas> ;
+  cipa:seleccionaOpcion <opcion/frutos>, <opcion/espinas> ;
+  cipa:fechaHoraRespuesta "2026-04-15T16:41:50-03:00"^^xsd:dateTime .
+<respuesta/arboles-002-foto>
+  a cipa:MuestraRespuesta ;
+  cipa:correspondeAPaso <paso/foto-arbol> ;
+  cipa:valorMultimedia <adjunto/foto-algarrobo-002> ;
+  cipa:fechaHoraRespuesta "2026-04-15T16:42:30-03:00"^^xsd:dateTime .
+
+# =====================================================================
+# Muestra arboles-003 - Bruno / Mendoza / 2026-05-20 - rama NO NATIVA (exotica)
+# =====================================================================
+<muestra/arboles-003>
+  a cipa:Muestra ;
+  cipa:ejecutaProtocolo <protocolo/arboles-nativos> ;
+  cipa:respondidaPor <persona/bruno-lattanzio> ;
+  cipa:registradaEn <ubicacion/arboles-003> ;
+  cipa:fechaHora "2026-05-20T11:05:00-03:00"^^xsd:dateTime ;
+  cipa:tieneRespuesta
+    <respuesta/arboles-003-es-nativa>,
+    <respuesta/arboles-003-confirmar-exotica> .
+
+<respuesta/arboles-003-es-nativa>
+  a cipa:MuestraRespuesta ;
+  cipa:correspondeAPaso <paso/es-nativa> ;
+  cipa:seleccionaOpcion <opcion/es-nativa-no> ;
+  cipa:fechaHoraRespuesta "2026-05-20T11:05:25-03:00"^^xsd:dateTime .
+<respuesta/arboles-003-confirmar-exotica>
+  a cipa:MuestraRespuesta ;
+  cipa:correspondeAPaso <paso/confirmar-exotica> ;
+  cipa:seleccionaOpcion <opcion/exotica-si> ;
+  cipa:fechaHoraRespuesta "2026-05-20T11:05:55-03:00"^^xsd:dateTime .
+
+# =====================================================================
+# Muestra arboles-004 - Ana / Buenos Aires / 2026-06-05 - rama NATIVA (Jacaranda)
+# (longitudinal: Ana ya aporto en marzo con arboles-001)
+# =====================================================================
+<muestra/arboles-004>
+  a cipa:Muestra ;
+  cipa:ejecutaProtocolo <protocolo/arboles-nativos> ;
+  cipa:respondidaPor <persona/ana-perez> ;
+  cipa:registradaEn <ubicacion/arboles-004> ;
+  cipa:fechaHora "2026-06-05T08:50:00-03:00"^^xsd:dateTime ;
+  cipa:tieneRespuesta
+    <respuesta/arboles-004-es-nativa>,
+    <respuesta/arboles-004-nombre>,
+    <respuesta/arboles-004-caracteristicas>,
+    <respuesta/arboles-004-foto> .
+
+<respuesta/arboles-004-es-nativa>
+  a cipa:MuestraRespuesta ;
+  cipa:correspondeAPaso <paso/es-nativa> ;
+  cipa:seleccionaOpcion <opcion/es-nativa-si> ;
+  cipa:fechaHoraRespuesta "2026-06-05T08:50:30-03:00"^^xsd:dateTime .
+<respuesta/arboles-004-nombre>
+  a cipa:MuestraRespuesta ;
+  cipa:correspondeAPaso <paso/nombre-especie> ;
+  cipa:valorTexto "Jacaranda" ;
+  cipa:fechaHoraRespuesta "2026-06-05T08:51:00-03:00"^^xsd:dateTime .
+<respuesta/arboles-004-caracteristicas>
+  a cipa:MuestraRespuesta ;
+  cipa:correspondeAPaso <paso/caracteristicas> ;
+  cipa:seleccionaOpcion <opcion/flores> ;
+  cipa:fechaHoraRespuesta "2026-06-05T08:51:40-03:00"^^xsd:dateTime .
+<respuesta/arboles-004-foto>
+  a cipa:MuestraRespuesta ;
+  cipa:correspondeAPaso <paso/foto-arbol> ;
+  cipa:valorMultimedia <adjunto/foto-jacaranda-004> ;
+  cipa:fechaHoraRespuesta "2026-06-05T08:52:10-03:00"^^xsd:dateTime .
+
+# =====================================================================
+# Muestra aves-001 - Ana / Santa Fe / 2026-04-02 - protocolo de AVES
+# (multiplicidad simultanea: Ana aporta tambien en el proyecto de aves)
+# =====================================================================
+<muestra/aves-001>
+  a cipa:Muestra ;
+  cipa:ejecutaProtocolo <protocolo/observacion-aves> ;
+  cipa:respondidaPor <persona/ana-perez> ;
+  cipa:registradaEn <ubicacion/aves-001> ;
+  cipa:fechaHora "2026-04-02T07:30:00-03:00"^^xsd:dateTime ;
+  cipa:tieneRespuesta
+    <respuesta/aves-001-foto>,
+    <respuesta/aves-001-especie>,
+    <respuesta/aves-001-cantidad> .
+
+<respuesta/aves-001-foto>
+  a cipa:MuestraRespuesta ;
+  cipa:correspondeAPaso <paso/aves-foto> ;
+  cipa:valorMultimedia <adjunto/foto-hornero-001> ;
+  cipa:fechaHoraRespuesta "2026-04-02T07:30:40-03:00"^^xsd:dateTime .
+<respuesta/aves-001-especie>
+  a cipa:MuestraRespuesta ;
+  cipa:correspondeAPaso <paso/aves-especie> ;
+  cipa:valorTexto "Hornero" ;
+  cipa:fechaHoraRespuesta "2026-04-02T07:31:10-03:00"^^xsd:dateTime .
+<respuesta/aves-001-cantidad>
+  a cipa:MuestraRespuesta ;
+  cipa:correspondeAPaso <paso/aves-cantidad> ;
+  cipa:seleccionaOpcion <opcion/aves-cantidad-2-5> ;
+  cipa:fechaHoraRespuesta "2026-04-02T07:31:45-03:00"^^xsd:dateTime .
+
+# =====================================================================
+# Muestra aves-002 - Bruno / Mendoza / 2026-05-22 - protocolo de AVES
+# =====================================================================
+<muestra/aves-002>
+  a cipa:Muestra ;
+  cipa:ejecutaProtocolo <protocolo/observacion-aves> ;
+  cipa:respondidaPor <persona/bruno-lattanzio> ;
+  cipa:registradaEn <ubicacion/aves-002> ;
+  cipa:fechaHora "2026-05-22T18:10:00-03:00"^^xsd:dateTime ;
+  cipa:tieneRespuesta
+    <respuesta/aves-002-foto>,
+    <respuesta/aves-002-especie>,
+    <respuesta/aves-002-cantidad> .
+
+<respuesta/aves-002-foto>
+  a cipa:MuestraRespuesta ;
+  cipa:correspondeAPaso <paso/aves-foto> ;
+  cipa:valorMultimedia <adjunto/foto-chimango-002> ;
+  cipa:fechaHoraRespuesta "2026-05-22T18:10:35-03:00"^^xsd:dateTime .
+<respuesta/aves-002-especie>
+  a cipa:MuestraRespuesta ;
+  cipa:correspondeAPaso <paso/aves-especie> ;
+  cipa:valorTexto "Chimango" ;
+  cipa:fechaHoraRespuesta "2026-05-22T18:11:05-03:00"^^xsd:dateTime .
+<respuesta/aves-002-cantidad>
+  a cipa:MuestraRespuesta ;
+  cipa:correspondeAPaso <paso/aves-cantidad> ;
+  cipa:seleccionaOpcion <opcion/aves-cantidad-1> ;
+  cipa:fechaHoraRespuesta "2026-05-22T18:11:40-03:00"^^xsd:dateTime .

@@ -30,8 +30,7 @@ cipa:area-botanica
 
 <https://w3id.org/cipa/data/paso/registrar-foto>
   a cipa:Paso, cipa:PasoMultimedia ;
-  cipa:tieneEnunciado <https://w3id.org/cipa/data/enunciado/registrar-foto> ;
-  cipa:siguientePaso <https://w3id.org/cipa/data/paso/identificar-especie> .
+  cipa:tieneEnunciado <https://w3id.org/cipa/data/enunciado/registrar-foto> .
 
 <https://w3id.org/cipa/data/enunciado/registrar-foto>
   a cipa:EnunciadoMultimedia ;
@@ -39,8 +38,7 @@ cipa:area-botanica
 
 <https://w3id.org/cipa/data/paso/identificar-especie>
   a cipa:Paso, cipa:PasoCuestionario ;
-  cipa:tieneEnunciado <https://w3id.org/cipa/data/enunciado/identificar-especie> ;
-  cipa:siguientePaso <https://w3id.org/cipa/data/paso/observaciones> .
+  cipa:tieneEnunciado <https://w3id.org/cipa/data/enunciado/identificar-especie> .
 
 <https://w3id.org/cipa/data/enunciado/identificar-especie>
   a cipa:EnunciadoCuestionario ;

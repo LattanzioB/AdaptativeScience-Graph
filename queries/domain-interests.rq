@@ -1,0 +1,14 @@
+PREFIX cipa: <https://w3id.org/cipa/ontology#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?persona ?area ?areaLabel (COUNT(?muestra) AS ?aportes)
+WHERE {
+  ?muestra a cipa:Muestra ;
+    cipa:respondidaPor ?persona ;
+    cipa:ejecutaProtocolo ?protocolo .
+  ?proyecto cipa:tieneProtocoloActivo ?protocolo ;
+    cipa:perteneceA ?area .
+  OPTIONAL { ?area skos:prefLabel ?areaLabel . }
+}
+GROUP BY ?persona ?area ?areaLabel
+ORDER BY DESC(?aportes)

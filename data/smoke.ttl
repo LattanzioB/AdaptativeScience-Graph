@@ -1,8 +1,119 @@
 @prefix cipa: <https://w3id.org/cipa/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 cipa:ProyectoPiloto rdfs:subClassOf cipa:Proyecto .
 
+cipa:area-botanica
+  a cipa:AreaConocimiento .
+
 <https://w3id.org/cipa/data/proyecto/arboles-nativos>
   a cipa:ProyectoPiloto ;
+  cipa:tieneNombre "Arboles nativos" ;
+  cipa:tieneDescripcion "Proyecto piloto para relevar arboles nativos en espacios publicos." ;
+  cipa:perteneceA cipa:area-botanica ;
+  cipa:tieneProtocoloActivo <https://w3id.org/cipa/data/protocolo/relevamiento-arboles> ;
+  cipa:tieneProtocolo <https://w3id.org/cipa/data/protocolo/relevamiento-arboles> ;
   rdfs:label "Arboles nativos"@es .
+
+<https://w3id.org/cipa/data/protocolo/relevamiento-arboles>
+  a cipa:Protocolo ;
+  cipa:tieneNombre "Relevamiento de arboles" ;
+  cipa:tieneDescripcion "Flujo minimo para registrar foto, especie y observaciones." ;
+  cipa:tieneEstado cipa:estado-activo ;
+  cipa:tienePrimerPaso <https://w3id.org/cipa/data/paso/registrar-foto> ;
+  cipa:tienePaso
+    <https://w3id.org/cipa/data/paso/registrar-foto>,
+    <https://w3id.org/cipa/data/paso/identificar-especie>,
+    <https://w3id.org/cipa/data/paso/observaciones> .
+
+<https://w3id.org/cipa/data/paso/registrar-foto>
+  a cipa:Paso, cipa:PasoMultimedia ;
+  cipa:tieneEnunciado <https://w3id.org/cipa/data/enunciado/registrar-foto> ;
+  cipa:siguientePaso <https://w3id.org/cipa/data/paso/identificar-especie> .
+
+<https://w3id.org/cipa/data/enunciado/registrar-foto>
+  a cipa:EnunciadoMultimedia ;
+  cipa:tieneDescripcion "Subi una foto clara del arbol relevado." .
+
+<https://w3id.org/cipa/data/paso/identificar-especie>
+  a cipa:Paso, cipa:PasoCuestionario ;
+  cipa:tieneEnunciado <https://w3id.org/cipa/data/enunciado/identificar-especie> ;
+  cipa:siguientePaso <https://w3id.org/cipa/data/paso/observaciones> .
+
+<https://w3id.org/cipa/data/enunciado/identificar-especie>
+  a cipa:EnunciadoCuestionario ;
+  cipa:tieneDescripcion "Selecciona la especie observada." ;
+  cipa:tieneTipoRespuesta cipa:respuesta-selector-unico ;
+  cipa:tieneOpcionRespuesta <https://w3id.org/cipa/data/opcion/ceibo> .
+
+<https://w3id.org/cipa/data/opcion/ceibo>
+  a cipa:OpcionRespuestaCuestionario ;
+  rdfs:label "Ceibo"@es .
+
+<https://w3id.org/cipa/data/paso/observaciones>
+  a cipa:Paso, cipa:PasoCuestionario ;
+  cipa:tieneEnunciado <https://w3id.org/cipa/data/enunciado/observaciones> .
+
+<https://w3id.org/cipa/data/enunciado/observaciones>
+  a cipa:EnunciadoCuestionario ;
+  cipa:tieneDescripcion "Agrega observaciones adicionales." ;
+  cipa:tieneTipoRespuesta cipa:respuesta-texto-libre .
+
+<https://w3id.org/cipa/data/transicion/foto-a-especie>
+  a cipa:Transicion ;
+  cipa:desdePaso <https://w3id.org/cipa/data/paso/registrar-foto> ;
+  cipa:haciaPaso <https://w3id.org/cipa/data/paso/identificar-especie> .
+
+<https://w3id.org/cipa/data/transicion/especie-a-observaciones>
+  a cipa:Transicion ;
+  cipa:desdePaso <https://w3id.org/cipa/data/paso/identificar-especie> ;
+  cipa:haciaPaso <https://w3id.org/cipa/data/paso/observaciones> ;
+  cipa:disparadaPor <https://w3id.org/cipa/data/opcion/ceibo> .
+
+<https://w3id.org/cipa/data/persona/ada>
+  a cipa:Persona ;
+  cipa:personaId "ada" ;
+  cipa:nivelExpertise cipa:expertise-intermedio ;
+  foaf:name "Ada Lovelace" .
+
+<https://w3id.org/cipa/data/ubicacion/plaza-san-martin>
+  a cipa:Ubicacion ;
+  cipa:latitud "-34.5944"^^xsd:decimal ;
+  cipa:longitud "-58.3745"^^xsd:decimal ;
+  rdfs:label "Plaza San Martin"@es .
+
+<https://w3id.org/cipa/data/adjunto/foto-ceibo-001>
+  a cipa:AdjuntoMultimedia ;
+  cipa:urlAdjunto "https://w3id.org/cipa/data/media/foto-ceibo-001.jpg"^^xsd:anyURI ;
+  cipa:tipoMime "image/jpeg" .
+
+<https://w3id.org/cipa/data/muestra/ceibo-001>
+  a cipa:Muestra ;
+  cipa:ejecutaProtocolo <https://w3id.org/cipa/data/protocolo/relevamiento-arboles> ;
+  cipa:respondidaPor <https://w3id.org/cipa/data/persona/ada> ;
+  cipa:registradaEn <https://w3id.org/cipa/data/ubicacion/plaza-san-martin> ;
+  cipa:fechaHora "2026-06-27T10:30:00-03:00"^^xsd:dateTime ;
+  cipa:tieneRespuesta
+    <https://w3id.org/cipa/data/respuesta/ceibo-001-foto>,
+    <https://w3id.org/cipa/data/respuesta/ceibo-001-especie>,
+    <https://w3id.org/cipa/data/respuesta/ceibo-001-observaciones> .
+
+<https://w3id.org/cipa/data/respuesta/ceibo-001-foto>
+  a cipa:MuestraRespuesta ;
+  cipa:correspondeAPaso <https://w3id.org/cipa/data/paso/registrar-foto> ;
+  cipa:fechaHoraRespuesta "2026-06-27T10:31:00-03:00"^^xsd:dateTime ;
+  cipa:valorMultimedia <https://w3id.org/cipa/data/adjunto/foto-ceibo-001> .
+
+<https://w3id.org/cipa/data/respuesta/ceibo-001-especie>
+  a cipa:MuestraRespuesta ;
+  cipa:correspondeAPaso <https://w3id.org/cipa/data/paso/identificar-especie> ;
+  cipa:fechaHoraRespuesta "2026-06-27T10:32:00-03:00"^^xsd:dateTime ;
+  cipa:seleccionaOpcion <https://w3id.org/cipa/data/opcion/ceibo> .
+
+<https://w3id.org/cipa/data/respuesta/ceibo-001-observaciones>
+  a cipa:MuestraRespuesta ;
+  cipa:correspondeAPaso <https://w3id.org/cipa/data/paso/observaciones> ;
+  cipa:fechaHoraRespuesta "2026-06-27T10:33:00-03:00"^^xsd:dateTime ;
+  cipa:valorTexto "Ejemplar con floracion visible." .

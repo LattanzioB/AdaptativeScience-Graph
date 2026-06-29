@@ -1,5 +1,12 @@
 PREFIX cipa: <https://w3id.org/cipa/ontology#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
 
 ASK {
-  <https://w3id.org/cipa/data/proyecto/arboles-nativos> a cipa:Proyecto .
+  {
+    <https://w3id.org/cipa/data/proyecto/arboles-nativos> a cipa:Proyecto .
+  }
+  UNION
+  {
+    <https://w3id.org/cipa/data/muestra/ceibo-001> prov:wasAttributedTo <https://w3id.org/cipa/data/persona/ada> .
+  }
 }

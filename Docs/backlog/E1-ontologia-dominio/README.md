@@ -20,3 +20,15 @@
 
 ## Definition of Done (DoD)
 `ontology/cipa-domain.ttl` consistente con la reestructuración de dominio (Proyecto, AreaConocimiento, Protocolo, Paso, Transicion, Muestra, MuestraRespuesta, Persona, Ubicacion y AdjuntoMultimedia), documentado y cargable en GraphDB.
+
+## Estado de implementación
+
+- H1.1 completada en `ontology/cipa-domain.ttl`: `Proyecto`, `AreaConocimiento`, `perteneceA`, `clasificaProyecto`, `tieneProtocolo` y `tieneProtocoloActivo`.
+- H1.2 completada: `Protocolo`, `EstadoProtocolo`, `tienePaso`, `tienePrimerPaso` y estados activo/inactivo.
+- H1.3 completada: jerarquia de pasos, enunciados, tipos de respuesta y opciones de cuestionario.
+- H1.4 completada: `Transicion` reificada, `desdePaso`, `haciaPaso`, `disparadaPor` y atajo `siguientePaso`.
+- H1.5 completada: `Muestra`, `MuestraRespuesta`, `Ubicacion`, `AdjuntoMultimedia` y reglas SHACL de compatibilidad.
+- H1.6 completada: `Persona`, `personaId`, clave OWL y participacion derivable.
+- H1.7 completada: alineaciones livianas con SOSA, PROV-O, SKOS, FOAF y GeoSPARQL en la ontologia y en `Docs/decisiones-modelado.md`.
+- H1.8 completada localmente con validacion RDF/SHACL; el razonador Protege y la carga GraphDB quedan como chequeo manual de entorno.
+- H1.9 completada: `nivelExpertise`, escala de expertise y `areaInteres` derivable.

@@ -1,0 +1,95 @@
+@prefix cipa: <https://w3id.org/cipa/ontology#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cipa:DomainOntology
+  a owl:Ontology ;
+  dcterms:title "Ontologia de dominio CIPA"@es ;
+  dcterms:description "T-Box para proyectos de ciencia participativa: proyectos, protocolos, pasos, muestras, respuestas, personas, ubicaciones y perfil colaborador."@es ;
+  owl:versionInfo "E1 ontology domain baseline"@es .
+
+cipa:Proyecto a owl:Class ; rdfs:label "Proyecto"@es .
+cipa:AreaConocimiento a owl:Class ; rdfs:subClassOf skos:Concept ; rdfs:label "Area de conocimiento"@es .
+cipa:EsquemaAreasConocimiento a owl:Class ; rdfs:subClassOf skos:ConceptScheme ; rdfs:label "Esquema de areas de conocimiento"@es .
+cipa:Protocolo a owl:Class ; rdfs:subClassOf sosa:Procedure ; rdfs:label "Protocolo"@es .
+cipa:EstadoProtocolo a owl:Class ; rdfs:subClassOf skos:Concept ; rdfs:label "Estado de protocolo"@es .
+cipa:Paso a owl:Class ; rdfs:label "Paso"@es .
+cipa:PasoMultimedia a owl:Class ; rdfs:subClassOf cipa:Paso ; rdfs:label "Paso multimedia"@es .
+cipa:PasoCuestionario a owl:Class ; rdfs:subClassOf cipa:Paso ; rdfs:label "Paso cuestionario"@es .
+cipa:Enunciado a owl:Class ; rdfs:label "Enunciado"@es .
+cipa:EnunciadoMultimedia a owl:Class ; rdfs:subClassOf cipa:Enunciado ; rdfs:label "Enunciado multimedia"@es .
+cipa:EnunciadoCuestionario a owl:Class ; rdfs:subClassOf cipa:Enunciado ; rdfs:label "Enunciado cuestionario"@es .
+cipa:TipoRespuesta a owl:Class ; rdfs:subClassOf skos:Concept ; rdfs:label "Tipo de respuesta"@es .
+cipa:OpcionRespuestaCuestionario a owl:Class ; rdfs:label "Opcion de respuesta de cuestionario"@es .
+cipa:Transicion a owl:Class ; rdfs:label "Transicion"@es .
+cipa:Muestra a owl:Class ; rdfs:subClassOf sosa:ObservationCollection ; rdfs:label "Muestra"@es .
+cipa:MuestraRespuesta a owl:Class ; rdfs:subClassOf sosa:Observation ; rdfs:label "Muestra respuesta"@es .
+cipa:Persona a owl:Class ; rdfs:subClassOf foaf:Person, prov:Agent ; rdfs:label "Persona"@es .
+cipa:Ubicacion a owl:Class ; rdfs:subClassOf geo:Feature ; rdfs:label "Ubicacion"@es .
+cipa:AdjuntoMultimedia a owl:Class ; rdfs:label "Adjunto multimedia"@es .
+cipa:TipoExpertise a owl:Class ; rdfs:subClassOf skos:Concept ; rdfs:label "Tipo de expertise"@es .
+
+cipa:tieneNombre a owl:DatatypeProperty ; rdfs:range xsd:string ; rdfs:label "tiene nombre"@es .
+cipa:tieneDescripcion a owl:DatatypeProperty ; rdfs:range xsd:string ; rdfs:label "tiene descripcion"@es .
+cipa:perteneceA a owl:ObjectProperty ; rdfs:domain cipa:Proyecto ; rdfs:range cipa:AreaConocimiento ; rdfs:label "pertenece a"@es .
+cipa:clasificaProyecto a owl:ObjectProperty ; owl:inverseOf cipa:perteneceA ; rdfs:domain cipa:AreaConocimiento ; rdfs:range cipa:Proyecto ; rdfs:label "clasifica proyecto"@es .
+cipa:tieneProtocolo a owl:ObjectProperty ; rdfs:domain cipa:Proyecto ; rdfs:range cipa:Protocolo ; rdfs:label "tiene protocolo"@es .
+cipa:tieneProtocoloActivo a owl:ObjectProperty, owl:FunctionalProperty ; rdfs:subPropertyOf cipa:tieneProtocolo ; rdfs:domain cipa:Proyecto ; rdfs:range cipa:Protocolo ; rdfs:label "tiene protocolo activo"@es .
+cipa:tieneEstado a owl:ObjectProperty ; rdfs:domain cipa:Protocolo ; rdfs:range cipa:EstadoProtocolo ; rdfs:label "tiene estado"@es .
+cipa:tienePaso a owl:ObjectProperty ; rdfs:domain cipa:Protocolo ; rdfs:range cipa:Paso ; rdfs:label "tiene paso"@es .
+cipa:tienePrimerPaso a owl:ObjectProperty ; rdfs:subPropertyOf cipa:tienePaso ; rdfs:domain cipa:Protocolo ; rdfs:range cipa:Paso ; rdfs:label "tiene primer paso"@es .
+cipa:tieneEnunciado a owl:ObjectProperty ; rdfs:domain cipa:Paso ; rdfs:range cipa:Enunciado ; rdfs:label "tiene enunciado"@es .
+cipa:tieneTipoRespuesta a owl:ObjectProperty ; rdfs:domain cipa:EnunciadoCuestionario ; rdfs:range cipa:TipoRespuesta ; rdfs:label "tiene tipo de respuesta"@es .
+cipa:tieneOpcionRespuesta a owl:ObjectProperty ; rdfs:domain cipa:EnunciadoCuestionario ; rdfs:range cipa:OpcionRespuestaCuestionario ; rdfs:label "tiene opcion de respuesta"@es .
+cipa:desdePaso a owl:ObjectProperty ; rdfs:domain cipa:Transicion ; rdfs:range cipa:Paso ; rdfs:label "desde paso"@es .
+cipa:haciaPaso a owl:ObjectProperty ; rdfs:domain cipa:Transicion ; rdfs:range cipa:Paso ; rdfs:label "hacia paso"@es .
+cipa:disparadaPor a owl:ObjectProperty ; rdfs:domain cipa:Transicion ; rdfs:range cipa:OpcionRespuestaCuestionario ; rdfs:label "disparada por"@es .
+cipa:siguientePaso a owl:ObjectProperty, owl:TransitiveProperty ; rdfs:domain cipa:Paso ; rdfs:range cipa:Paso ; rdfs:label "siguiente paso"@es ; rdfs:comment "Atajo materializable desde Transicion para consultas con property paths."@es .
+cipa:ejecutaProtocolo a owl:ObjectProperty ; rdfs:domain cipa:Muestra ; rdfs:range cipa:Protocolo ; rdfs:label "ejecuta protocolo"@es .
+cipa:respondidaPor a owl:ObjectProperty ; rdfs:subPropertyOf prov:wasAttributedTo ; rdfs:domain cipa:Muestra ; rdfs:range cipa:Persona ; rdfs:label "respondida por"@es .
+cipa:registradaEn a owl:ObjectProperty ; rdfs:domain cipa:Muestra ; rdfs:range cipa:Ubicacion ; rdfs:label "registrada en"@es .
+cipa:tieneRespuesta a owl:ObjectProperty ; rdfs:domain cipa:Muestra ; rdfs:range cipa:MuestraRespuesta ; rdfs:label "tiene respuesta"@es .
+cipa:correspondeAPaso a owl:ObjectProperty ; rdfs:domain cipa:MuestraRespuesta ; rdfs:range cipa:Paso ; rdfs:label "corresponde a paso"@es .
+cipa:seleccionaOpcion a owl:ObjectProperty ; rdfs:domain cipa:MuestraRespuesta ; rdfs:range cipa:OpcionRespuestaCuestionario ; rdfs:label "selecciona opcion"@es .
+cipa:valorMultimedia a owl:ObjectProperty ; rdfs:domain cipa:MuestraRespuesta ; rdfs:range cipa:AdjuntoMultimedia ; rdfs:label "valor multimedia"@es .
+cipa:areaInteres a owl:ObjectProperty ; rdfs:domain cipa:Persona ; rdfs:range cipa:AreaConocimiento ; rdfs:label "area de interes"@es ; rdfs:comment "Propiedad derivable desde las muestras de la persona."@es .
+cipa:nivelExpertise a owl:ObjectProperty ; rdfs:domain cipa:Persona ; rdfs:range cipa:TipoExpertise ; rdfs:label "nivel de expertise"@es .
+cipa:fechaHora a owl:DatatypeProperty ; rdfs:domain cipa:Muestra ; rdfs:range xsd:dateTime ; rdfs:label "fecha hora"@es .
+cipa:fechaHoraRespuesta a owl:DatatypeProperty ; rdfs:domain cipa:MuestraRespuesta ; rdfs:range xsd:dateTime ; rdfs:label "fecha hora respuesta"@es .
+cipa:valorTexto a owl:DatatypeProperty ; rdfs:domain cipa:MuestraRespuesta ; rdfs:range xsd:string ; rdfs:label "valor texto"@es .
+cipa:latitud a owl:DatatypeProperty ; rdfs:domain cipa:Ubicacion ; rdfs:range xsd:decimal ; rdfs:label "latitud"@es .
+cipa:longitud a owl:DatatypeProperty ; rdfs:domain cipa:Ubicacion ; rdfs:range xsd:decimal ; rdfs:label "longitud"@es .
+cipa:personaId a owl:DatatypeProperty, owl:FunctionalProperty ; rdfs:domain cipa:Persona ; rdfs:range xsd:string ; rdfs:label "identificador de persona"@es .
+cipa:urlAdjunto a owl:DatatypeProperty ; rdfs:domain cipa:AdjuntoMultimedia ; rdfs:range xsd:anyURI ; rdfs:label "URL de adjunto"@es .
+cipa:tipoMime a owl:DatatypeProperty ; rdfs:domain cipa:AdjuntoMultimedia ; rdfs:range xsd:string ; rdfs:label "tipo MIME"@es .
+
+cipa:areasConocimiento a cipa:EsquemaAreasConocimiento ; skos:prefLabel "Areas de conocimiento CIPA"@es .
+cipa:area-biologia a cipa:AreaConocimiento ; skos:inScheme cipa:areasConocimiento ; skos:prefLabel "Biologia"@es .
+cipa:area-ambiente a cipa:AreaConocimiento ; skos:inScheme cipa:areasConocimiento ; skos:prefLabel "Ambiente"@es .
+cipa:area-botanica a cipa:AreaConocimiento ; skos:inScheme cipa:areasConocimiento ; skos:prefLabel "Botanica"@es .
+cipa:area-zoologia a cipa:AreaConocimiento ; skos:inScheme cipa:areasConocimiento ; skos:prefLabel "Zoologia"@es .
+cipa:estado-activo a cipa:EstadoProtocolo ; skos:prefLabel "Activo"@es .
+cipa:estado-inactivo a cipa:EstadoProtocolo ; skos:prefLabel "Inactivo"@es .
+cipa:respuesta-texto-libre a cipa:TipoRespuesta ; skos:prefLabel "Texto libre"@es .
+cipa:respuesta-selector-unico a cipa:TipoRespuesta ; skos:prefLabel "Selector unico"@es .
+cipa:respuesta-selector-multiple a cipa:TipoRespuesta ; skos:prefLabel "Selector multiple"@es .
+cipa:expertise-novato a cipa:TipoExpertise ; skos:prefLabel "Novato"@es .
+cipa:expertise-intermedio a cipa:TipoExpertise ; skos:prefLabel "Intermedio"@es .
+cipa:expertise-experto a cipa:TipoExpertise ; skos:prefLabel "Experto"@es .
+
+cipa:Proyecto
+  rdfs:subClassOf [
+    a owl:Restriction ;
+    owl:onProperty cipa:tieneProtocoloActivo ;
+    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+    owl:onClass cipa:Protocolo
+  ] .
+
+cipa:Persona owl:hasKey ( cipa:personaId ) .

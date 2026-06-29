@@ -2144,6 +2144,16 @@
       "norm_label": "definition of done (dod)"
     },
     {
+      "label": "Estado de implementaci\u00f3n",
+      "file_type": "document",
+      "source_file": "Docs/backlog/E1-ontologia-dominio/README.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "e1_ontologia_dominio_readme_estado_de_implementaci\u00f3n",
+      "community": 56,
+      "norm_label": "estado de implementacion"
+    },
+    {
       "label": "H2.1-protocolo-diagrama.md",
       "file_type": "document",
       "source_file": "Docs/backlog/E2-poblar-grafo/H2.1-protocolo-diagrama.md",
@@ -2160,7 +2170,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e2_poblar_grafo_h2_1_protocolo_diagrama_h2_1_protocolo_del_diagrama",
-      "community": 14,
+      "community": 8,
       "norm_label": "h2.1 \u2014 protocolo del diagrama"
     },
     {
@@ -2170,7 +2180,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "e2_poblar_grafo_h2_1_protocolo_diagrama_historia_de_usuario",
-      "community": 14,
+      "community": 8,
       "norm_label": "historia de usuario"
     },
     {
@@ -2180,7 +2190,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "e2_poblar_grafo_h2_1_protocolo_diagrama_contexto_del_diagrama",
-      "community": 14,
+      "community": 8,
       "norm_label": "contexto (del diagrama)"
     },
     {
@@ -2190,7 +2200,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "e2_poblar_grafo_h2_1_protocolo_diagrama_criterios_de_aceptaci\u00f3n",
-      "community": 14,
+      "community": 8,
       "norm_label": "criterios de aceptacion"
     },
     {
@@ -2200,7 +2210,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "e2_poblar_grafo_h2_1_protocolo_diagrama_tareas",
-      "community": 14,
+      "community": 8,
       "norm_label": "tareas"
     },
     {
@@ -2210,7 +2220,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "e2_poblar_grafo_h2_1_protocolo_diagrama_notas_de_modelado",
-      "community": 14,
+      "community": 8,
       "norm_label": "notas de modelado"
     },
     {
@@ -2220,7 +2230,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "e2_poblar_grafo_h2_1_protocolo_diagrama_artefactos",
-      "community": 14,
+      "community": 8,
       "norm_label": "artefactos"
     },
     {
@@ -2450,7 +2460,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e2_poblar_grafo_readme_e2_poblar_el_grafo_de_dominio_req_2_must",
-      "community": 25,
+      "community": 17,
       "norm_label": "e2 \u2014 poblar el grafo de dominio (req. 2) `[must]`"
     },
     {
@@ -2460,7 +2470,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "e2_poblar_grafo_readme_historias",
-      "community": 25,
+      "community": 17,
       "norm_label": "historias"
     },
     {
@@ -2470,7 +2480,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "e2_poblar_grafo_readme_dependencias",
-      "community": 25,
+      "community": 17,
       "norm_label": "dependencias"
     },
     {
@@ -2480,7 +2490,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "e2_poblar_grafo_readme_definition_of_done_dod",
-      "community": 25,
+      "community": 17,
       "norm_label": "definition of done (dod)"
     },
     {
@@ -2490,7 +2500,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_1_ontologia_pbl",
-      "community": 15,
+      "community": 0,
       "norm_label": "h3.1-ontologia-pbl.md"
     },
     {
@@ -2650,7 +2660,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_3_juego_sencillo",
-      "community": 15,
+      "community": 19,
       "norm_label": "h3.3-juego-sencillo.md"
     },
     {
@@ -2660,7 +2670,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_3_juego_sencillo_h3_3_definici\u00f3n_del_juego_sencillo",
-      "community": 15,
+      "community": 19,
       "norm_label": "h3.3 \u2014 definicion del juego sencillo"
     },
     {
@@ -2670,7 +2680,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_3_juego_sencillo_historia_de_usuario",
-      "community": 15,
+      "community": 19,
       "norm_label": "historia de usuario"
     },
     {
@@ -2680,7 +2690,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_3_juego_sencillo_contexto_del_pdf",
-      "community": 15,
+      "community": 19,
       "norm_label": "contexto (del pdf)"
     },
     {
@@ -2690,7 +2700,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_3_juego_sencillo_criterios_de_aceptaci\u00f3n",
-      "community": 15,
+      "community": 19,
       "norm_label": "criterios de aceptacion"
     },
     {
@@ -2700,7 +2710,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_3_juego_sencillo_tareas",
-      "community": 15,
+      "community": 19,
       "norm_label": "tareas"
     },
     {
@@ -2710,7 +2720,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_3_juego_sencillo_artefactos",
-      "community": 15,
+      "community": 19,
       "norm_label": "artefactos"
     },
     {
@@ -2720,7 +2730,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_4_open_badges",
-      "community": 15,
+      "community": 0,
       "norm_label": "h3.4-open-badges.md"
     },
     {
@@ -2730,7 +2740,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_4_open_badges_h3_4_alineaci\u00f3n_open_badges",
-      "community": 15,
+      "community": 57,
       "norm_label": "h3.4 \u2014 alineacion open badges"
     },
     {
@@ -2740,7 +2750,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_4_open_badges_historia_de_usuario",
-      "community": 15,
+      "community": 57,
       "norm_label": "historia de usuario"
     },
     {
@@ -2750,7 +2760,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_4_open_badges_criterios_de_aceptaci\u00f3n",
-      "community": 15,
+      "community": 57,
       "norm_label": "criterios de aceptacion"
     },
     {
@@ -2760,7 +2770,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_4_open_badges_tareas",
-      "community": 15,
+      "community": 57,
       "norm_label": "tareas"
     },
     {
@@ -2770,7 +2780,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_4_open_badges_notas",
-      "community": 15,
+      "community": 57,
       "norm_label": "notas"
     },
     {
@@ -2780,7 +2790,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_4_open_badges_artefactos",
-      "community": 15,
+      "community": 57,
       "norm_label": "artefactos"
     },
     {
@@ -2790,7 +2800,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_readme",
-      "community": 15,
+      "community": 0,
       "norm_label": "readme.md"
     },
     {
@@ -2800,7 +2810,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_readme_e3_ontolog\u00eda_pbl_juego_sencillo_req_3_must",
-      "community": 15,
+      "community": 58,
       "norm_label": "e3 \u2014 ontologia pbl + juego sencillo (req. 3) `[must]`"
     },
     {
@@ -2810,7 +2820,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_readme_historias",
-      "community": 15,
+      "community": 58,
       "norm_label": "historias"
     },
     {
@@ -2820,7 +2830,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_readme_dependencias",
-      "community": 15,
+      "community": 58,
       "norm_label": "dependencias"
     },
     {
@@ -2830,7 +2840,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_readme_definition_of_done_dod",
-      "community": 15,
+      "community": 58,
       "norm_label": "definition of done (dod)"
     },
     {
@@ -3530,7 +3540,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_h6_2_consultas_multihop_h6_2_6_a_i_dos_consultas_multi_hop_de_dominio",
-      "community": 19,
+      "community": 11,
       "norm_label": "h6.2 \u2014 (6.a.i) dos consultas multi-hop de dominio"
     },
     {
@@ -3540,7 +3550,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_h6_2_consultas_multihop_historia_de_usuario",
-      "community": 19,
+      "community": 11,
       "norm_label": "historia de usuario"
     },
     {
@@ -3550,7 +3560,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_h6_2_consultas_multihop_contexto_de_la_consigna",
-      "community": 19,
+      "community": 11,
       "norm_label": "contexto (de la consigna)"
     },
     {
@@ -3560,7 +3570,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_h6_2_consultas_multihop_criterios_de_aceptaci\u00f3n",
-      "community": 19,
+      "community": 11,
       "norm_label": "criterios de aceptacion"
     },
     {
@@ -3570,7 +3580,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_h6_2_consultas_multihop_tareas",
-      "community": 19,
+      "community": 11,
       "norm_label": "tareas"
     },
     {
@@ -3580,7 +3590,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_h6_2_consultas_multihop_notas",
-      "community": 19,
+      "community": 11,
       "norm_label": "notas"
     },
     {
@@ -3590,7 +3600,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_h6_2_consultas_multihop_artefactos",
-      "community": 19,
+      "community": 11,
       "norm_label": "artefactos"
     },
     {
@@ -4324,6 +4334,86 @@
       "norm_label": "definition of done (dod)"
     },
     {
+      "label": "decisiones-modelado.md",
+      "file_type": "document",
+      "source_file": "Docs/decisiones-modelado.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_decisiones_modelado",
+      "community": 14,
+      "norm_label": "decisiones-modelado.md"
+    },
+    {
+      "label": "Decisiones de modelado",
+      "file_type": "document",
+      "source_file": "Docs/decisiones-modelado.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_decisiones_modelado_decisiones_de_modelado",
+      "community": 14,
+      "norm_label": "decisiones de modelado"
+    },
+    {
+      "label": "Ontologia de dominio",
+      "file_type": "document",
+      "source_file": "Docs/decisiones-modelado.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_decisiones_modelado_ontologia_de_dominio",
+      "community": 14,
+      "norm_label": "ontologia de dominio"
+    },
+    {
+      "label": "Pasos, transiciones y bifurcaciones",
+      "file_type": "document",
+      "source_file": "Docs/decisiones-modelado.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "docs_decisiones_modelado_pasos_transiciones_y_bifurcaciones",
+      "community": 14,
+      "norm_label": "pasos, transiciones y bifurcaciones"
+    },
+    {
+      "label": "Ejecucion de muestras",
+      "file_type": "document",
+      "source_file": "Docs/decisiones-modelado.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "docs_decisiones_modelado_ejecucion_de_muestras",
+      "community": 14,
+      "norm_label": "ejecucion de muestras"
+    },
+    {
+      "label": "Alineaciones livianas",
+      "file_type": "document",
+      "source_file": "Docs/decisiones-modelado.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "docs_decisiones_modelado_alineaciones_livianas",
+      "community": 14,
+      "norm_label": "alineaciones livianas"
+    },
+    {
+      "label": "Perfil colaborador",
+      "file_type": "document",
+      "source_file": "Docs/decisiones-modelado.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "docs_decisiones_modelado_perfil_colaborador",
+      "community": 14,
+      "norm_label": "perfil colaborador"
+    },
+    {
+      "label": "Consistencia",
+      "file_type": "document",
+      "source_file": "Docs/decisiones-modelado.md",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "docs_decisiones_modelado_consistencia",
+      "community": 14,
+      "norm_label": "consistencia"
+    },
+    {
       "label": "graphdb.md",
       "file_type": "document",
       "source_file": "Docs/graphdb.md",
@@ -4474,6 +4564,16 @@
       "norm_label": "comandos de humo"
     },
     {
+      "label": "Chequeos manuales de entorno",
+      "file_type": "document",
+      "source_file": "Docs/validation.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "docs_validation_chequeos_manuales_de_entorno",
+      "community": 55,
+      "norm_label": "chequeos manuales de entorno"
+    },
+    {
       "label": "README.md",
       "file_type": "document",
       "source_file": "README.md",
@@ -4517,7 +4617,7 @@
       "label": "Flujo de ramas y commits",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L40",
+      "source_location": "L42",
       "_origin": "ast",
       "id": "readme_flujo_de_ramas_y_commits",
       "community": 45,
@@ -4541,9 +4641,9 @@
       "source_file": "shapes/validate.py",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "shapes_validate",
-      "target": "shapes_validate_main",
-      "confidence_score": 1.0
+      "target": "shapes_validate_main"
     },
     {
       "relation": "contains",
@@ -4551,9 +4651,9 @@
       "source_file": "shapes/validate.py",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "shapes_validate",
-      "target": "shapes_validate_parse_turtle",
-      "confidence_score": 1.0
+      "target": "shapes_validate_parse_turtle"
     },
     {
       "relation": "calls",
@@ -4562,9 +4662,9 @@
       "source_file": "shapes/validate.py",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "shapes_validate_main",
-      "target": "shapes_validate_parse_turtle",
-      "confidence_score": 1.0
+      "target": "shapes_validate_parse_turtle"
     },
     {
       "relation": "references",
@@ -4573,9 +4673,9 @@
       "source_file": "shapes/validate.py",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "shapes_validate_parse_turtle",
-      "target": "graph",
-      "confidence_score": 1.0
+      "target": "graph"
     },
     {
       "relation": "references",
@@ -4584,9 +4684,9 @@
       "source_file": "shapes/validate.py",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "shapes_validate_parse_turtle",
-      "target": "path",
-      "confidence_score": 1.0
+      "target": "path"
     },
     {
       "relation": "contains",
@@ -6014,9 +6114,9 @@
       "source_file": "Docs/backlog/E0-infraestructura/H0.1-repositorio-estructura.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e0_infraestructura_h0_1_repositorio_estructura_h0_1_repositorio_y_estructura",
-      "target": "e0_infraestructura_h0_1_repositorio_estructura_criterios_de_aceptacion",
-      "confidence_score": 1.0
+      "target": "e0_infraestructura_h0_1_repositorio_estructura_criterios_de_aceptacion"
     },
     {
       "relation": "contains",
@@ -6084,9 +6184,9 @@
       "source_file": "Docs/backlog/E0-infraestructura/H0.2-instancia-graphdb.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e0_infraestructura_h0_2_instancia_graphdb_h0_2_instancia_graphdb",
-      "target": "e0_infraestructura_h0_2_instancia_graphdb_criterios_de_aceptacion",
-      "confidence_score": 1.0
+      "target": "e0_infraestructura_h0_2_instancia_graphdb_criterios_de_aceptacion"
     },
     {
       "relation": "contains",
@@ -6154,9 +6254,9 @@
       "source_file": "Docs/backlog/E0-infraestructura/H0.3-namespaces-iris.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e0_infraestructura_h0_3_namespaces_iris_h0_3_namespaces_y_convenciones_de_iris",
-      "target": "e0_infraestructura_h0_3_namespaces_iris_criterios_de_aceptacion",
-      "confidence_score": 1.0
+      "target": "e0_infraestructura_h0_3_namespaces_iris_criterios_de_aceptacion"
     },
     {
       "relation": "contains",
@@ -6184,9 +6284,9 @@
       "source_file": "Docs/backlog/E0-infraestructura/H0.4-toolchain-validacion.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e0_infraestructura_h0_4_toolchain_validacion",
-      "target": "e0_infraestructura_h0_4_toolchain_validacion_h0_4_toolchain_de_validacion",
-      "confidence_score": 1.0
+      "target": "e0_infraestructura_h0_4_toolchain_validacion_h0_4_toolchain_de_validacion"
     },
     {
       "relation": "references",
@@ -6214,9 +6314,9 @@
       "source_file": "Docs/backlog/E0-infraestructura/H0.4-toolchain-validacion.md",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e0_infraestructura_h0_4_toolchain_validacion_h0_4_toolchain_de_validacion",
-      "target": "e0_infraestructura_h0_4_toolchain_validacion_artefactos",
-      "confidence_score": 1.0
+      "target": "e0_infraestructura_h0_4_toolchain_validacion_artefactos"
     },
     {
       "relation": "contains",
@@ -6224,9 +6324,9 @@
       "source_file": "Docs/backlog/E0-infraestructura/H0.4-toolchain-validacion.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e0_infraestructura_h0_4_toolchain_validacion_h0_4_toolchain_de_validacion",
-      "target": "e0_infraestructura_h0_4_toolchain_validacion_criterios_de_aceptacion",
-      "confidence_score": 1.0
+      "target": "e0_infraestructura_h0_4_toolchain_validacion_criterios_de_aceptacion"
     },
     {
       "relation": "contains",
@@ -6234,9 +6334,9 @@
       "source_file": "Docs/backlog/E0-infraestructura/H0.4-toolchain-validacion.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e0_infraestructura_h0_4_toolchain_validacion_h0_4_toolchain_de_validacion",
-      "target": "e0_infraestructura_h0_4_toolchain_validacion_historia_de_usuario",
-      "confidence_score": 1.0
+      "target": "e0_infraestructura_h0_4_toolchain_validacion_historia_de_usuario"
     },
     {
       "relation": "contains",
@@ -6244,9 +6344,9 @@
       "source_file": "Docs/backlog/E0-infraestructura/H0.4-toolchain-validacion.md",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e0_infraestructura_h0_4_toolchain_validacion_h0_4_toolchain_de_validacion",
-      "target": "e0_infraestructura_h0_4_toolchain_validacion_notas",
-      "confidence_score": 1.0
+      "target": "e0_infraestructura_h0_4_toolchain_validacion_notas"
     },
     {
       "relation": "contains",
@@ -6254,9 +6354,9 @@
       "source_file": "Docs/backlog/E0-infraestructura/H0.4-toolchain-validacion.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e0_infraestructura_h0_4_toolchain_validacion_h0_4_toolchain_de_validacion",
-      "target": "e0_infraestructura_h0_4_toolchain_validacion_tareas",
-      "confidence_score": 1.0
+      "target": "e0_infraestructura_h0_4_toolchain_validacion_tareas"
     },
     {
       "relation": "contains",
@@ -7117,6 +7217,16 @@
       "confidence_score": 1.0,
       "source": "e1_ontologia_dominio_readme_e1_ontolog\u00eda_de_dominio_en_owl_req_1_must",
       "target": "e1_ontologia_dominio_readme_dependencias"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/backlog/E1-ontologia-dominio/README.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "e1_ontologia_dominio_readme_e1_ontolog\u00eda_de_dominio_en_owl_req_1_must",
+      "target": "e1_ontologia_dominio_readme_estado_de_implementaci\u00f3n",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9331,12 +9441,82 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "Docs/decisiones-modelado.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_decisiones_modelado",
+      "target": "docs_decisiones_modelado_decisiones_de_modelado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/decisiones-modelado.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "docs_decisiones_modelado_decisiones_de_modelado",
+      "target": "docs_decisiones_modelado_alineaciones_livianas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/decisiones-modelado.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "docs_decisiones_modelado_decisiones_de_modelado",
+      "target": "docs_decisiones_modelado_consistencia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/decisiones-modelado.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "docs_decisiones_modelado_decisiones_de_modelado",
+      "target": "docs_decisiones_modelado_ejecucion_de_muestras",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/decisiones-modelado.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_decisiones_modelado_decisiones_de_modelado",
+      "target": "docs_decisiones_modelado_ontologia_de_dominio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/decisiones-modelado.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "docs_decisiones_modelado_decisiones_de_modelado",
+      "target": "docs_decisiones_modelado_pasos_transiciones_y_bifurcaciones",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/decisiones-modelado.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "docs_decisiones_modelado_decisiones_de_modelado",
+      "target": "docs_decisiones_modelado_perfil_colaborador",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "Docs/graphdb.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_graphdb",
-      "target": "docs_graphdb_graphdb_local",
-      "confidence_score": 1.0
+      "target": "docs_graphdb_graphdb_local"
     },
     {
       "relation": "contains",
@@ -9344,9 +9524,9 @@
       "source_file": "Docs/graphdb.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_graphdb_graphdb_local",
-      "target": "docs_graphdb_crear_repositorio",
-      "confidence_score": 1.0
+      "target": "docs_graphdb_crear_repositorio"
     },
     {
       "relation": "contains",
@@ -9354,9 +9534,9 @@
       "source_file": "Docs/graphdb.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_graphdb_graphdb_local",
-      "target": "docs_graphdb_levantar_la_instancia",
-      "confidence_score": 1.0
+      "target": "docs_graphdb_levantar_la_instancia"
     },
     {
       "relation": "contains",
@@ -9364,9 +9544,9 @@
       "source_file": "Docs/graphdb.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_graphdb_graphdb_local",
-      "target": "docs_graphdb_prueba_de_humo",
-      "confidence_score": 1.0
+      "target": "docs_graphdb_prueba_de_humo"
     },
     {
       "relation": "contains",
@@ -9374,9 +9554,9 @@
       "source_file": "Docs/namespaces.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_namespaces",
-      "target": "docs_namespaces_namespaces_e_iris",
-      "confidence_score": 1.0
+      "target": "docs_namespaces_namespaces_e_iris"
     },
     {
       "relation": "contains",
@@ -9384,9 +9564,9 @@
       "source_file": "Docs/namespaces.md",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_namespaces_namespaces_e_iris",
-      "target": "docs_namespaces_convencion_de_nombres",
-      "confidence_score": 1.0
+      "target": "docs_namespaces_convencion_de_nombres"
     },
     {
       "relation": "contains",
@@ -9394,9 +9574,9 @@
       "source_file": "Docs/namespaces.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_namespaces_namespaces_e_iris",
-      "target": "docs_namespaces_patron_de_iris_de_datos",
-      "confidence_score": 1.0
+      "target": "docs_namespaces_patron_de_iris_de_datos"
     },
     {
       "relation": "contains",
@@ -9404,9 +9584,9 @@
       "source_file": "Docs/namespaces.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_namespaces_namespaces_e_iris",
-      "target": "docs_namespaces_prefijos_propios",
-      "confidence_score": 1.0
+      "target": "docs_namespaces_prefijos_propios"
     },
     {
       "relation": "contains",
@@ -9414,9 +9594,9 @@
       "source_file": "Docs/namespaces.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_namespaces_namespaces_e_iris",
-      "target": "docs_namespaces_prefijos_reutilizados",
-      "confidence_score": 1.0
+      "target": "docs_namespaces_prefijos_reutilizados"
     },
     {
       "relation": "contains",
@@ -9424,8 +9604,18 @@
       "source_file": "Docs/validation.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_validation",
-      "target": "docs_validation_toolchain_de_validacion",
+      "target": "docs_validation_toolchain_de_validacion"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/validation.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "docs_validation_toolchain_de_validacion",
+      "target": "docs_validation_chequeos_manuales_de_entorno",
       "confidence_score": 1.0
     },
     {
@@ -9434,9 +9624,9 @@
       "source_file": "Docs/validation.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_validation_toolchain_de_validacion",
-      "target": "docs_validation_comandos_de_humo",
-      "confidence_score": 1.0
+      "target": "docs_validation_comandos_de_humo"
     },
     {
       "relation": "contains",
@@ -9444,9 +9634,9 @@
       "source_file": "Docs/validation.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_validation_toolchain_de_validacion",
-      "target": "docs_validation_instalacion",
-      "confidence_score": 1.0
+      "target": "docs_validation_instalacion"
     },
     {
       "relation": "contains",
@@ -9454,9 +9644,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme",
-      "target": "readme_adaptativescience_graph",
-      "confidence_score": 1.0
+      "target": "readme_adaptativescience_graph"
     },
     {
       "relation": "contains",
@@ -9464,9 +9654,9 @@
       "source_file": "README.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_adaptativescience_graph",
-      "target": "readme_arranque_rapido",
-      "confidence_score": 1.0
+      "target": "readme_arranque_rapido"
     },
     {
       "relation": "contains",
@@ -9474,9 +9664,9 @@
       "source_file": "README.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_adaptativescience_graph",
-      "target": "readme_estructura",
-      "confidence_score": 1.0
+      "target": "readme_estructura"
     },
     {
       "relation": "contains",
@@ -9484,11 +9674,11 @@
       "source_file": "README.md",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_adaptativescience_graph",
-      "target": "readme_flujo_de_ramas_y_commits",
-      "confidence_score": 1.0
+      "target": "readme_flujo_de_ramas_y_commits"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "1eec3f8139c445a19c17da69e4a622beb349bd5a"
+  "built_at_commit": "457234eb44facabfaab58db6cdf7161f4d4f3368"
 }

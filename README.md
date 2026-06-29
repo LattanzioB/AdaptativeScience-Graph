@@ -24,7 +24,9 @@ pip install -r requirements.txt
 2. Validar sintaxis RDF y SHACL:
 
 ```powershell
+python -c "from rdflib import Graph; Graph().parse('ontology/cipa-domain.ttl', format='turtle'); print('ontology OK')"
 python shapes/validate.py --data data/smoke.ttl --shapes shapes/empty.ttl
+python shapes/validate.py --data data/smoke.ttl --shapes shapes/domain-smoke.ttl --inference rdfs
 python shapes/validate.py --data shapes/examples/smoke-valid.ttl --shapes shapes/examples/sparql-person-shape.ttl
 python shapes/validate.py --data shapes/examples/smoke-invalid.ttl --shapes shapes/examples/sparql-person-shape.ttl
 ```
@@ -35,7 +37,7 @@ python shapes/validate.py --data shapes/examples/smoke-invalid.ttl --shapes shap
 docker compose up -d graphdb
 ```
 
-Crear el repositorio `cipa-local` con `graphdb/repositories/cipa-local.ttl`, cargar `data/smoke.ttl` y ejecutar `queries/smoke-select.rq`.
+Crear el repositorio `cipa-local` con `graphdb/repositories/cipa-local.ttl`, cargar `ontology/cipa-domain.ttl` + `data/smoke.ttl` y ejecutar `queries/smoke-select.rq`, `queries/inference-smoke.rq` y `queries/domain-interests.rq`.
 
 ## Flujo de ramas y commits
 

@@ -31,13 +31,46 @@ python shapes/validate.py --data shapes/examples/smoke-valid.ttl --shapes shapes
 python shapes/validate.py --data shapes/examples/smoke-invalid.ttl --shapes shapes/examples/sparql-person-shape.ttl
 ```
 
-3. Levantar GraphDB local y cargar el TTL de humo:
+3. Levantar GraphDB local:
 
 ```powershell
 docker compose up -d graphdb
 ```
 
-Crear el repositorio `cipa-local` con `graphdb/repositories/cipa-local.ttl`, cargar `ontology/cipa-domain.ttl` + `data/smoke.ttl` y ejecutar `queries/smoke-select.rq`, `queries/inference-smoke.rq` y `queries/domain-interests.rq`.
+La consola web queda en `http://localhost:7200`. Los comandos `curl.exe` de abajo asumen GraphDB ya levantado y se ejecutan desde la raiz del repo.
+
+4. Crear el repositorio `cipa-local` a partir del archivo de configuracion via API REST:
+
+```powershell
+curl.exe -X POST http://localhost:7200/rest/repositories -F "config=@graphdb/repositories/cipa-local.ttl"
+```
+
+Verificar que aparece en la lista:
+
+```powershell
+curl.exe http://localhost:7200/rest/repositories
+```
+
+> Nota: `graphdb/repositories/cipa-local.ttl` usa los tipos de GraphDB 10 (`graphdb:SailRepository` / `graphdb:Sail`). En GraphDB 9.x los tipos eran `graphdb:FreeSailRepository` / `graphdb:FreeSail`; si la creacion falla con "Unsupported repository type", revisar que la version del contenedor coincida con el archivo de configuracion.
+
+5. Cargar la ontologia de dominio y los datos de humo via API REST (ambos archivos: el endpoint `statements` sube el contenido desde el host, sin depender de los volumenes montados):
+
+```powershell
+curl.exe -X POST -H "Content-Type: text/turtle" --data-binary "@ontology/cipa-domain.ttl" "http://localhost:7200/repositories/cipa-local/statements"
+curl.exe -X POST -H "Content-Type: text/turtle" --data-binary "@data/smoke.ttl" "http://localhost:7200/repositories/cipa-local/statements"
+```
+
+> Cargar siempre la ontologia junto con los datos: las consultas de inferencia y de dominio necesitan la T-Box (`cipa-domain.ttl`) cargada en el mismo repositorio que la A-Box (`smoke.ttl`).
+
+6. Ejecutar las consultas de humo via API REST (o desde la pestana SPARQL de la consola web):
+
+```powershell
+curl.exe -X POST -H "Content-Type: application/sparql-query" -H "Accept: application/sparql-results+json" --data-binary "@queries/smoke-select.rq" "http://localhost:7200/repositories/cipa-local"
+curl.exe -X POST -H "Content-Type: application/sparql-query" -H "Accept: application/sparql-results+json" --data-binary "@queries/inference-smoke.rq" "http://localhost:7200/repositories/cipa-local"
+curl.exe -X POST -H "Content-Type: application/sparql-query" -H "Accept: application/sparql-results+json" --data-binary "@queries/domain-interests.rq" "http://localhost:7200/repositories/cipa-local"
+```
+
+Resultados esperados: `smoke-select` devuelve filas (hay datos), `inference-smoke` devuelve `true` (el ruleset `rdfsplus-optimized` infiere `cipa:ProyectoPiloto rdfs:subClassOf cipa:Proyecto`) y `domain-interests` lista la persona con su area de conocimiento y el conteo de aportes.
 
 ## Flujo de ramas y commits
 

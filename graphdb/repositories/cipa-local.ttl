@@ -8,9 +8,9 @@
   rep:repositoryID "cipa-local" ;
   rdfs:label "CIPA local reasoning repository" ;
   rep:repositoryImpl [
-    rep:repositoryType "graphdb:FreeSailRepository" ;
+    rep:repositoryType "graphdb:SailRepository" ;
     sr:sailImpl [
-      sail:sailType "graphdb:FreeSail" ;
+      sail:sailType "graphdb:Sail" ;
       graphdb:ruleset "rdfsplus-optimized" ;
       graphdb:disableSameAs true ;
       graphdb:enableContextIndex true ;

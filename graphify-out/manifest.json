@@ -85,53 +85,53 @@
     "semantic_hash": ""
   },
   "Docs/backlog/E1-ontologia-dominio/H1.1-proyecto-clasificacion.md": {
-    "mtime": 1782589898.8686702,
-    "ast_hash": "5276c7b951b20a3bbe94b820211dcbb4",
+    "mtime": 1782839991.3207839,
+    "ast_hash": "c3ea26eda12408530b6b078a43d4f94f",
     "semantic_hash": ""
   },
   "Docs/backlog/E1-ontologia-dominio/H1.2-protocolo.md": {
-    "mtime": 1782589898.8726964,
-    "ast_hash": "482f15526a49fe89a856c9d36bb8d1fc",
+    "mtime": 1782839991.3227906,
+    "ast_hash": "375024d93dab73a94ef76dac24ee5fef",
     "semantic_hash": ""
   },
   "Docs/backlog/E1-ontologia-dominio/H1.3-pasos.md": {
-    "mtime": 1782589898.8744488,
-    "ast_hash": "b3f3379e12e9b4a0a5f416937d2551a4",
+    "mtime": 1782839991.3247724,
+    "ast_hash": "69550f2edabadb8b62bac6f5240a6ef6",
     "semantic_hash": ""
   },
   "Docs/backlog/E1-ontologia-dominio/H1.4-transiciones.md": {
-    "mtime": 1782589898.8784697,
-    "ast_hash": "7b4692e3128cfc92335b989bc2d9ee74",
+    "mtime": 1782839991.3247724,
+    "ast_hash": "b79a4242b9f84f8b9f591c13805c008d",
     "semantic_hash": ""
   },
   "Docs/backlog/E1-ontologia-dominio/H1.5-muestreo.md": {
-    "mtime": 1782589898.8824942,
-    "ast_hash": "d6da833b1686ff0880918ba0f7f4c8e2",
+    "mtime": 1782839991.3277218,
+    "ast_hash": "c2b0de42ae8cd9f7901849dee32e3f22",
     "semantic_hash": ""
   },
   "Docs/backlog/E1-ontologia-dominio/H1.6-participante.md": {
-    "mtime": 1782589898.8845048,
-    "ast_hash": "01da43c305fb45d076bd1cb3f2ade92d",
+    "mtime": 1782839991.3290894,
+    "ast_hash": "eddb70714bf2c1b85e16d1bce13714bf",
     "semantic_hash": ""
   },
   "Docs/backlog/E1-ontologia-dominio/H1.7-reutilizacion-alineaciones.md": {
-    "mtime": 1782589898.8865163,
-    "ast_hash": "98d0972e716bda3f4c6876557b1181c4",
+    "mtime": 1782839991.3299558,
+    "ast_hash": "bb6e7bcc86aa7e78b0bbf6431a6749f2",
     "semantic_hash": ""
   },
   "Docs/backlog/E1-ontologia-dominio/H1.8-consistencia.md": {
-    "mtime": 1782589898.8902853,
-    "ast_hash": "da27087b5891c94dc5f12a1f50751cb5",
+    "mtime": 1782839991.3313017,
+    "ast_hash": "5f52824b9c383fcc23606d564ed0637e",
     "semantic_hash": ""
   },
   "Docs/backlog/E1-ontologia-dominio/H1.9-perfil-colaborador.md": {
-    "mtime": 1782589898.8943088,
-    "ast_hash": "a19d24a9b99141f9afa313aa114e2de8",
+    "mtime": 1782839991.3313017,
+    "ast_hash": "514bb229db10c2cac8cd778fe8204e2e",
     "semantic_hash": ""
   },
   "Docs/backlog/E1-ontologia-dominio/README.md": {
-    "mtime": 1782589910.4725533,
-    "ast_hash": "67d597802bd29a2ed64fef87a698101c",
+    "mtime": 1782839991.333713,
+    "ast_hash": "005a2bc5b0ac2c099149ba7b58802e5b",
     "semantic_hash": ""
   },
   "Docs/backlog/E2-poblar-grafo/H2.1-protocolo-diagrama.md": {
@@ -155,18 +155,18 @@
     "semantic_hash": ""
   },
   "Docs/backlog/E3-ontologia-pbl/H3.1-ontologia-pbl.md": {
-    "mtime": 1781621026.3683088,
-    "ast_hash": "c51603e2ba364444f8068d8068081824",
+    "mtime": 1782839991.3375359,
+    "ast_hash": "e17e66e0ef8296466fcd7bf950eec28e",
     "semantic_hash": ""
   },
   "Docs/backlog/E3-ontologia-pbl/H3.2-medallas-incrementales.md": {
-    "mtime": 1781621034.4145906,
-    "ast_hash": "116bcc0df193ff442dd8e8f453ca75a1",
+    "mtime": 1782839991.3410408,
+    "ast_hash": "85e48e113046773fc8618e0dc7319e95",
     "semantic_hash": ""
   },
   "Docs/backlog/E3-ontologia-pbl/H3.3-juego-sencillo.md": {
-    "mtime": 1781621041.0825438,
-    "ast_hash": "d1f5fd3041d4b26dcc954860f2e97652",
+    "mtime": 1782839991.3447142,
+    "ast_hash": "2cec1c536e5e216a367649c571b7aeb2",
     "semantic_hash": ""
   },
   "Docs/backlog/E3-ontologia-pbl/H3.4-open-badges.md": {
@@ -180,18 +180,18 @@
     "semantic_hash": ""
   },
   "Docs/backlog/E4-participantes-jugando/H4.1-acciones-puntos.md": {
-    "mtime": 1782588028.6907835,
-    "ast_hash": "61dc5f324897a12a478743538339796e",
+    "mtime": 1782841748.3044446,
+    "ast_hash": "0bc77a9197faada3c7dd372d7e2fa91c",
     "semantic_hash": ""
   },
   "Docs/backlog/E4-participantes-jugando/H4.2-estado-jugador.md": {
-    "mtime": 1782588070.7453885,
-    "ast_hash": "6bf5780a510dbe8d09a0daeb6cd34e2b",
+    "mtime": 1782841748.309751,
+    "ast_hash": "e252ada6f856619ffd6b363c62121ffd",
     "semantic_hash": ""
   },
   "Docs/backlog/E4-participantes-jugando/H4.3-cobertura-demo.md": {
-    "mtime": 1782588070.7487304,
-    "ast_hash": "a20010a2318b6f26fe92aa70edf1d76b",
+    "mtime": 1782841748.3157866,
+    "ast_hash": "df81ded58b6883f576aa5df66dec3245",
     "semantic_hash": ""
   },
   "Docs/backlog/E4-participantes-jugando/README.md": {
@@ -205,8 +205,8 @@
     "semantic_hash": ""
   },
   "Docs/backlog/E5-shapes-medallas/H5.2-shapes-medallas.md": {
-    "mtime": 1781621090.1270945,
-    "ast_hash": "cc51be52026399883988668fdb4bf7d6",
+    "mtime": 1782841748.3177972,
+    "ast_hash": "6bb150d095f39c765f09e1030a72e3b5",
     "semantic_hash": ""
   },
   "Docs/backlog/E5-shapes-medallas/H5.3-verificacion.md": {
@@ -215,8 +215,8 @@
     "semantic_hash": ""
   },
   "Docs/backlog/E5-shapes-medallas/H5.4-materializacion.md": {
-    "mtime": 1782588070.757442,
-    "ast_hash": "bd02861a3f870bad07e65c6d8cf0075b",
+    "mtime": 1782841748.3220296,
+    "ast_hash": "e14bdb070e57990c104c9994c6ba6bd0",
     "semantic_hash": ""
   },
   "Docs/backlog/E5-shapes-medallas/README.md": {
@@ -230,8 +230,8 @@
     "semantic_hash": ""
   },
   "Docs/backlog/E6-graphdb-consultas/H6.2-consultas-multihop.md": {
-    "mtime": 1782588028.7040958,
-    "ast_hash": "374be54ee6c8824fb3a08869c9ff37ba",
+    "mtime": 1782841748.325528,
+    "ast_hash": "4912cab9a688c5d70e81e14c4b22aa1d",
     "semantic_hash": ""
   },
   "Docs/backlog/E6-graphdb-consultas/H6.3-consulta-inferencias.md": {
@@ -335,13 +335,13 @@
     "semantic_hash": ""
   },
   "Docs/validation.md": {
-    "mtime": 1782589874.585171,
-    "ast_hash": "6ca2bc3b91b25d7bf1562e15a72bce0c",
+    "mtime": 1782839991.353518,
+    "ast_hash": "94875dbd76d85cf063c3a24c378e6449",
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1782589874.587187,
-    "ast_hash": "0211f5dfb1a5014157743782a54e2b96",
+    "mtime": 1782839991.355533,
+    "ast_hash": "04fe605864ad326eb66b941a44626c65",
     "semantic_hash": ""
   },
   "docker-compose.yml": {
@@ -355,8 +355,28 @@
     "semantic_hash": ""
   },
   "Docs/decisiones-modelado.md": {
-    "mtime": 1782589820.8717232,
-    "ast_hash": "16035ca5b13d1383c32553d6b281e9a6",
+    "mtime": 1782839991.349486,
+    "ast_hash": "5865bd2864f54b13e3eaf6cacf933be5",
+    "semantic_hash": ""
+  },
+  "Docs/estados-jugador-e4.md": {
+    "mtime": 1782841748.326984,
+    "ast_hash": "4303907b1cf80a1f8816bb5847e541d6",
+    "semantic_hash": ""
+  },
+  "Docs/presentacion-avances.md": {
+    "mtime": 1782842105.3197982,
+    "ast_hash": "f6fc007a81b8da5abe8c0d4821b54651",
+    "semantic_hash": ""
+  },
+  "Docs/Estructuracion-PBL/instancia-pbl.png": {
+    "mtime": 1782839991.3152316,
+    "ast_hash": "1fe50ff4ab3778a6731cf8c701a81284",
+    "semantic_hash": ""
+  },
+  "Docs/Estructuracion-PBL/ontologia-pbl.png": {
+    "mtime": 1782841748.2992187,
+    "ast_hash": "4fadd667c41629a0fc53d801e2e88129",
     "semantic_hash": ""
   }
 }

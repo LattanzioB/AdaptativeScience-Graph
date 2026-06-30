@@ -1,16 +1,16 @@
-# Graph Report - AdaptativeScience-Graph  (2026-06-27)
+# Graph Report - AdaptativeScience-Graph  (2026-06-30)
 
 ## Corpus Check
-- 67 files · ~112,837 words
+- 69 files · ~157,686 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 463 nodes · 504 edges · 59 communities (55 shown, 4 thin omitted)
+- 495 nodes · 534 edges · 61 communities (57 shown, 4 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `457234eb`
+- Built from commit: `518df74a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -33,7 +33,6 @@
 - [[_COMMUNITY_Community 16|Community 16]]
 - [[_COMMUNITY_Community 17|Community 17]]
 - [[_COMMUNITY_Community 18|Community 18]]
-- [[_COMMUNITY_Community 19|Community 19]]
 - [[_COMMUNITY_Community 20|Community 20]]
 - [[_COMMUNITY_Community 21|Community 21]]
 - [[_COMMUNITY_Community 22|Community 22]]
@@ -70,20 +69,23 @@
 - [[_COMMUNITY_Community 53|Community 53]]
 - [[_COMMUNITY_Community 55|Community 55]]
 - [[_COMMUNITY_Community 56|Community 56]]
-- [[_COMMUNITY_Community 57|Community 57]]
 - [[_COMMUNITY_Community 58|Community 58]]
+- [[_COMMUNITY_Community 59|Community 59]]
+- [[_COMMUNITY_Community 60|Community 60]]
+- [[_COMMUNITY_Community 61|Community 61]]
+- [[_COMMUNITY_Community 62|Community 62]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Modelo de dominio — Ciencia Participativa` - 17 edges
-2. `What You Must Do When Invoked` - 12 edges
-3. `/graphify` - 10 edges
-4. `Listado de épicas e historias` - 9 edges
-5. `graphify reference: extra exports and benchmark` - 8 edges
-6. `H5.1 — Patrón `sh:sparql` "conformidad = ganador"` - 8 edges
-7. `Backlog — TP Ciencia Participativa (OWL + PBL + SHACL + GraphDB)` - 7 edges
-8. `H1.1 — Proyecto y área de conocimiento` - 7 edges
-9. `H1.2 — Protocolo` - 7 edges
-10. `H1.3 — Pasos (jerarquía de tipos)` - 7 edges
+2. `Queries para la presentacion` - 15 edges
+3. `What You Must Do When Invoked` - 12 edges
+4. `/graphify` - 10 edges
+5. `Listado de épicas e historias` - 9 edges
+6. `graphify reference: extra exports and benchmark` - 8 edges
+7. `H5.1 — Patrón `sh:sparql` "conformidad = ganador"` - 8 edges
+8. `Backlog — TP Ciencia Participativa (OWL + PBL + SHACL + GraphDB)` - 7 edges
+9. `H1.1 — Proyecto y área de conocimiento` - 7 edges
+10. `H1.2 — Protocolo` - 7 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
@@ -91,7 +93,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (59 total, 4 thin omitted)
+## Communities (61 total, 4 thin omitted)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.05
@@ -122,8 +124,8 @@ Cohesion: 0.29
 Nodes (7): Artefactos, Contexto (del PDF), Criterios de aceptación, H1.2 — Protocolo, Historia de usuario, Notas de modelado, Tareas
 
 ### Community 8 - "Community 8"
-Cohesion: 0.13
-Nodes (14): Artefactos, Contexto (del PDF + diagrama), Criterios de aceptación, H1.3 — Pasos (jerarquía de tipos), Historia de usuario, Notas de modelado, Tareas, Artefactos (+6 more)
+Cohesion: 0.29
+Nodes (7): Artefactos, Contexto (del PDF + diagrama), Criterios de aceptación, H1.3 — Pasos (jerarquía de tipos), Historia de usuario, Notas de modelado, Tareas
 
 ### Community 9 - "Community 9"
 Cohesion: 0.29
@@ -134,8 +136,8 @@ Cohesion: 0.08
 Nodes (24): AdjuntoMultimedia, Compatibilidad entre MuestraRespuesta y tipo de paso, Descripción general, Descripción resumida, Entidades principales, Modelo de dominio — Ciencia Participativa, Muestra, MuestraRespuesta (+16 more)
 
 ### Community 11 - "Community 11"
-Cohesion: 0.13
-Nodes (14): Artefactos, Contexto (del PDF), Criterios de aceptación, H1.6 — Persona participante, Historia de usuario, Notas de modelado, Tareas, Artefactos (+6 more)
+Cohesion: 0.29
+Nodes (7): Artefactos, Contexto (del PDF), Criterios de aceptación, H1.6 — Persona participante, Historia de usuario, Notas de modelado, Tareas
 
 ### Community 12 - "Community 12"
 Cohesion: 0.29
@@ -150,24 +152,20 @@ Cohesion: 0.25
 Nodes (7): Alineaciones livianas, Consistencia, Decisiones de modelado, Ejecucion de muestras, Ontologia de dominio, Pasos, transiciones y bifurcaciones, Perfil colaborador
 
 ### Community 15 - "Community 15"
-Cohesion: 0.29
-Nodes (7): Artefactos, Contexto (del PDF), Criterios de aceptación, H3.1 — Ontología PBL, Historia de usuario, Notas de modelado, Tareas
+Cohesion: 0.07
+Nodes (23): Artefactos, Contexto (del PDF), Criterios de aceptación, H3.1 — Ontología PBL, Historia de usuario, Notas de modelado, Tareas, Artefactos (+15 more)
 
 ### Community 16 - "Community 16"
 Cohesion: 0.29
 Nodes (7): Artefactos, Contexto (del PDF), Criterios de aceptación, H3.2 — Sistema incremental de 3 medallas, Historia de usuario, Notas de modelado, Tareas
 
 ### Community 17 - "Community 17"
-Cohesion: 0.18
-Nodes (10): Artefactos, Criterios de aceptación, H2.4 — Muestras geolocalizadas, Historia de usuario, Notas de modelado, Tareas, Definition of Done (DoD), Dependencias (+2 more)
+Cohesion: 0.33
+Nodes (6): Artefactos, Criterios de aceptación, H2.4 — Muestras geolocalizadas, Historia de usuario, Notas de modelado, Tareas
 
 ### Community 18 - "Community 18"
 Cohesion: 0.29
 Nodes (7): Artefactos, Contexto (del PDF), Criterios de aceptación, H4.1 — Acciones → eventos de puntos, Historia de usuario, Notas de modelado, Tareas
-
-### Community 19 - "Community 19"
-Cohesion: 0.29
-Nodes (6): Artefactos, Contexto (del PDF), Criterios de aceptación, H3.3 — Definición del juego sencillo, Historia de usuario, Tareas
 
 ### Community 20 - "Community 20"
 Cohesion: 0.29
@@ -222,7 +220,7 @@ Cohesion: 0.33
 Nodes (6): Artefactos, Contexto (de la consigna), Criterios de aceptación, H6.4 — (6.b.i) Estatus completo de jugador, Historia de usuario, Tareas
 
 ### Community 33 - "Community 33"
-Cohesion: 0.33
+Cohesion: 0.40
 Nodes (5): Artefactos, Criterios de aceptación, H1.8 — Consistencia, Historia de usuario, Tareas
 
 ### Community 34 - "Community 34"
@@ -297,16 +295,28 @@ Nodes (4): Chequeos manuales de entorno, Comandos de humo, Instalacion, Toolchai
 Cohesion: 0.40
 Nodes (5): Definition of Done (DoD), Dependencias, E1 — Ontología de dominio en OWL (Req. 1) `[MUST]`, Estado de implementación, Historias
 
-### Community 57 - "Community 57"
-Cohesion: 0.33
-Nodes (6): Artefactos, Criterios de aceptación, H3.4 — Alineación Open Badges, Historia de usuario, Notas, Tareas
-
 ### Community 58 - "Community 58"
+Cohesion: 0.07
+Nodes (26): 10. Trazabilidad de puntos hacia contribuciones del dominio, 11. Billetera materializada vs. suma de awards, 12. Leaderboard del juego, 13. Progreso hacia medallas, 14. Medallas incrementales, 1. Resumen de entidades cargadas, 2. Proyectos, areas y protocolos activos, 3. Flujo de protocolos y bifurcaciones (+18 more)
+
+### Community 59 - "Community 59"
+Cohesion: 0.29
+Nodes (7): Artefactos, Contexto (del diagrama), Criterios de aceptación, H2.1 — Protocolo del diagrama, Historia de usuario, Notas de modelado, Tareas
+
+### Community 60 - "Community 60"
+Cohesion: 0.29
+Nodes (7): Artefactos, Contexto (de la consigna), Criterios de aceptación, H6.2 — (6.a.i) Dos consultas multi-hop de dominio, Historia de usuario, Notas, Tareas
+
+### Community 61 - "Community 61"
+Cohesion: 0.40
+Nodes (4): E4 — Estados de jugador esperados (juego "relevamiento participativo"), Estado por persona, Medallas (E3), Reglas de puntaje aplicadas
+
+### Community 62 - "Community 62"
 Cohesion: 0.50
-Nodes (4): Definition of Done (DoD), Dependencias, E3 — Ontología PBL + juego sencillo (Req. 3) `[MUST]`, Historias
+Nodes (4): Definition of Done (DoD), Dependencias, E2 — Poblar el grafo de dominio (Req. 2) `[MUST]`, Historias
 
 ## Knowledge Gaps
-- **326 isolated node(s):** `Usage`, `What graphify is for`, `Step 0 - GitHub repos and multi-path merge (only if a URL or several paths)`, `Step 1 - Ensure graphify is installed`, `Step 2 - Detect files` (+321 more)
+- **352 isolated node(s):** `Usage`, `What graphify is for`, `Step 0 - GitHub repos and multi-path merge (only if a URL or several paths)`, `Step 1 - Ensure graphify is installed`, `Step 2 - Detect files` (+347 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -314,16 +324,16 @@ Nodes (4): Definition of Done (DoD), Dependencias, E3 — Ontología PBL + juego
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Backlog — TP Ciencia Participativa (OWL + PBL + SHACL + GraphDB)` connect `Community 3` to `Community 0`?**
-  _High betweenness centrality (0.047) - this node is a cross-community bridge._
+  _High betweenness centrality (0.041) - this node is a cross-community bridge._
 - **What connects `Usage`, `What graphify is for`, `Step 0 - GitHub repos and multi-path merge (only if a URL or several paths)` to the rest of the system?**
-  _326 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _352 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.11538461538461539 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.12233285917496443 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.05405405405405406 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.08 - nodes in this community are weakly interconnected._
 - **Should `Community 3` be split into smaller, more focused modules?**
   _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._
-- **Should `Community 8` be split into smaller, more focused modules?**
-  _Cohesion score 0.13186813186813187 - nodes in this community are weakly interconnected._
+- **Should `Community 10` be split into smaller, more focused modules?**
+  _Cohesion score 0.08 - nodes in this community are weakly interconnected._

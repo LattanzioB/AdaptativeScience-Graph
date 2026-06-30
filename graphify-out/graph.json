@@ -1960,7 +1960,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e1_ontologia_dominio_h1_8_consistencia",
-      "community": 33,
+      "community": 0,
       "norm_label": "h1.8-consistencia.md"
     },
     {
@@ -2170,7 +2170,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e2_poblar_grafo_h2_1_protocolo_diagrama_h2_1_protocolo_del_diagrama",
-      "community": 8,
+      "community": 59,
       "norm_label": "h2.1 \u2014 protocolo del diagrama"
     },
     {
@@ -2180,7 +2180,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "e2_poblar_grafo_h2_1_protocolo_diagrama_historia_de_usuario",
-      "community": 8,
+      "community": 59,
       "norm_label": "historia de usuario"
     },
     {
@@ -2190,7 +2190,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "e2_poblar_grafo_h2_1_protocolo_diagrama_contexto_del_diagrama",
-      "community": 8,
+      "community": 59,
       "norm_label": "contexto (del diagrama)"
     },
     {
@@ -2200,7 +2200,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "e2_poblar_grafo_h2_1_protocolo_diagrama_criterios_de_aceptaci\u00f3n",
-      "community": 8,
+      "community": 59,
       "norm_label": "criterios de aceptacion"
     },
     {
@@ -2210,7 +2210,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "e2_poblar_grafo_h2_1_protocolo_diagrama_tareas",
-      "community": 8,
+      "community": 59,
       "norm_label": "tareas"
     },
     {
@@ -2220,7 +2220,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "e2_poblar_grafo_h2_1_protocolo_diagrama_notas_de_modelado",
-      "community": 8,
+      "community": 59,
       "norm_label": "notas de modelado"
     },
     {
@@ -2230,7 +2230,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "e2_poblar_grafo_h2_1_protocolo_diagrama_artefactos",
-      "community": 8,
+      "community": 59,
       "norm_label": "artefactos"
     },
     {
@@ -2460,7 +2460,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e2_poblar_grafo_readme_e2_poblar_el_grafo_de_dominio_req_2_must",
-      "community": 17,
+      "community": 62,
       "norm_label": "e2 \u2014 poblar el grafo de dominio (req. 2) `[must]`"
     },
     {
@@ -2470,7 +2470,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "e2_poblar_grafo_readme_historias",
-      "community": 17,
+      "community": 62,
       "norm_label": "historias"
     },
     {
@@ -2480,7 +2480,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "e2_poblar_grafo_readme_dependencias",
-      "community": 17,
+      "community": 62,
       "norm_label": "dependencias"
     },
     {
@@ -2490,7 +2490,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "e2_poblar_grafo_readme_definition_of_done_dod",
-      "community": 17,
+      "community": 62,
       "norm_label": "definition of done (dod)"
     },
     {
@@ -2500,7 +2500,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_1_ontologia_pbl",
-      "community": 0,
+      "community": 15,
       "norm_label": "h3.1-ontologia-pbl.md"
     },
     {
@@ -2567,7 +2567,7 @@
       "label": "Artefactos",
       "file_type": "document",
       "source_file": "Docs/backlog/E3-ontologia-pbl/H3.1-ontologia-pbl.md",
-      "source_location": "L27",
+      "source_location": "L29",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_1_ontologia_pbl_artefactos",
       "community": 15,
@@ -2660,7 +2660,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_3_juego_sencillo",
-      "community": 19,
+      "community": 15,
       "norm_label": "h3.3-juego-sencillo.md"
     },
     {
@@ -2670,7 +2670,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_3_juego_sencillo_h3_3_definici\u00f3n_del_juego_sencillo",
-      "community": 19,
+      "community": 15,
       "norm_label": "h3.3 \u2014 definicion del juego sencillo"
     },
     {
@@ -2680,7 +2680,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_3_juego_sencillo_historia_de_usuario",
-      "community": 19,
+      "community": 15,
       "norm_label": "historia de usuario"
     },
     {
@@ -2690,7 +2690,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_3_juego_sencillo_contexto_del_pdf",
-      "community": 19,
+      "community": 15,
       "norm_label": "contexto (del pdf)"
     },
     {
@@ -2700,7 +2700,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_3_juego_sencillo_criterios_de_aceptaci\u00f3n",
-      "community": 19,
+      "community": 15,
       "norm_label": "criterios de aceptacion"
     },
     {
@@ -2710,7 +2710,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_3_juego_sencillo_tareas",
-      "community": 19,
+      "community": 15,
       "norm_label": "tareas"
     },
     {
@@ -2720,7 +2720,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_3_juego_sencillo_artefactos",
-      "community": 19,
+      "community": 15,
       "norm_label": "artefactos"
     },
     {
@@ -2730,7 +2730,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_4_open_badges",
-      "community": 0,
+      "community": 15,
       "norm_label": "h3.4-open-badges.md"
     },
     {
@@ -2740,7 +2740,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_4_open_badges_h3_4_alineaci\u00f3n_open_badges",
-      "community": 57,
+      "community": 15,
       "norm_label": "h3.4 \u2014 alineacion open badges"
     },
     {
@@ -2750,7 +2750,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_4_open_badges_historia_de_usuario",
-      "community": 57,
+      "community": 15,
       "norm_label": "historia de usuario"
     },
     {
@@ -2760,7 +2760,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_4_open_badges_criterios_de_aceptaci\u00f3n",
-      "community": 57,
+      "community": 15,
       "norm_label": "criterios de aceptacion"
     },
     {
@@ -2770,7 +2770,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_4_open_badges_tareas",
-      "community": 57,
+      "community": 15,
       "norm_label": "tareas"
     },
     {
@@ -2780,7 +2780,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_4_open_badges_notas",
-      "community": 57,
+      "community": 15,
       "norm_label": "notas"
     },
     {
@@ -2790,7 +2790,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_h3_4_open_badges_artefactos",
-      "community": 57,
+      "community": 15,
       "norm_label": "artefactos"
     },
     {
@@ -2800,7 +2800,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_readme",
-      "community": 0,
+      "community": 15,
       "norm_label": "readme.md"
     },
     {
@@ -2810,7 +2810,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_readme_e3_ontolog\u00eda_pbl_juego_sencillo_req_3_must",
-      "community": 58,
+      "community": 15,
       "norm_label": "e3 \u2014 ontologia pbl + juego sencillo (req. 3) `[must]`"
     },
     {
@@ -2820,7 +2820,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_readme_historias",
-      "community": 58,
+      "community": 15,
       "norm_label": "historias"
     },
     {
@@ -2830,7 +2830,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_readme_dependencias",
-      "community": 58,
+      "community": 15,
       "norm_label": "dependencias"
     },
     {
@@ -2840,7 +2840,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "e3_ontologia_pbl_readme_definition_of_done_dod",
-      "community": 58,
+      "community": 15,
       "norm_label": "definition of done (dod)"
     },
     {
@@ -2917,7 +2917,7 @@
       "label": "Artefactos",
       "file_type": "document",
       "source_file": "Docs/backlog/E4-participantes-jugando/H4.1-acciones-puntos.md",
-      "source_location": "L26",
+      "source_location": "L29",
       "_origin": "ast",
       "id": "e4_participantes_jugando_h4_1_acciones_puntos_artefactos",
       "community": 18,
@@ -2957,7 +2957,7 @@
       "label": "Contexto (del PDF)",
       "file_type": "document",
       "source_file": "Docs/backlog/E4-participantes-jugando/H4.2-estado-jugador.md",
-      "source_location": "L10",
+      "source_location": "L11",
       "_origin": "ast",
       "id": "e4_participantes_jugando_h4_2_estado_jugador_contexto_del_pdf",
       "community": 28,
@@ -2967,7 +2967,7 @@
       "label": "Criterios de aceptaci\u00f3n",
       "file_type": "document",
       "source_file": "Docs/backlog/E4-participantes-jugando/H4.2-estado-jugador.md",
-      "source_location": "L13",
+      "source_location": "L15",
       "_origin": "ast",
       "id": "e4_participantes_jugando_h4_2_estado_jugador_criterios_de_aceptaci\u00f3n",
       "community": 28,
@@ -2977,7 +2977,7 @@
       "label": "Tareas",
       "file_type": "document",
       "source_file": "Docs/backlog/E4-participantes-jugando/H4.2-estado-jugador.md",
-      "source_location": "L18",
+      "source_location": "L21",
       "_origin": "ast",
       "id": "e4_participantes_jugando_h4_2_estado_jugador_tareas",
       "community": 28,
@@ -2987,7 +2987,7 @@
       "label": "Artefactos",
       "file_type": "document",
       "source_file": "Docs/backlog/E4-participantes-jugando/H4.2-estado-jugador.md",
-      "source_location": "L22",
+      "source_location": "L26",
       "_origin": "ast",
       "id": "e4_participantes_jugando_h4_2_estado_jugador_artefactos",
       "community": 28,
@@ -3267,7 +3267,7 @@
       "label": "Artefactos",
       "file_type": "document",
       "source_file": "Docs/backlog/E5-shapes-medallas/H5.2-shapes-medallas.md",
-      "source_location": "L22",
+      "source_location": "L23",
       "_origin": "ast",
       "id": "e5_shapes_medallas_h5_2_shapes_medallas_artefactos",
       "community": 30,
@@ -3397,7 +3397,7 @@
       "label": "Artefactos",
       "file_type": "document",
       "source_file": "Docs/backlog/E5-shapes-medallas/H5.4-materializacion.md",
-      "source_location": "L23",
+      "source_location": "L24",
       "_origin": "ast",
       "id": "e5_shapes_medallas_h5_4_materializacion_artefactos",
       "community": 31,
@@ -3540,7 +3540,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_h6_2_consultas_multihop_h6_2_6_a_i_dos_consultas_multi_hop_de_dominio",
-      "community": 11,
+      "community": 60,
       "norm_label": "h6.2 \u2014 (6.a.i) dos consultas multi-hop de dominio"
     },
     {
@@ -3550,7 +3550,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_h6_2_consultas_multihop_historia_de_usuario",
-      "community": 11,
+      "community": 60,
       "norm_label": "historia de usuario"
     },
     {
@@ -3560,7 +3560,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_h6_2_consultas_multihop_contexto_de_la_consigna",
-      "community": 11,
+      "community": 60,
       "norm_label": "contexto (de la consigna)"
     },
     {
@@ -3570,7 +3570,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_h6_2_consultas_multihop_criterios_de_aceptaci\u00f3n",
-      "community": 11,
+      "community": 60,
       "norm_label": "criterios de aceptacion"
     },
     {
@@ -3580,7 +3580,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_h6_2_consultas_multihop_tareas",
-      "community": 11,
+      "community": 60,
       "norm_label": "tareas"
     },
     {
@@ -3590,7 +3590,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_h6_2_consultas_multihop_notas",
-      "community": 11,
+      "community": 60,
       "norm_label": "notas"
     },
     {
@@ -3600,7 +3600,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "e6_graphdb_consultas_h6_2_consultas_multihop_artefactos",
-      "community": 11,
+      "community": 60,
       "norm_label": "artefactos"
     },
     {
@@ -4414,6 +4414,56 @@
       "norm_label": "consistencia"
     },
     {
+      "label": "estados-jugador-e4.md",
+      "file_type": "document",
+      "source_file": "Docs/estados-jugador-e4.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_estados_jugador_e4",
+      "community": 61,
+      "norm_label": "estados-jugador-e4.md"
+    },
+    {
+      "label": "E4 \u2014 Estados de jugador esperados (juego \"relevamiento participativo\")",
+      "file_type": "document",
+      "source_file": "Docs/estados-jugador-e4.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_estados_jugador_e4_e4_estados_de_jugador_esperados_juego_relevamiento_participativo",
+      "community": 61,
+      "norm_label": "e4 \u2014 estados de jugador esperados (juego \"relevamiento participativo\")"
+    },
+    {
+      "label": "Reglas de puntaje aplicadas",
+      "file_type": "document",
+      "source_file": "Docs/estados-jugador-e4.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "docs_estados_jugador_e4_reglas_de_puntaje_aplicadas",
+      "community": 61,
+      "norm_label": "reglas de puntaje aplicadas"
+    },
+    {
+      "label": "Medallas (E3)",
+      "file_type": "document",
+      "source_file": "Docs/estados-jugador-e4.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "docs_estados_jugador_e4_medallas_e3",
+      "community": 61,
+      "norm_label": "medallas (e3)"
+    },
+    {
+      "label": "Estado por persona",
+      "file_type": "document",
+      "source_file": "Docs/estados-jugador-e4.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "docs_estados_jugador_e4_estado_por_persona",
+      "community": 61,
+      "norm_label": "estado por persona"
+    },
+    {
       "label": "graphdb.md",
       "file_type": "document",
       "source_file": "Docs/graphdb.md",
@@ -4524,6 +4574,276 @@
       "norm_label": "convencion de nombres"
     },
     {
+      "label": "presentacion-avances.md",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances",
+      "community": 58,
+      "norm_label": "presentacion-avances.md"
+    },
+    {
+      "label": "Presentacion de avances - AdaptativeScience Graph",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances_presentacion_de_avances_adaptativescience_graph",
+      "community": 58,
+      "norm_label": "presentacion de avances - adaptativescience graph"
+    },
+    {
+      "label": "Estado actual",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances_estado_actual",
+      "community": 58,
+      "norm_label": "estado actual"
+    },
+    {
+      "label": "Que se desarrollo",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances_que_se_desarrollo",
+      "community": 58,
+      "norm_label": "que se desarrollo"
+    },
+    {
+      "label": "Infraestructura",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances_infraestructura",
+      "community": 58,
+      "norm_label": "infraestructura"
+    },
+    {
+      "label": "Ontologia de dominio",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances_ontologia_de_dominio",
+      "community": 58,
+      "norm_label": "ontologia de dominio"
+    },
+    {
+      "label": "Datos de dominio",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances_datos_de_dominio",
+      "community": 58,
+      "norm_label": "datos de dominio"
+    },
+    {
+      "label": "Validacion",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L70",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances_validacion",
+      "community": 58,
+      "norm_label": "validacion"
+    },
+    {
+      "label": "Ontologia PBL y juego",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L91",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances_ontologia_pbl_y_juego",
+      "community": 58,
+      "norm_label": "ontologia pbl y juego"
+    },
+    {
+      "label": "Carga integral en GraphDB",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L130",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances_carga_integral_en_graphdb",
+      "community": 58,
+      "norm_label": "carga integral en graphdb"
+    },
+    {
+      "label": "Queries para la presentacion",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L162",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances_queries_para_la_presentacion",
+      "community": 58,
+      "norm_label": "queries para la presentacion"
+    },
+    {
+      "label": "1. Resumen de entidades cargadas",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L164",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances_1_resumen_de_entidades_cargadas",
+      "community": 58,
+      "norm_label": "1. resumen de entidades cargadas"
+    },
+    {
+      "label": "2. Proyectos, areas y protocolos activos",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L202",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances_2_proyectos_areas_y_protocolos_activos",
+      "community": 58,
+      "norm_label": "2. proyectos, areas y protocolos activos"
+    },
+    {
+      "label": "3. Flujo de protocolos y bifurcaciones",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L228",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances_3_flujo_de_protocolos_y_bifurcaciones",
+      "community": 58,
+      "norm_label": "3. flujo de protocolos y bifurcaciones"
+    },
+    {
+      "label": "4. Muestras por persona, proyecto y provincia",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L260",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances_4_muestras_por_persona_proyecto_y_provincia",
+      "community": 58,
+      "norm_label": "4. muestras por persona, proyecto y provincia"
+    },
+    {
+      "label": "5. Respuestas con texto, opciones y multimedia",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L292",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances_5_respuestas_con_texto_opciones_y_multimedia",
+      "community": 58,
+      "norm_label": "5. respuestas con texto, opciones y multimedia"
+    },
+    {
+      "label": "6. Inferencia por alineacion con PROV-O",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L325",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances_6_inferencia_por_alineacion_con_prov_o",
+      "community": 58,
+      "norm_label": "6. inferencia por alineacion con prov-o"
+    },
+    {
+      "label": "7. Aportes por persona y area de conocimiento",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L345",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances_7_aportes_por_persona_y_area_de_conocimiento",
+      "community": 58,
+      "norm_label": "7. aportes por persona y area de conocimiento"
+    },
+    {
+      "label": "8. Resumen de entidades PBL cargadas",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L384",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances_8_resumen_de_entidades_pbl_cargadas",
+      "community": 58,
+      "norm_label": "8. resumen de entidades pbl cargadas"
+    },
+    {
+      "label": "9. Reglas de puntos del juego PBL",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L420",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances_9_reglas_de_puntos_del_juego_pbl",
+      "community": 58,
+      "norm_label": "9. reglas de puntos del juego pbl"
+    },
+    {
+      "label": "10. Trazabilidad de puntos hacia contribuciones del dominio",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L448",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances_10_trazabilidad_de_puntos_hacia_contribuciones_del_dominio",
+      "community": 58,
+      "norm_label": "10. trazabilidad de puntos hacia contribuciones del dominio"
+    },
+    {
+      "label": "11. Billetera materializada vs. suma de awards",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L482",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances_11_billetera_materializada_vs_suma_de_awards",
+      "community": 58,
+      "norm_label": "11. billetera materializada vs. suma de awards"
+    },
+    {
+      "label": "12. Leaderboard del juego",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L515",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances_12_leaderboard_del_juego",
+      "community": 58,
+      "norm_label": "12. leaderboard del juego"
+    },
+    {
+      "label": "13. Progreso hacia medallas",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L543",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances_13_progreso_hacia_medallas",
+      "community": 58,
+      "norm_label": "13. progreso hacia medallas"
+    },
+    {
+      "label": "14. Medallas incrementales",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L578",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances_14_medallas_incrementales",
+      "community": 58,
+      "norm_label": "14. medallas incrementales"
+    },
+    {
+      "label": "Guion sugerido",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L606",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances_guion_sugerido",
+      "community": 58,
+      "norm_label": "guion sugerido"
+    },
+    {
+      "label": "Cierre",
+      "file_type": "document",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L622",
+      "_origin": "ast",
+      "id": "docs_presentacion_avances_cierre",
+      "community": 58,
+      "norm_label": "cierre"
+    },
+    {
       "label": "validation.md",
       "file_type": "document",
       "source_file": "Docs/validation.md",
@@ -4617,7 +4937,7 @@
       "label": "Flujo de ramas y commits",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L42",
+      "source_location": "L75",
       "_origin": "ast",
       "id": "readme_flujo_de_ramas_y_commits",
       "community": 45,
@@ -7224,9 +7544,9 @@
       "source_file": "Docs/backlog/E1-ontologia-dominio/README.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e1_ontologia_dominio_readme_e1_ontolog\u00eda_de_dominio_en_owl_req_1_must",
-      "target": "e1_ontologia_dominio_readme_estado_de_implementaci\u00f3n",
-      "confidence_score": 1.0
+      "target": "e1_ontologia_dominio_readme_estado_de_implementaci\u00f3n"
     },
     {
       "relation": "contains",
@@ -9444,9 +9764,9 @@
       "source_file": "Docs/decisiones-modelado.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_decisiones_modelado",
-      "target": "docs_decisiones_modelado_decisiones_de_modelado",
-      "confidence_score": 1.0
+      "target": "docs_decisiones_modelado_decisiones_de_modelado"
     },
     {
       "relation": "contains",
@@ -9454,9 +9774,9 @@
       "source_file": "Docs/decisiones-modelado.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_decisiones_modelado_decisiones_de_modelado",
-      "target": "docs_decisiones_modelado_alineaciones_livianas",
-      "confidence_score": 1.0
+      "target": "docs_decisiones_modelado_alineaciones_livianas"
     },
     {
       "relation": "contains",
@@ -9464,9 +9784,9 @@
       "source_file": "Docs/decisiones-modelado.md",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_decisiones_modelado_decisiones_de_modelado",
-      "target": "docs_decisiones_modelado_consistencia",
-      "confidence_score": 1.0
+      "target": "docs_decisiones_modelado_consistencia"
     },
     {
       "relation": "contains",
@@ -9474,9 +9794,9 @@
       "source_file": "Docs/decisiones-modelado.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_decisiones_modelado_decisiones_de_modelado",
-      "target": "docs_decisiones_modelado_ejecucion_de_muestras",
-      "confidence_score": 1.0
+      "target": "docs_decisiones_modelado_ejecucion_de_muestras"
     },
     {
       "relation": "contains",
@@ -9484,9 +9804,9 @@
       "source_file": "Docs/decisiones-modelado.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_decisiones_modelado_decisiones_de_modelado",
-      "target": "docs_decisiones_modelado_ontologia_de_dominio",
-      "confidence_score": 1.0
+      "target": "docs_decisiones_modelado_ontologia_de_dominio"
     },
     {
       "relation": "contains",
@@ -9494,9 +9814,9 @@
       "source_file": "Docs/decisiones-modelado.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_decisiones_modelado_decisiones_de_modelado",
-      "target": "docs_decisiones_modelado_pasos_transiciones_y_bifurcaciones",
-      "confidence_score": 1.0
+      "target": "docs_decisiones_modelado_pasos_transiciones_y_bifurcaciones"
     },
     {
       "relation": "contains",
@@ -9504,9 +9824,49 @@
       "source_file": "Docs/decisiones-modelado.md",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_decisiones_modelado_decisiones_de_modelado",
-      "target": "docs_decisiones_modelado_perfil_colaborador",
-      "confidence_score": 1.0
+      "target": "docs_decisiones_modelado_perfil_colaborador"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/estados-jugador-e4.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_estados_jugador_e4",
+      "target": "docs_estados_jugador_e4_e4_estados_de_jugador_esperados_juego_relevamiento_participativo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/estados-jugador-e4.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_estados_jugador_e4_e4_estados_de_jugador_esperados_juego_relevamiento_participativo",
+      "target": "docs_estados_jugador_e4_estado_por_persona"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/estados-jugador-e4.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_estados_jugador_e4_e4_estados_de_jugador_esperados_juego_relevamiento_participativo",
+      "target": "docs_estados_jugador_e4_medallas_e3"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/estados-jugador-e4.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_estados_jugador_e4_e4_estados_de_jugador_esperados_juego_relevamiento_participativo",
+      "target": "docs_estados_jugador_e4_reglas_de_puntaje_aplicadas"
     },
     {
       "relation": "contains",
@@ -9601,6 +9961,266 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_presentacion_avances",
+      "target": "docs_presentacion_avances_presentacion_de_avances_adaptativescience_graph"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L116",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_presentacion_avances_presentacion_de_avances_adaptativescience_graph",
+      "target": "docs_presentacion_avances_carga_integral_en_graphdb"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L436",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_presentacion_avances_presentacion_de_avances_adaptativescience_graph",
+      "target": "docs_presentacion_avances_cierre"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_presentacion_avances_presentacion_de_avances_adaptativescience_graph",
+      "target": "docs_presentacion_avances_estado_actual"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L424",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_presentacion_avances_presentacion_de_avances_adaptativescience_graph",
+      "target": "docs_presentacion_avances_guion_sugerido"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_presentacion_avances_presentacion_de_avances_adaptativescience_graph",
+      "target": "docs_presentacion_avances_que_se_desarrollo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L146",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_presentacion_avances_presentacion_de_avances_adaptativescience_graph",
+      "target": "docs_presentacion_avances_queries_para_la_presentacion"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_presentacion_avances_que_se_desarrollo",
+      "target": "docs_presentacion_avances_datos_de_dominio"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_presentacion_avances_que_se_desarrollo",
+      "target": "docs_presentacion_avances_infraestructura"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_presentacion_avances_que_se_desarrollo",
+      "target": "docs_presentacion_avances_ontologia_de_dominio"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_presentacion_avances_que_se_desarrollo",
+      "target": "docs_presentacion_avances_ontologia_pbl_y_juego"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_presentacion_avances_que_se_desarrollo",
+      "target": "docs_presentacion_avances_validacion"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L448",
+      "weight": 1.0,
+      "source": "docs_presentacion_avances_queries_para_la_presentacion",
+      "target": "docs_presentacion_avances_10_trazabilidad_de_puntos_hacia_contribuciones_del_dominio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L482",
+      "weight": 1.0,
+      "source": "docs_presentacion_avances_queries_para_la_presentacion",
+      "target": "docs_presentacion_avances_11_billetera_materializada_vs_suma_de_awards",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L515",
+      "weight": 1.0,
+      "source": "docs_presentacion_avances_queries_para_la_presentacion",
+      "target": "docs_presentacion_avances_12_leaderboard_del_juego",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L543",
+      "weight": 1.0,
+      "source": "docs_presentacion_avances_queries_para_la_presentacion",
+      "target": "docs_presentacion_avances_13_progreso_hacia_medallas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L578",
+      "weight": 1.0,
+      "source": "docs_presentacion_avances_queries_para_la_presentacion",
+      "target": "docs_presentacion_avances_14_medallas_incrementales",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L148",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_presentacion_avances_queries_para_la_presentacion",
+      "target": "docs_presentacion_avances_1_resumen_de_entidades_cargadas"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L186",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_presentacion_avances_queries_para_la_presentacion",
+      "target": "docs_presentacion_avances_2_proyectos_areas_y_protocolos_activos"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L212",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_presentacion_avances_queries_para_la_presentacion",
+      "target": "docs_presentacion_avances_3_flujo_de_protocolos_y_bifurcaciones"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L244",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_presentacion_avances_queries_para_la_presentacion",
+      "target": "docs_presentacion_avances_4_muestras_por_persona_proyecto_y_provincia"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L276",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_presentacion_avances_queries_para_la_presentacion",
+      "target": "docs_presentacion_avances_5_respuestas_con_texto_opciones_y_multimedia"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L309",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_presentacion_avances_queries_para_la_presentacion",
+      "target": "docs_presentacion_avances_6_inferencia_por_alineacion_con_prov_o"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L329",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_presentacion_avances_queries_para_la_presentacion",
+      "target": "docs_presentacion_avances_7_aportes_por_persona_y_area_de_conocimiento"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L384",
+      "weight": 1.0,
+      "source": "docs_presentacion_avances_queries_para_la_presentacion",
+      "target": "docs_presentacion_avances_8_resumen_de_entidades_pbl_cargadas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Docs/presentacion-avances.md",
+      "source_location": "L420",
+      "weight": 1.0,
+      "source": "docs_presentacion_avances_queries_para_la_presentacion",
+      "target": "docs_presentacion_avances_9_reglas_de_puntos_del_juego_pbl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "Docs/validation.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -9614,9 +10234,9 @@
       "source_file": "Docs/validation.md",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_validation_toolchain_de_validacion",
-      "target": "docs_validation_chequeos_manuales_de_entorno",
-      "confidence_score": 1.0
+      "target": "docs_validation_chequeos_manuales_de_entorno"
     },
     {
       "relation": "contains",
@@ -9680,5 +10300,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "457234eb44facabfaab58db6cdf7161f4d4f3368"
+  "built_at_commit": "518df74a00087127ba5ebf0abbe62d069a46dff9"
 }

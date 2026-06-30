@@ -1,0 +1,134 @@
+@base <https://w3id.org/cipa/data/> .
+@prefix pbl: <https://w3id.org/cipa/pbl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# =====================================================================
+# E4 - Acople dominio <-> juego (H4.1)
+# Cada accion relevante de E2 genera un pbl:PointAward segun la pbl:PointRule
+# aplicable de E3. La trazabilidad al dominio se expresa con pbl:fromContribution.
+# Mapeo:
+#   completar-protocolo (50): la Muestra alcanzo un paso TERMINAL del protocolo.
+#   subir-foto (20):          una MuestraRespuesta con cipa:valorMultimedia.
+#   geolocalizar (10):        la Muestra esta registrada en una Ubicacion.
+#   editar-perfil (0):        accion administrativa -> NO genera PointAward.
+# =====================================================================
+
+# ---------------------------------------------------------------------
+# Jugadores (pbl:Player) enlazados a las personas de dominio via owl:sameAs.
+# Las ontologias quedan separadas (cipa: / pbl:); el acople vive en los datos.
+# ---------------------------------------------------------------------
+<player/ana-perez>       a pbl:Player ; owl:sameAs <persona/ana-perez> .
+<player/matias-cabrera>  a pbl:Player ; owl:sameAs <persona/matias-cabrera> .
+<player/bruno-lattanzio> a pbl:Player ; owl:sameAs <persona/bruno-lattanzio> .
+<player/lucia-gomez>     a pbl:Player ; owl:sameAs <persona/lucia-gomez> .
+
+# =====================================================================
+# Ana Perez -> 240 pts (arboles-001, arboles-004, aves-001)
+# =====================================================================
+<award/arboles-001-protocolo> a pbl:PointAward ;
+  pbl:awardedTo <estado/ana-perez-relevamiento> ;
+  pbl:fromActivity <actividad/completar-protocolo> ; pbl:appliedRule <regla/protocolo> ;
+  pbl:fromContribution <muestra/arboles-001> ; pbl:points 50 ;
+  pbl:awardedAt "2026-03-10T09:15:00-03:00"^^xsd:dateTime .
+<award/arboles-001-foto> a pbl:PointAward ;
+  pbl:awardedTo <estado/ana-perez-relevamiento> ;
+  pbl:fromActivity <actividad/subir-foto> ; pbl:appliedRule <regla/foto> ;
+  pbl:fromContribution <respuesta/arboles-001-foto> ; pbl:points 20 ;
+  pbl:awardedAt "2026-03-10T09:17:20-03:00"^^xsd:dateTime .
+<award/arboles-001-geo> a pbl:PointAward ;
+  pbl:awardedTo <estado/ana-perez-relevamiento> ;
+  pbl:fromActivity <actividad/geolocalizar> ; pbl:appliedRule <regla/geo> ;
+  pbl:fromContribution <muestra/arboles-001> ; pbl:points 10 ;
+  pbl:awardedAt "2026-03-10T09:15:00-03:00"^^xsd:dateTime .
+
+<award/arboles-004-protocolo> a pbl:PointAward ;
+  pbl:awardedTo <estado/ana-perez-relevamiento> ;
+  pbl:fromActivity <actividad/completar-protocolo> ; pbl:appliedRule <regla/protocolo> ;
+  pbl:fromContribution <muestra/arboles-004> ; pbl:points 50 ;
+  pbl:awardedAt "2026-06-05T08:50:00-03:00"^^xsd:dateTime .
+<award/arboles-004-foto> a pbl:PointAward ;
+  pbl:awardedTo <estado/ana-perez-relevamiento> ;
+  pbl:fromActivity <actividad/subir-foto> ; pbl:appliedRule <regla/foto> ;
+  pbl:fromContribution <respuesta/arboles-004-foto> ; pbl:points 20 ;
+  pbl:awardedAt "2026-06-05T08:52:10-03:00"^^xsd:dateTime .
+<award/arboles-004-geo> a pbl:PointAward ;
+  pbl:awardedTo <estado/ana-perez-relevamiento> ;
+  pbl:fromActivity <actividad/geolocalizar> ; pbl:appliedRule <regla/geo> ;
+  pbl:fromContribution <muestra/arboles-004> ; pbl:points 10 ;
+  pbl:awardedAt "2026-06-05T08:50:00-03:00"^^xsd:dateTime .
+
+<award/aves-001-protocolo> a pbl:PointAward ;
+  pbl:awardedTo <estado/ana-perez-relevamiento> ;
+  pbl:fromActivity <actividad/completar-protocolo> ; pbl:appliedRule <regla/protocolo> ;
+  pbl:fromContribution <muestra/aves-001> ; pbl:points 50 ;
+  pbl:awardedAt "2026-04-02T07:30:00-03:00"^^xsd:dateTime .
+<award/aves-001-foto> a pbl:PointAward ;
+  pbl:awardedTo <estado/ana-perez-relevamiento> ;
+  pbl:fromActivity <actividad/subir-foto> ; pbl:appliedRule <regla/foto> ;
+  pbl:fromContribution <respuesta/aves-001-foto> ; pbl:points 20 ;
+  pbl:awardedAt "2026-04-02T07:30:40-03:00"^^xsd:dateTime .
+<award/aves-001-geo> a pbl:PointAward ;
+  pbl:awardedTo <estado/ana-perez-relevamiento> ;
+  pbl:fromActivity <actividad/geolocalizar> ; pbl:appliedRule <regla/geo> ;
+  pbl:fromContribution <muestra/aves-001> ; pbl:points 10 ;
+  pbl:awardedAt "2026-04-02T07:30:00-03:00"^^xsd:dateTime .
+
+# =====================================================================
+# Matias Cabrera -> 80 pts (arboles-002)
+# =====================================================================
+<award/arboles-002-protocolo> a pbl:PointAward ;
+  pbl:awardedTo <estado/matias-cabrera-relevamiento> ;
+  pbl:fromActivity <actividad/completar-protocolo> ; pbl:appliedRule <regla/protocolo> ;
+  pbl:fromContribution <muestra/arboles-002> ; pbl:points 50 ;
+  pbl:awardedAt "2026-04-15T16:40:00-03:00"^^xsd:dateTime .
+<award/arboles-002-foto> a pbl:PointAward ;
+  pbl:awardedTo <estado/matias-cabrera-relevamiento> ;
+  pbl:fromActivity <actividad/subir-foto> ; pbl:appliedRule <regla/foto> ;
+  pbl:fromContribution <respuesta/arboles-002-foto> ; pbl:points 20 ;
+  pbl:awardedAt "2026-04-15T16:42:30-03:00"^^xsd:dateTime .
+<award/arboles-002-geo> a pbl:PointAward ;
+  pbl:awardedTo <estado/matias-cabrera-relevamiento> ;
+  pbl:fromActivity <actividad/geolocalizar> ; pbl:appliedRule <regla/geo> ;
+  pbl:fromContribution <muestra/arboles-002> ; pbl:points 10 ;
+  pbl:awardedAt "2026-04-15T16:40:00-03:00"^^xsd:dateTime .
+
+# =====================================================================
+# Bruno Lattanzio -> 140 pts (arboles-003 rama exotica: sin foto; aves-002)
+# =====================================================================
+<award/arboles-003-protocolo> a pbl:PointAward ;
+  pbl:awardedTo <estado/bruno-lattanzio-relevamiento> ;
+  pbl:fromActivity <actividad/completar-protocolo> ; pbl:appliedRule <regla/protocolo> ;
+  pbl:fromContribution <muestra/arboles-003> ; pbl:points 50 ;
+  pbl:awardedAt "2026-05-20T11:05:00-03:00"^^xsd:dateTime .
+<award/arboles-003-geo> a pbl:PointAward ;
+  pbl:awardedTo <estado/bruno-lattanzio-relevamiento> ;
+  pbl:fromActivity <actividad/geolocalizar> ; pbl:appliedRule <regla/geo> ;
+  pbl:fromContribution <muestra/arboles-003> ; pbl:points 10 ;
+  pbl:awardedAt "2026-05-20T11:05:00-03:00"^^xsd:dateTime .
+
+<award/aves-002-protocolo> a pbl:PointAward ;
+  pbl:awardedTo <estado/bruno-lattanzio-relevamiento> ;
+  pbl:fromActivity <actividad/completar-protocolo> ; pbl:appliedRule <regla/protocolo> ;
+  pbl:fromContribution <muestra/aves-002> ; pbl:points 50 ;
+  pbl:awardedAt "2026-05-22T18:10:00-03:00"^^xsd:dateTime .
+<award/aves-002-foto> a pbl:PointAward ;
+  pbl:awardedTo <estado/bruno-lattanzio-relevamiento> ;
+  pbl:fromActivity <actividad/subir-foto> ; pbl:appliedRule <regla/foto> ;
+  pbl:fromContribution <respuesta/aves-002-foto> ; pbl:points 20 ;
+  pbl:awardedAt "2026-05-22T18:10:35-03:00"^^xsd:dateTime .
+<award/aves-002-geo> a pbl:PointAward ;
+  pbl:awardedTo <estado/bruno-lattanzio-relevamiento> ;
+  pbl:fromActivity <actividad/geolocalizar> ; pbl:appliedRule <regla/geo> ;
+  pbl:fromContribution <muestra/aves-002> ; pbl:points 10 ;
+  pbl:awardedAt "2026-05-22T18:10:00-03:00"^^xsd:dateTime .
+
+# =====================================================================
+# Lucia Gomez -> 10 pts (arboles-005 abandonada: solo geolocalizacion)
+# Sin "completar-protocolo" (no alcanzo paso terminal) ni "subir-foto".
+# =====================================================================
+<award/arboles-005-geo> a pbl:PointAward ;
+  pbl:awardedTo <estado/lucia-gomez-relevamiento> ;
+  pbl:fromActivity <actividad/geolocalizar> ; pbl:appliedRule <regla/geo> ;
+  pbl:fromContribution <muestra/arboles-005> ; pbl:points 10 ;
+  pbl:awardedAt "2026-06-10T10:00:00-03:00"^^xsd:dateTime .

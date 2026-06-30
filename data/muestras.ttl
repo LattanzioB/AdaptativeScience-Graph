@@ -249,3 +249,26 @@
   cipa:correspondeAPaso <paso/aves-cantidad> ;
   cipa:seleccionaOpcion <opcion/aves-cantidad-1> ;
   cipa:fechaHoraRespuesta "2026-05-22T18:11:40-03:00"^^xsd:dateTime .
+
+# =====================================================================
+# Muestra arboles-005 - Lucia / Buenos Aires / 2026-06-10 - ABANDONADA (E4/H4.3)
+# Solo responde el paso inicial (es-nativa); no alcanza paso terminal.
+# => no otorga "completar-protocolo"; solo geolocalizacion (10 pts) -> sin medalla.
+# =====================================================================
+<ubicacion/arboles-005>
+  a cipa:Ubicacion ; rdfs:label "Buenos Aires"@es ;
+  cipa:latitud "-34.6090"^^xsd:decimal ; cipa:longitud "-58.3920"^^xsd:decimal .
+
+<muestra/arboles-005>
+  a cipa:Muestra ;
+  cipa:ejecutaProtocolo <protocolo/arboles-nativos> ;
+  cipa:respondidaPor <persona/lucia-gomez> ;
+  cipa:registradaEn <ubicacion/arboles-005> ;
+  cipa:fechaHora "2026-06-10T10:00:00-03:00"^^xsd:dateTime ;
+  cipa:tieneRespuesta <respuesta/arboles-005-es-nativa> .
+
+<respuesta/arboles-005-es-nativa>
+  a cipa:MuestraRespuesta ;
+  cipa:correspondeAPaso <paso/es-nativa> ;
+  cipa:seleccionaOpcion <opcion/es-nativa-si> ;
+  cipa:fechaHoraRespuesta "2026-06-10T10:00:30-03:00"^^xsd:dateTime .

@@ -40,6 +40,9 @@ pbl:earnedBadge a owl:ObjectProperty ; rdfs:domain pbl:Player ; rdfs:range pbl:B
 pbl:forPlayer a owl:ObjectProperty ; rdfs:domain pbl:PlayerState ; rdfs:range pbl:Player ; rdfs:label "del jugador"@es .
 pbl:playsGame a owl:ObjectProperty ; rdfs:domain pbl:PlayerState ; rdfs:range pbl:Game ; rdfs:label "juega"@es .
 pbl:ranks a owl:ObjectProperty ; rdfs:domain pbl:Leaderboard ; rdfs:range pbl:PlayerState ; rdfs:label "rankea"@es .
+# Trazabilidad evento -> accion de dominio. Sin rdfs:range para mantener PBL
+# independiente del dominio: el acople con cipa: se realiza en la capa de datos (E4).
+pbl:fromContribution a owl:ObjectProperty ; rdfs:domain pbl:PointAward ; rdfs:label "originado en contribucion"@es ; rdfs:comment "Enlaza el pbl:PointAward con la accion de dominio que lo origino (p. ej. una cipa:Muestra o cipa:MuestraRespuesta)."@es .
 
 # =====================================================================
 # Propiedades de datos

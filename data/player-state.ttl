@@ -1,0 +1,50 @@
+@base <https://w3id.org/cipa/data/> .
+@prefix pbl: <https://w3id.org/cipa/pbl#> .
+
+# =====================================================================
+# E4 - Estado de jugador (H4.2) para el juego "relevamiento participativo".
+# pbl:pointsBalance materializado = SUM(pbl:points) de los PointAward del jugador
+# (ver data/juego-eventos.ttl). El estado es por juego particular (6.b.i).
+#
+# NOTA (Opcion A): la coleccion de medallas (pbl:earnedBadge) NO se asevera aqui.
+# La obtencion de medallas se DETERMINA con Shapes en E5 (req. 5) y se materializa
+# en H5.4 a partir del resultado de validacion. Asi, "ganar" la medalla es un
+# resultado del shape (sobre los puntos), no un dato cargado a mano.
+#
+# Cobertura de estados de medalla esperada (H4.3), a verificar en E5:
+#   Lucia  =  10  -> sin medalla
+#   Matias =  80  -> Aficionado (M1)            [>=50, <100]
+#   Bruno  = 140  -> Aficionado + Explorador     [>=100, <200]
+#   Ana    = 240  -> Aficionado + Explorador + Naturalista (elegible M3) [>=200]
+# =====================================================================
+
+<estado/ana-perez-relevamiento> a pbl:PlayerState ;
+  pbl:forPlayer <player/ana-perez> ;
+  pbl:playsGame <juego/relevamiento> ;
+  pbl:pointsBalance 240 .
+
+<estado/matias-cabrera-relevamiento> a pbl:PlayerState ;
+  pbl:forPlayer <player/matias-cabrera> ;
+  pbl:playsGame <juego/relevamiento> ;
+  pbl:pointsBalance 80 .
+
+<estado/bruno-lattanzio-relevamiento> a pbl:PlayerState ;
+  pbl:forPlayer <player/bruno-lattanzio> ;
+  pbl:playsGame <juego/relevamiento> ;
+  pbl:pointsBalance 140 .
+
+<estado/lucia-gomez-relevamiento> a pbl:PlayerState ;
+  pbl:forPlayer <player/lucia-gomez> ;
+  pbl:playsGame <juego/relevamiento> ;
+  pbl:pointsBalance 10 .
+
+# pbl:earnedBadge se deriva en E5 (shapes) -> H5.4 (CONSTRUCT). Ver nota arriba.
+
+# ---------------------------------------------------------------------
+# El leaderboard del juego rankea los estados de los jugadores.
+# ---------------------------------------------------------------------
+<leaderboard/relevamiento> pbl:ranks
+  <estado/ana-perez-relevamiento>,
+  <estado/bruno-lattanzio-relevamiento>,
+  <estado/matias-cabrera-relevamiento>,
+  <estado/lucia-gomez-relevamiento> .

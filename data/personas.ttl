@@ -25,3 +25,11 @@
   foaf:name "Bruno Lattanzio" ;
   cipa:nivelExpertise cipa:expertise-intermedio ;
   rdfs:label "Bruno Lattanzio"@es .
+
+# 4ta persona (E4/H4.3): participa pero abandona el protocolo -> caso "sin medalla".
+<persona/lucia-gomez>
+  a cipa:Persona ;
+  cipa:personaId "lucia-gomez" ;
+  foaf:name "Lucia Gomez" ;
+  cipa:nivelExpertise cipa:expertise-novato ;
+  rdfs:label "Lucia Gomez"@es .

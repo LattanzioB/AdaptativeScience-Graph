@@ -1,0 +1,23 @@
+# Proyectos y areas (H2.2)
+# Dos proyectos en areas distintas, cada uno con su protocolo activo.
+@base <https://w3id.org/cipa/data/> .
+@prefix cipa: <https://w3id.org/cipa/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<proyecto/arboles-nativos>
+  a cipa:Proyecto ;
+  cipa:tieneNombre "Arboles nativos" ;
+  cipa:tieneDescripcion "Censo ciudadano de especies arboreas nativas en espacios publicos." ;
+  cipa:perteneceA cipa:area-botanica, cipa:area-ambiente ;
+  cipa:tieneProtocolo <protocolo/arboles-nativos> ;
+  cipa:tieneProtocoloActivo <protocolo/arboles-nativos> ;
+  rdfs:label "Arboles nativos"@es .
+
+<proyecto/observacion-aves>
+  a cipa:Proyecto ;
+  cipa:tieneNombre "Observacion de aves" ;
+  cipa:tieneDescripcion "Relevamiento participativo de avifauna urbana y periurbana." ;
+  cipa:perteneceA cipa:area-zoologia ;
+  cipa:tieneProtocolo <protocolo/observacion-aves> ;
+  cipa:tieneProtocoloActivo <protocolo/observacion-aves> ;
+  rdfs:label "Observacion de aves"@es .

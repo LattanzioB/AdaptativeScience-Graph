@@ -1,0 +1,111 @@
+# Protocolo "Arboles nativos" (H2.1)
+# Flujo con bifurcacion del Excalidraw:
+#   es-nativa? --Si--> nombre-especie --> caracteristicas --> foto-arbol (fin)
+#   es-nativa? --No--> confirmar-exotica (fin)
+@base <https://w3id.org/cipa/data/> .
+@prefix cipa: <https://w3id.org/cipa/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<protocolo/arboles-nativos>
+  a cipa:Protocolo ;
+  cipa:tieneNombre "Protocolo de relevamiento de arboles nativos" ;
+  cipa:tieneDescripcion "Releva una especie arborea, determina si es nativa y registra caracteristicas y foto." ;
+  cipa:tieneEstado cipa:estado-activo ;
+  cipa:tienePrimerPaso <paso/es-nativa> ;
+  cipa:tienePaso
+    <paso/es-nativa>,
+    <paso/nombre-especie>,
+    <paso/caracteristicas>,
+    <paso/foto-arbol>,
+    <paso/confirmar-exotica> .
+
+# --- Paso 1 (inicial): es nativa? ---
+<paso/es-nativa>
+  a cipa:Paso, cipa:PasoCuestionario ;
+  rdfs:label "Es nativa?"@es ;
+  cipa:tieneEnunciado <enunciado/es-nativa> .
+
+<enunciado/es-nativa>
+  a cipa:EnunciadoCuestionario ;
+  cipa:tieneDescripcion "La especie observada es nativa?" ;
+  cipa:tieneTipoRespuesta cipa:respuesta-selector-unico ;
+  cipa:tieneOpcionRespuesta <opcion/es-nativa-si>, <opcion/es-nativa-no> .
+
+<opcion/es-nativa-si> a cipa:OpcionRespuestaCuestionario ; rdfs:label "Si"@es .
+<opcion/es-nativa-no> a cipa:OpcionRespuestaCuestionario ; rdfs:label "No"@es .
+
+# --- Paso 2A (nativa): nombre de la especie ---
+<paso/nombre-especie>
+  a cipa:Paso, cipa:PasoCuestionario ;
+  rdfs:label "Nombre de la especie"@es ;
+  cipa:tieneEnunciado <enunciado/nombre-especie> .
+
+<enunciado/nombre-especie>
+  a cipa:EnunciadoCuestionario ;
+  cipa:tieneDescripcion "Nombre de la especie observada" ;
+  cipa:tieneTipoRespuesta cipa:respuesta-texto-libre .
+
+# --- Paso 3A (nativa): caracteristicas (selector multiple) ---
+<paso/caracteristicas>
+  a cipa:Paso, cipa:PasoCuestionario ;
+  rdfs:label "Caracteristicas observadas"@es ;
+  cipa:tieneEnunciado <enunciado/caracteristicas> .
+
+<enunciado/caracteristicas>
+  a cipa:EnunciadoCuestionario ;
+  cipa:tieneDescripcion "Caracteristicas observadas" ;
+  cipa:tieneTipoRespuesta cipa:respuesta-selector-multiple ;
+  cipa:tieneOpcionRespuesta <opcion/flores>, <opcion/frutos>, <opcion/espinas> .
+
+<opcion/flores> a cipa:OpcionRespuestaCuestionario ; rdfs:label "Flores"@es .
+<opcion/frutos> a cipa:OpcionRespuestaCuestionario ; rdfs:label "Frutos"@es .
+<opcion/espinas> a cipa:OpcionRespuestaCuestionario ; rdfs:label "Espinas"@es .
+
+# --- Paso 4A (nativa, terminal): foto del arbol (multimedia) ---
+<paso/foto-arbol>
+  a cipa:Paso, cipa:PasoMultimedia ;
+  rdfs:label "Foto del arbol"@es ;
+  cipa:tieneEnunciado <enunciado/foto-arbol> .
+
+<enunciado/foto-arbol>
+  a cipa:EnunciadoMultimedia ;
+  cipa:tieneDescripcion "Toma una foto del arbol relevado." .
+
+# --- Paso 2B (no nativa, terminal): confirmar exotica ---
+<paso/confirmar-exotica>
+  a cipa:Paso, cipa:PasoCuestionario ;
+  rdfs:label "Confirmar especie exotica"@es ;
+  cipa:tieneEnunciado <enunciado/confirmar-exotica> .
+
+<enunciado/confirmar-exotica>
+  a cipa:EnunciadoCuestionario ;
+  cipa:tieneDescripcion "Registrar como especie exotica?" ;
+  cipa:tieneTipoRespuesta cipa:respuesta-selector-unico ;
+  cipa:tieneOpcionRespuesta <opcion/exotica-si>, <opcion/exotica-no> .
+
+<opcion/exotica-si> a cipa:OpcionRespuestaCuestionario ; rdfs:label "Si"@es .
+<opcion/exotica-no> a cipa:OpcionRespuestaCuestionario ; rdfs:label "No"@es .
+
+# --- Transiciones (DAG con bifurcacion) ---
+<transicion/nativa-si>
+  a cipa:Transicion ;
+  cipa:desdePaso <paso/es-nativa> ;
+  cipa:disparadaPor <opcion/es-nativa-si> ;
+  cipa:haciaPaso <paso/nombre-especie> .
+
+<transicion/nativa-no>
+  a cipa:Transicion ;
+  cipa:desdePaso <paso/es-nativa> ;
+  cipa:disparadaPor <opcion/es-nativa-no> ;
+  cipa:haciaPaso <paso/confirmar-exotica> .
+
+# Transiciones incondicionales (sin disparadaPor)
+<transicion/nombre-a-caracteristicas>
+  a cipa:Transicion ;
+  cipa:desdePaso <paso/nombre-especie> ;
+  cipa:haciaPaso <paso/caracteristicas> .
+
+<transicion/caracteristicas-a-foto>
+  a cipa:Transicion ;
+  cipa:desdePaso <paso/caracteristicas> ;
+  cipa:haciaPaso <paso/foto-arbol> .

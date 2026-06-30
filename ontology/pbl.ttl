@@ -1,0 +1,52 @@
+@prefix pbl: <https://w3id.org/cipa/pbl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pbl:PblOntology
+  a owl:Ontology ;
+  dcterms:title "Ontologia de ludificacion PBL"@es ;
+  dcterms:description "T-Box de la triada PBL (Points, Badges, Leaderboards): juego, actividades, reglas de puntos, medallas, estado del jugador. Independiente del dominio cipa; el acople se realiza en los datos (E4)."@es ;
+  owl:versionInfo "E3 PBL baseline"@es .
+
+# =====================================================================
+# Clases
+# =====================================================================
+pbl:Game a owl:Class ; rdfs:label "Juego"@es .
+pbl:Activity a owl:Class ; rdfs:label "Actividad"@es .
+pbl:PointRule a owl:Class ; rdfs:label "Regla de puntos"@es .
+pbl:PointAward a owl:Class ; rdfs:label "Otorgamiento de puntos"@es .
+pbl:Badge a owl:Class ; rdfs:label "Medalla"@es .
+pbl:Leaderboard a owl:Class ; rdfs:label "Tabla de posiciones"@es .
+pbl:Player a owl:Class ; rdfs:label "Jugador"@es .
+pbl:PlayerState a owl:Class ; rdfs:label "Estado del jugador"@es .
+pbl:DifficultyLevel a owl:Class ; rdfs:label "Nivel de dificultad"@es .
+
+# =====================================================================
+# Propiedades de objeto
+# =====================================================================
+pbl:hasActivity a owl:ObjectProperty ; rdfs:domain pbl:Game ; rdfs:range pbl:Activity ; rdfs:label "tiene actividad"@es .
+pbl:hasRule a owl:ObjectProperty ; rdfs:domain pbl:Game ; rdfs:range pbl:PointRule ; rdfs:label "tiene regla"@es .
+pbl:hasBadge a owl:ObjectProperty ; rdfs:domain pbl:Game ; rdfs:range pbl:Badge ; rdfs:label "tiene medalla"@es .
+pbl:hasLeaderboard a owl:ObjectProperty ; rdfs:domain pbl:Game ; rdfs:range pbl:Leaderboard ; rdfs:label "tiene tabla de posiciones"@es .
+pbl:rewardsActivity a owl:ObjectProperty ; rdfs:domain pbl:PointRule ; rdfs:range pbl:Activity ; rdfs:label "recompensa actividad"@es .
+pbl:hasDifficulty a owl:ObjectProperty ; rdfs:domain pbl:PointRule ; rdfs:range pbl:DifficultyLevel ; rdfs:label "tiene dificultad"@es .
+pbl:appliedRule a owl:ObjectProperty ; rdfs:domain pbl:PointAward ; rdfs:range pbl:PointRule ; rdfs:label "regla aplicada"@es .
+pbl:fromActivity a owl:ObjectProperty ; rdfs:domain pbl:PointAward ; rdfs:range pbl:Activity ; rdfs:label "desde actividad"@es .
+pbl:awardedTo a owl:ObjectProperty ; rdfs:domain pbl:PointAward ; rdfs:range pbl:PlayerState ; rdfs:label "otorgado a"@es .
+pbl:requiresBadge a owl:ObjectProperty ; rdfs:domain pbl:Badge ; rdfs:range pbl:Badge ; rdfs:label "requiere medalla"@es .
+pbl:earnedBadge a owl:ObjectProperty ; rdfs:domain pbl:Player ; rdfs:range pbl:Badge ; rdfs:label "medalla obtenida"@es .
+pbl:forPlayer a owl:ObjectProperty ; rdfs:domain pbl:PlayerState ; rdfs:range pbl:Player ; rdfs:label "del jugador"@es .
+pbl:playsGame a owl:ObjectProperty ; rdfs:domain pbl:PlayerState ; rdfs:range pbl:Game ; rdfs:label "juega"@es .
+pbl:ranks a owl:ObjectProperty ; rdfs:domain pbl:Leaderboard ; rdfs:range pbl:PlayerState ; rdfs:label "rankea"@es .
+
+# =====================================================================
+# Propiedades de datos
+# =====================================================================
+pbl:pointValue a owl:DatatypeProperty ; rdfs:domain pbl:PointRule ; rdfs:range xsd:integer ; rdfs:label "valor en puntos"@es .
+pbl:points a owl:DatatypeProperty ; rdfs:domain pbl:PointAward ; rdfs:range xsd:integer ; rdfs:label "puntos"@es .
+pbl:awardedAt a owl:DatatypeProperty ; rdfs:domain pbl:PointAward ; rdfs:range xsd:dateTime ; rdfs:label "otorgado en"@es .
+pbl:pointsBalance a owl:DatatypeProperty ; rdfs:domain pbl:PlayerState ; rdfs:range xsd:integer ; rdfs:label "saldo de puntos"@es .
+pbl:minPoints a owl:DatatypeProperty ; rdfs:domain pbl:Badge ; rdfs:range xsd:integer ; rdfs:label "puntos minimos"@es .
+pbl:minAportes a owl:DatatypeProperty ; rdfs:domain pbl:Badge ; rdfs:range xsd:integer ; rdfs:label "aportes minimos"@es .

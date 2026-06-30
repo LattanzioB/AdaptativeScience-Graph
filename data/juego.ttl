@@ -1,0 +1,66 @@
+@base <https://w3id.org/cipa/data/> .
+@prefix pbl: <https://w3id.org/cipa/pbl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# =====================================================================
+# Instancia del juego (H3.3): "Juego de relevamiento participativo"
+# Define actividades recompensadas, reglas de puntos, medallas y leaderboard.
+# No incluye PlayerState/PointAward (eso se acopla con personas en E4).
+# =====================================================================
+<juego/relevamiento> a pbl:Game ;
+  rdfs:label "Juego de relevamiento participativo"@es ;
+  pbl:hasActivity <actividad/completar-protocolo>, <actividad/subir-foto>, <actividad/geolocalizar>, <actividad/editar-perfil> ;
+  pbl:hasRule <regla/protocolo>, <regla/foto>, <regla/geo>, <regla/perfil> ;
+  pbl:hasBadge <medalla/aficionado>, <medalla/explorador>, <medalla/naturalista> ;
+  pbl:hasLeaderboard <leaderboard/relevamiento> .
+
+# Niveles de dificultad
+<dificultad/alta> a pbl:DifficultyLevel ; rdfs:label "Alta"@es .
+<dificultad/media> a pbl:DifficultyLevel ; rdfs:label "Media"@es .
+<dificultad/baja> a pbl:DifficultyLevel ; rdfs:label "Baja"@es .
+
+# Actividades recompensables
+<actividad/completar-protocolo> a pbl:Activity ; rdfs:label "Completar un protocolo"@es .
+<actividad/subir-foto> a pbl:Activity ; rdfs:label "Subir una foto"@es .
+<actividad/geolocalizar> a pbl:Activity ; rdfs:label "Geolocalizar una muestra"@es .
+<actividad/editar-perfil> a pbl:Activity ; rdfs:label "Editar perfil"@es .
+
+# Reglas de puntos (actividad + valor + dificultad)
+<regla/protocolo> a pbl:PointRule ;
+  pbl:rewardsActivity <actividad/completar-protocolo> ;
+  pbl:pointValue 50 ;
+  pbl:hasDifficulty <dificultad/alta> .
+
+<regla/foto> a pbl:PointRule ;
+  pbl:rewardsActivity <actividad/subir-foto> ;
+  pbl:pointValue 20 ;
+  pbl:hasDifficulty <dificultad/media> .
+
+<regla/geo> a pbl:PointRule ;
+  pbl:rewardsActivity <actividad/geolocalizar> ;
+  pbl:pointValue 10 ;
+  pbl:hasDifficulty <dificultad/baja> .
+
+<regla/perfil> a pbl:PointRule ;
+  pbl:rewardsActivity <actividad/editar-perfil> ;
+  pbl:pointValue 0 ;
+  pbl:hasDifficulty <dificultad/baja> .
+
+# Medallas incrementales (H3.2): umbrales 50 / 100 / 200 con precedencia encadenada
+<medalla/aficionado> a pbl:Badge ;
+  rdfs:label "Aficionado"@es ;
+  pbl:minPoints 50 .
+
+<medalla/explorador> a pbl:Badge ;
+  rdfs:label "Explorador"@es ;
+  pbl:minPoints 100 ;
+  pbl:requiresBadge <medalla/aficionado> .
+
+<medalla/naturalista> a pbl:Badge ;
+  rdfs:label "Naturalista"@es ;
+  pbl:minPoints 200 ;
+  pbl:requiresBadge <medalla/explorador> .
+
+# Tabla de posiciones del juego
+<leaderboard/relevamiento> a pbl:Leaderboard ;
+  rdfs:label "Ranking de relevamiento"@es .
